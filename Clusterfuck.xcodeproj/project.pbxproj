@@ -77,8 +77,6 @@
 		1FC075FD1E7B4E3600076178 /* MySharedLinks.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC075F61E7B4E3600076178 /* MySharedLinks.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1FC076081E7B4E8000076178 /* IndexRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC076071E7B4E8000076178 /* IndexRequestHandler.swift */; };
 		1FC0760C1E7B4E8000076178 /* MySpotlightIndex.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC076051E7B4E8000076178 /* MySpotlightIndex.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		1FC076151E7B4EB600076178 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC076141E7B4EB600076178 /* Stickers.xcassets */; };
-		1FC076191E7B4EB600076178 /* MyStickerPack.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC076121E7B4EB600076178 /* MyStickerPack.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1FC076231E7B4EE500076178 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC076221E7B4EE500076178 /* NotificationCenter.framework */; };
 		1FC076261E7B4EE500076178 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC076251E7B4EE500076178 /* TodayViewController.swift */; };
 		1FC076291E7B4EE500076178 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC076271E7B4EE500076178 /* MainInterface.storyboard */; };
@@ -273,13 +271,6 @@
 			remoteGlobalIDString = 1FC076041E7B4E8000076178;
 			remoteInfo = MySpotlightIndex;
 		};
-		1FC076171E7B4EB600076178 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FC076111E7B4EB600076178;
-			remoteInfo = MyStickerPack;
-		};
 		1FC0762B1E7B4EE500076178 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
@@ -374,7 +365,6 @@
 			dstSubfolderSpec = 13;
 			files = (
 				1FC0760C1E7B4E8000076178 /* MySpotlightIndex.appex in Embed App Extensions */,
-				1FC076191E7B4EB600076178 /* MyStickerPack.appex in Embed App Extensions */,
 				1FC075621E7B4BD300076178 /* MyDocumentProviderFileProvider.appex in Embed App Extensions */,
 				1FC075EE1E7B4E0300076178 /* MyShare.appex in Embed App Extensions */,
 				1FC075341E7B471A00076178 /* MyContentBlocker.appex in Embed App Extensions */,
@@ -544,9 +534,6 @@
 		1FC076051E7B4E8000076178 /* MySpotlightIndex.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MySpotlightIndex.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC076071E7B4E8000076178 /* IndexRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexRequestHandler.swift; sourceTree = "<group>"; };
 		1FC076091E7B4E8000076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FC076121E7B4EB600076178 /* MyStickerPack.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyStickerPack.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FC076141E7B4EB600076178 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
-		1FC076161E7B4EB600076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FC076211E7B4EE500076178 /* MyToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC076221E7B4EE500076178 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		1FC076251E7B4EE500076178 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
@@ -879,43 +866,10 @@
 		1FC074781E7B41AD00076178 = {
 			isa = PBXGroup;
 			children = (
-				1FC074831E7B41AD00076178 /* Clusterfuck */,
-				1FC074981E7B41AD00076178 /* ClusterfuckTests */,
-				1FC074A31E7B41AD00076178 /* ClusterfuckUITests */,
-				1FC074B71E7B424300076178 /* MyAction */,
-				1FC074CA1E7B44A700076178 /* MyAudioUnit */,
-				1FC074E51E7B456C00076178 /* MyBroadcastUI */,
-				1FC074F81E7B466100076178 /* MyBroadcastUpload */,
-				1FC075051E7B466100076178 /* MyBroadcastUploadUI */,
-				1FC0751D1E7B46FA00076178 /* MyCallDirectory */,
-				1FC0752C1E7B471A00076178 /* MyContentBlocker */,
-				1FC0753D1E7B47F900076178 /* MyCustomKeyboard */,
-				1FC0754C1E7B4BD200076178 /* MyDocumentProvider */,
-				1FC0755A1E7B4BD300076178 /* MyDocumentProviderFileProvider */,
-				1FC075731E7B4CA400076178 /* MyiMessage */,
-				1FC075871E7B4CD300076178 /* MyIntents */,
-				1FC075921E7B4CD400076178 /* MyIntentsUI */,
-				1FC075AE1E7B4D3E00076178 /* MyNotificationContent */,
-				1FC075C01E7B4D7300076178 /* MyNotificationService */,
-				1FC075D31E7B4DA800076178 /* MyPhotoEditing */,
-				1FC075E51E7B4E0300076178 /* MyShare */,
-				1FC075F71E7B4E3600076178 /* MySharedLinks */,
-				1FC076061E7B4E8000076178 /* MySpotlightIndex */,
-				1FC076131E7B4EB600076178 /* MyStickerPack */,
-				1FC076241E7B4EE500076178 /* MyToday */,
-				1FC076341E7B4F2200076178 /* ClusterfuckWatch */,
-				1FC076431E7B4F2200076178 /* ClusterfuckWatch Extension */,
-				1FC076611E7B4FB500076178 /* MyWatchIntents */,
-				1FC076711E7B507800076178 /* ClusterfuckTV */,
-				1FC076831E7B507900076178 /* ClusterfuckTVTests */,
-				1FC0768E1E7B507900076178 /* ClusterfuckTVUITests */,
-				1FC076A21E7B50B600076178 /* MyTVBroadcastUI */,
-				1FC076B61E7B50C100076178 /* MyTVBroadcastUpload */,
-				1FC076C31E7B50C100076178 /* MyTVBroadcastUploadUI */,
-				1FC076DD1E7B518000076178 /* MyTVServices */,
-				1FC076EC1E7B541000076178 /* ClusterfuckMac */,
-				1FC076FE1E7B541000076178 /* ClusterfuckMacTests */,
-				1FC077091E7B541000076178 /* ClusterfuckMacUITests */,
+				1FC077161E7B5C4A00076178 /* iOS */,
+				1FC077181E7B5C5D00076178 /* watchOS */,
+				1FC077191E7B5C6500076178 /* tvOS */,
+				1FC0771A1E7B5C6B00076178 /* macOS */,
 				1FC074E01E7B456C00076178 /* Frameworks */,
 				1FC074821E7B41AD00076178 /* Products */,
 			);
@@ -946,7 +900,6 @@
 				1FC075E41E7B4E0300076178 /* MyShare.appex */,
 				1FC075F61E7B4E3600076178 /* MySharedLinks.appex */,
 				1FC076051E7B4E8000076178 /* MySpotlightIndex.appex */,
-				1FC076121E7B4EB600076178 /* MyStickerPack.appex */,
 				1FC076211E7B4EE500076178 /* MyToday.appex */,
 				1FC076331E7B4F2200076178 /* ClusterfuckWatch.app */,
 				1FC0763F1E7B4F2200076178 /* ClusterfuckWatch Extension.appex */,
@@ -1218,15 +1171,6 @@
 			path = MySpotlightIndex;
 			sourceTree = "<group>";
 		};
-		1FC076131E7B4EB600076178 /* MyStickerPack */ = {
-			isa = PBXGroup;
-			children = (
-				1FC076141E7B4EB600076178 /* Stickers.xcassets */,
-				1FC076161E7B4EB600076178 /* Info.plist */,
-			);
-			path = MyStickerPack;
-			sourceTree = "<group>";
-		};
 		1FC076241E7B4EE500076178 /* MyToday */ = {
 			isa = PBXGroup;
 			children = (
@@ -1377,6 +1321,70 @@
 			path = ClusterfuckMacUITests;
 			sourceTree = "<group>";
 		};
+		1FC077161E7B5C4A00076178 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1FC074831E7B41AD00076178 /* Clusterfuck */,
+				1FC074981E7B41AD00076178 /* ClusterfuckTests */,
+				1FC074A31E7B41AD00076178 /* ClusterfuckUITests */,
+				1FC074B71E7B424300076178 /* MyAction */,
+				1FC074CA1E7B44A700076178 /* MyAudioUnit */,
+				1FC074E51E7B456C00076178 /* MyBroadcastUI */,
+				1FC074F81E7B466100076178 /* MyBroadcastUpload */,
+				1FC075051E7B466100076178 /* MyBroadcastUploadUI */,
+				1FC0751D1E7B46FA00076178 /* MyCallDirectory */,
+				1FC0752C1E7B471A00076178 /* MyContentBlocker */,
+				1FC0753D1E7B47F900076178 /* MyCustomKeyboard */,
+				1FC0754C1E7B4BD200076178 /* MyDocumentProvider */,
+				1FC0755A1E7B4BD300076178 /* MyDocumentProviderFileProvider */,
+				1FC075731E7B4CA400076178 /* MyiMessage */,
+				1FC075871E7B4CD300076178 /* MyIntents */,
+				1FC075921E7B4CD400076178 /* MyIntentsUI */,
+				1FC075AE1E7B4D3E00076178 /* MyNotificationContent */,
+				1FC075C01E7B4D7300076178 /* MyNotificationService */,
+				1FC075D31E7B4DA800076178 /* MyPhotoEditing */,
+				1FC075E51E7B4E0300076178 /* MyShare */,
+				1FC075F71E7B4E3600076178 /* MySharedLinks */,
+				1FC076061E7B4E8000076178 /* MySpotlightIndex */,
+				1FC076241E7B4EE500076178 /* MyToday */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1FC077181E7B5C5D00076178 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				1FC076341E7B4F2200076178 /* ClusterfuckWatch */,
+				1FC076431E7B4F2200076178 /* ClusterfuckWatch Extension */,
+				1FC076611E7B4FB500076178 /* MyWatchIntents */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		1FC077191E7B5C6500076178 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				1FC076711E7B507800076178 /* ClusterfuckTV */,
+				1FC076831E7B507900076178 /* ClusterfuckTVTests */,
+				1FC0768E1E7B507900076178 /* ClusterfuckTVUITests */,
+				1FC076A21E7B50B600076178 /* MyTVBroadcastUI */,
+				1FC076B61E7B50C100076178 /* MyTVBroadcastUpload */,
+				1FC076C31E7B50C100076178 /* MyTVBroadcastUploadUI */,
+				1FC076DD1E7B518000076178 /* MyTVServices */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		1FC0771A1E7B5C6B00076178 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				1FC076EC1E7B541000076178 /* ClusterfuckMac */,
+				1FC076FE1E7B541000076178 /* ClusterfuckMacTests */,
+				1FC077091E7B541000076178 /* ClusterfuckMacUITests */,
+			);
+			name = macOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1412,7 +1420,6 @@
 				1FC075ED1E7B4E0300076178 /* PBXTargetDependency */,
 				1FC075FC1E7B4E3600076178 /* PBXTargetDependency */,
 				1FC0760B1E7B4E8000076178 /* PBXTargetDependency */,
-				1FC076181E7B4EB600076178 /* PBXTargetDependency */,
 				1FC0762C1E7B4EE500076178 /* PBXTargetDependency */,
 				1FC076521E7B4F2200076178 /* PBXTargetDependency */,
 			);
@@ -1779,21 +1786,6 @@
 			productName = MySpotlightIndex;
 			productReference = 1FC076051E7B4E8000076178 /* MySpotlightIndex.appex */;
 			productType = "com.apple.product-type.app-extension";
-		};
-		1FC076111E7B4EB600076178 /* MyStickerPack */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1FC0761A1E7B4EB600076178 /* Build configuration list for PBXNativeTarget "MyStickerPack" */;
-			buildPhases = (
-				1FC076101E7B4EB600076178 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MyStickerPack;
-			productName = MyStickerPack;
-			productReference = 1FC076121E7B4EB600076178 /* MyStickerPack.appex */;
-			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
 		};
 		1FC076201E7B4EE500076178 /* MyToday */ = {
 			isa = PBXNativeTarget;
@@ -2166,11 +2158,6 @@
 						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
 					};
-					1FC076111E7B4EB600076178 = {
-						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = UCFNS9576M;
-						ProvisioningStyle = Automatic;
-					};
 					1FC076201E7B4EE500076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
@@ -2282,7 +2269,6 @@
 				1FC075E31E7B4E0300076178 /* MyShare */,
 				1FC075F51E7B4E3600076178 /* MySharedLinks */,
 				1FC076041E7B4E8000076178 /* MySpotlightIndex */,
-				1FC076111E7B4EB600076178 /* MyStickerPack */,
 				1FC076201E7B4EE500076178 /* MyToday */,
 				1FC076321E7B4F2200076178 /* ClusterfuckWatch */,
 				1FC0763E1E7B4F2200076178 /* ClusterfuckWatch Extension */,
@@ -2468,14 +2454,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1FC076101E7B4EB600076178 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1FC076151E7B4EB600076178 /* Stickers.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2986,11 +2964,6 @@
 			isa = PBXTargetDependency;
 			target = 1FC076041E7B4E8000076178 /* MySpotlightIndex */;
 			targetProxy = 1FC0760A1E7B4E8000076178 /* PBXContainerItemProxy */;
-		};
-		1FC076181E7B4EB600076178 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FC076111E7B4EB600076178 /* MyStickerPack */;
-			targetProxy = 1FC076171E7B4EB600076178 /* PBXContainerItemProxy */;
 		};
 		1FC0762C1E7B4EE500076178 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3925,32 +3898,6 @@
 			};
 			name = Release;
 		};
-		1FC0761B1E7B4EB600076178 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				DEVELOPMENT_TEAM = UCFNS9576M;
-				INFOPLIST_FILE = MyStickerPack/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.MyStickerPack;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		1FC0761C1E7B4EB600076178 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				DEVELOPMENT_TEAM = UCFNS9576M;
-				INFOPLIST_FILE = MyStickerPack/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.MyStickerPack;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		1FC0762F1E7B4EE500076178 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4599,14 +4546,6 @@
 			buildConfigurations = (
 				1FC0760E1E7B4E8000076178 /* Debug */,
 				1FC0760F1E7B4E8000076178 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		1FC0761A1E7B4EB600076178 /* Build configuration list for PBXNativeTarget "MyStickerPack" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1FC0761B1E7B4EB600076178 /* Debug */,
-				1FC0761C1E7B4EB600076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
