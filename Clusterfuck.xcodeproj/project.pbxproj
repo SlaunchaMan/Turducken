@@ -117,6 +117,12 @@
 		1FC076DC1E7B518000076178 /* TVServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC076DB1E7B518000076178 /* TVServices.framework */; };
 		1FC076DF1E7B518000076178 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC076DE1E7B518000076178 /* ServiceProvider.swift */; };
 		1FC076E31E7B518000076178 /* MyTVServices.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC076DA1E7B518000076178 /* MyTVServices.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FC076EE1E7B541000076178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC076ED1E7B541000076178 /* AppDelegate.swift */; };
+		1FC076F01E7B541000076178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC076EF1E7B541000076178 /* ViewController.swift */; };
+		1FC076F21E7B541000076178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC076F11E7B541000076178 /* Assets.xcassets */; };
+		1FC076F51E7B541000076178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC076F31E7B541000076178 /* Main.storyboard */; };
+		1FC077001E7B541000076178 /* ClusterfuckMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC076FF1E7B541000076178 /* ClusterfuckMacTests.swift */; };
+		1FC0770B1E7B541000076178 /* ClusterfuckMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0770A1E7B541000076178 /* ClusterfuckMacUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -343,6 +349,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1FC076D91E7B518000076178;
 			remoteInfo = MyTVServices;
+		};
+		1FC076FC1E7B541000076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC076EA1E7B540F00076178;
+			remoteInfo = ClusterfuckMac;
+		};
+		1FC077071E7B541000076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC076EA1E7B540F00076178;
+			remoteInfo = ClusterfuckMac;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -575,6 +595,18 @@
 		1FC076DB1E7B518000076178 /* TVServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVServices.framework; path = Library/Frameworks/TVServices.framework; sourceTree = DEVELOPER_DIR; };
 		1FC076DE1E7B518000076178 /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
 		1FC076E01E7B518000076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC076EB1E7B540F00076178 /* ClusterfuckMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClusterfuckMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC076ED1E7B541000076178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FC076EF1E7B541000076178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FC076F11E7B541000076178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FC076F41E7B541000076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FC076F61E7B541000076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC076FB1E7B541000076178 /* ClusterfuckMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClusterfuckMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC076FF1E7B541000076178 /* ClusterfuckMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterfuckMacTests.swift; sourceTree = "<group>"; };
+		1FC077011E7B541000076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC077061E7B541000076178 /* ClusterfuckMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClusterfuckMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC0770A1E7B541000076178 /* ClusterfuckMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterfuckMacUITests.swift; sourceTree = "<group>"; };
+		1FC0770C1E7B541000076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -820,6 +852,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC076E81E7B540F00076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC076F81E7B541000076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC077031E7B541000076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -860,6 +913,9 @@
 				1FC076B61E7B50C100076178 /* MyTVBroadcastUpload */,
 				1FC076C31E7B50C100076178 /* MyTVBroadcastUploadUI */,
 				1FC076DD1E7B518000076178 /* MyTVServices */,
+				1FC076EC1E7B541000076178 /* ClusterfuckMac */,
+				1FC076FE1E7B541000076178 /* ClusterfuckMacTests */,
+				1FC077091E7B541000076178 /* ClusterfuckMacUITests */,
 				1FC074E01E7B456C00076178 /* Frameworks */,
 				1FC074821E7B41AD00076178 /* Products */,
 			);
@@ -902,6 +958,9 @@
 				1FC076B41E7B50C100076178 /* MyTVBroadcastUpload.appex */,
 				1FC076C01E7B50C100076178 /* MyTVBroadcastUploadUI.appex */,
 				1FC076DA1E7B518000076178 /* MyTVServices.appex */,
+				1FC076EB1E7B540F00076178 /* ClusterfuckMac.app */,
+				1FC076FB1E7B541000076178 /* ClusterfuckMacTests.xctest */,
+				1FC077061E7B541000076178 /* ClusterfuckMacUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1286,6 +1345,36 @@
 				1FC076E01E7B518000076178 /* Info.plist */,
 			);
 			path = MyTVServices;
+			sourceTree = "<group>";
+		};
+		1FC076EC1E7B541000076178 /* ClusterfuckMac */ = {
+			isa = PBXGroup;
+			children = (
+				1FC076ED1E7B541000076178 /* AppDelegate.swift */,
+				1FC076EF1E7B541000076178 /* ViewController.swift */,
+				1FC076F11E7B541000076178 /* Assets.xcassets */,
+				1FC076F31E7B541000076178 /* Main.storyboard */,
+				1FC076F61E7B541000076178 /* Info.plist */,
+			);
+			path = ClusterfuckMac;
+			sourceTree = "<group>";
+		};
+		1FC076FE1E7B541000076178 /* ClusterfuckMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FC076FF1E7B541000076178 /* ClusterfuckMacTests.swift */,
+				1FC077011E7B541000076178 /* Info.plist */,
+			);
+			path = ClusterfuckMacTests;
+			sourceTree = "<group>";
+		};
+		1FC077091E7B541000076178 /* ClusterfuckMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0770A1E7B541000076178 /* ClusterfuckMacUITests.swift */,
+				1FC0770C1E7B541000076178 /* Info.plist */,
+			);
+			path = ClusterfuckMacUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1902,6 +1991,59 @@
 			productReference = 1FC076DA1E7B518000076178 /* MyTVServices.appex */;
 			productType = "com.apple.product-type.tv-app-extension";
 		};
+		1FC076EA1E7B540F00076178 /* ClusterfuckMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC0770D1E7B541000076178 /* Build configuration list for PBXNativeTarget "ClusterfuckMac" */;
+			buildPhases = (
+				1FC076E71E7B540F00076178 /* Sources */,
+				1FC076E81E7B540F00076178 /* Frameworks */,
+				1FC076E91E7B540F00076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClusterfuckMac;
+			productName = ClusterfuckMac;
+			productReference = 1FC076EB1E7B540F00076178 /* ClusterfuckMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FC076FA1E7B541000076178 /* ClusterfuckMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC077101E7B541000076178 /* Build configuration list for PBXNativeTarget "ClusterfuckMacTests" */;
+			buildPhases = (
+				1FC076F71E7B541000076178 /* Sources */,
+				1FC076F81E7B541000076178 /* Frameworks */,
+				1FC076F91E7B541000076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FC076FD1E7B541000076178 /* PBXTargetDependency */,
+			);
+			name = ClusterfuckMacTests;
+			productName = ClusterfuckMacTests;
+			productReference = 1FC076FB1E7B541000076178 /* ClusterfuckMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FC077051E7B541000076178 /* ClusterfuckMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC077131E7B541000076178 /* Build configuration list for PBXNativeTarget "ClusterfuckMacUITests" */;
+			buildPhases = (
+				1FC077021E7B541000076178 /* Sources */,
+				1FC077031E7B541000076178 /* Frameworks */,
+				1FC077041E7B541000076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FC077081E7B541000076178 /* PBXTargetDependency */,
+			);
+			name = ClusterfuckMacUITests;
+			productName = ClusterfuckMacUITests;
+			productReference = 1FC077061E7B541000076178 /* ClusterfuckMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2086,6 +2228,23 @@
 						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
 					};
+					1FC076EA1E7B540F00076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+					};
+					1FC076FA1E7B541000076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FC076EA1E7B540F00076178;
+					};
+					1FC077051E7B541000076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FC076EA1E7B540F00076178;
+					};
 				};
 			};
 			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Clusterfuck" */;
@@ -2135,6 +2294,9 @@
 				1FC076B31E7B50C100076178 /* MyTVBroadcastUpload */,
 				1FC076BF1E7B50C100076178 /* MyTVBroadcastUploadUI */,
 				1FC076D91E7B518000076178 /* MyTVServices */,
+				1FC076EA1E7B540F00076178 /* ClusterfuckMac */,
+				1FC076FA1E7B541000076178 /* ClusterfuckMacTests */,
+				1FC077051E7B541000076178 /* ClusterfuckMacUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -2396,6 +2558,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1FC076D81E7B518000076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC076E91E7B540F00076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC076F21E7B541000076178 /* Assets.xcassets in Resources */,
+				1FC076F51E7B541000076178 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC076F91E7B541000076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC077041E7B541000076178 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2669,6 +2854,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC076E71E7B540F00076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC076F01E7B541000076178 /* ViewController.swift in Sources */,
+				1FC076EE1E7B541000076178 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC076F71E7B541000076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC077001E7B541000076178 /* ClusterfuckMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC077021E7B541000076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC0770B1E7B541000076178 /* ClusterfuckMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -2832,6 +3042,16 @@
 			target = 1FC076D91E7B518000076178 /* MyTVServices */;
 			targetProxy = 1FC076E11E7B518000076178 /* PBXContainerItemProxy */;
 		};
+		1FC076FD1E7B541000076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC076EA1E7B540F00076178 /* ClusterfuckMac */;
+			targetProxy = 1FC076FC1E7B541000076178 /* PBXContainerItemProxy */;
+		};
+		1FC077081E7B541000076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC076EA1E7B540F00076178 /* ClusterfuckMac */;
+			targetProxy = 1FC077071E7B541000076178 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -2969,6 +3189,14 @@
 				1FC076C71E7B50C100076178 /* Base */,
 			);
 			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		1FC076F31E7B541000076178 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC076F41E7B541000076178 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -4075,6 +4303,114 @@
 			};
 			name = Release;
 		};
+		1FC0770E1E7B541000076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = ClusterfuckMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FC0770F1E7B541000076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = ClusterfuckMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1FC077111E7B541000076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = ClusterfuckMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClusterfuckMac.app/Contents/MacOS/ClusterfuckMac";
+			};
+			name = Debug;
+		};
+		1FC077121E7B541000076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = ClusterfuckMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClusterfuckMac.app/Contents/MacOS/ClusterfuckMac";
+			};
+			name = Release;
+		};
+		1FC077141E7B541000076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = ClusterfuckMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ClusterfuckMac;
+			};
+			name = Debug;
+		};
+		1FC077151E7B541000076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = ClusterfuckMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ClusterfuckMac;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -4359,6 +4695,30 @@
 			buildConfigurations = (
 				1FC076E51E7B518000076178 /* Debug */,
 				1FC076E61E7B518000076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC0770D1E7B541000076178 /* Build configuration list for PBXNativeTarget "ClusterfuckMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC0770E1E7B541000076178 /* Debug */,
+				1FC0770F1E7B541000076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC077101E7B541000076178 /* Build configuration list for PBXNativeTarget "ClusterfuckMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC077111E7B541000076178 /* Debug */,
+				1FC077121E7B541000076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC077131E7B541000076178 /* Build configuration list for PBXNativeTarget "ClusterfuckMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC077141E7B541000076178 /* Debug */,
+				1FC077151E7B541000076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
