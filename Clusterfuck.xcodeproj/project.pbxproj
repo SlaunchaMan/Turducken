@@ -17,6 +17,10 @@
 		1FC074B91E7B424300076178 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC074B81E7B424300076178 /* ActionViewController.swift */; };
 		1FC074BC1E7B424300076178 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC074BA1E7B424300076178 /* MainInterface.storyboard */; };
 		1FC074C01E7B424300076178 /* MyAction.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC074B61E7B424300076178 /* MyAction.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FC074CD1E7B44A700076178 /* MyAudioUnitAudioUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC074CC1E7B44A700076178 /* MyAudioUnitAudioUnit.m */; };
+		1FC074CF1E7B44A700076178 /* AudioUnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC074CE1E7B44A700076178 /* AudioUnitViewController.swift */; };
+		1FC074D21E7B44A700076178 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC074D01E7B44A700076178 /* MainInterface.storyboard */; };
+		1FC074D71E7B44A700076178 /* MyAudioUnit.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC074C91E7B44A700076178 /* MyAudioUnit.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,13 @@
 			remoteGlobalIDString = 1FC074B51E7B424300076178;
 			remoteInfo = MyAction;
 		};
+		1FC074D51E7B44A700076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC074C81E7B44A700076178;
+			remoteInfo = MyAudioUnit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +62,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				1FC074C01E7B424300076178 /* MyAction.appex in Embed App Extensions */,
+				1FC074D71E7B44A700076178 /* MyAudioUnit.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +87,13 @@
 		1FC074B81E7B424300076178 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		1FC074BB1E7B424300076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		1FC074BD1E7B424300076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC074C91E7B44A700076178 /* MyAudioUnit.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyAudioUnit.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC074CB1E7B44A700076178 /* MyAudioUnitAudioUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAudioUnitAudioUnit.h; sourceTree = "<group>"; };
+		1FC074CC1E7B44A700076178 /* MyAudioUnitAudioUnit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAudioUnitAudioUnit.m; sourceTree = "<group>"; };
+		1FC074CE1E7B44A700076178 /* AudioUnitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitViewController.swift; sourceTree = "<group>"; };
+		1FC074D11E7B44A700076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		1FC074D31E7B44A700076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC074D41E7B44A700076178 /* MyAudioUnit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyAudioUnit-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +125,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC074C61E7B44A700076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -116,6 +142,7 @@
 				1FC074981E7B41AD00076178 /* ClusterfuckTests */,
 				1FC074A31E7B41AD00076178 /* ClusterfuckUITests */,
 				1FC074B71E7B424300076178 /* MyAction */,
+				1FC074CA1E7B44A700076178 /* MyAudioUnit */,
 				1FC074821E7B41AD00076178 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -127,6 +154,7 @@
 				1FC074951E7B41AD00076178 /* ClusterfuckTests.xctest */,
 				1FC074A01E7B41AD00076178 /* ClusterfuckUITests.xctest */,
 				1FC074B61E7B424300076178 /* MyAction.appex */,
+				1FC074C91E7B44A700076178 /* MyAudioUnit.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,6 +200,19 @@
 			path = MyAction;
 			sourceTree = "<group>";
 		};
+		1FC074CA1E7B44A700076178 /* MyAudioUnit */ = {
+			isa = PBXGroup;
+			children = (
+				1FC074CB1E7B44A700076178 /* MyAudioUnitAudioUnit.h */,
+				1FC074CC1E7B44A700076178 /* MyAudioUnitAudioUnit.m */,
+				1FC074CE1E7B44A700076178 /* AudioUnitViewController.swift */,
+				1FC074D01E7B44A700076178 /* MainInterface.storyboard */,
+				1FC074D31E7B44A700076178 /* Info.plist */,
+				1FC074D41E7B44A700076178 /* MyAudioUnit-Bridging-Header.h */,
+			);
+			path = MyAudioUnit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,6 +229,7 @@
 			);
 			dependencies = (
 				1FC074BF1E7B424300076178 /* PBXTargetDependency */,
+				1FC074D61E7B44A700076178 /* PBXTargetDependency */,
 			);
 			name = Clusterfuck;
 			productName = Clusterfuck;
@@ -247,6 +289,23 @@
 			productReference = 1FC074B61E7B424300076178 /* MyAction.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		1FC074C81E7B44A700076178 /* MyAudioUnit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC074D81E7B44A700076178 /* Build configuration list for PBXNativeTarget "MyAudioUnit" */;
+			buildPhases = (
+				1FC074C51E7B44A700076178 /* Sources */,
+				1FC074C61E7B44A700076178 /* Frameworks */,
+				1FC074C71E7B44A700076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyAudioUnit;
+			productName = MyAudioUnit;
+			productReference = 1FC074C91E7B44A700076178 /* MyAudioUnit.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -279,6 +338,11 @@
 						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
 					};
+					1FC074C81E7B44A700076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Clusterfuck" */;
@@ -298,6 +362,7 @@
 				1FC074941E7B41AD00076178 /* ClusterfuckTests */,
 				1FC0749F1E7B41AD00076178 /* ClusterfuckUITests */,
 				1FC074B51E7B424300076178 /* MyAction */,
+				1FC074C81E7B44A700076178 /* MyAudioUnit */,
 			);
 		};
 /* End PBXProject section */
@@ -332,6 +397,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC074BC1E7B424300076178 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC074C71E7B44A700076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC074D21E7B44A700076178 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +444,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC074C51E7B44A700076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC074CD1E7B44A700076178 /* MyAudioUnitAudioUnit.m in Sources */,
+				1FC074CF1E7B44A700076178 /* AudioUnitViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -388,6 +470,11 @@
 			isa = PBXTargetDependency;
 			target = 1FC074B51E7B424300076178 /* MyAction */;
 			targetProxy = 1FC074BE1E7B424300076178 /* PBXContainerItemProxy */;
+		};
+		1FC074D61E7B44A700076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC074C81E7B44A700076178 /* MyAudioUnit */;
+			targetProxy = 1FC074D51E7B44A700076178 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -412,6 +499,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				1FC074BB1E7B424300076178 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		1FC074D01E7B44A700076178 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC074D11E7B44A700076178 /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -626,6 +721,36 @@
 			};
 			name = Release;
 		};
+		1FC074D91E7B44A700076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyAudioUnit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.MyAudioUnit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyAudioUnit/MyAudioUnit-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FC074DA1E7B44A700076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyAudioUnit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.MyAudioUnit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyAudioUnit/MyAudioUnit-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -670,6 +795,14 @@
 			buildConfigurations = (
 				1FC074C11E7B424300076178 /* Debug */,
 				1FC074C21E7B424300076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC074D81E7B44A700076178 /* Build configuration list for PBXNativeTarget "MyAudioUnit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC074D91E7B44A700076178 /* Debug */,
+				1FC074DA1E7B44A700076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
