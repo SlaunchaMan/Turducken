@@ -35,6 +35,11 @@
 		1FC0750A1E7B466100076178 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC075081E7B466100076178 /* MainInterface.storyboard */; };
 		1FC0750E1E7B466100076178 /* MyBroadcastUploadUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC075021E7B466100076178 /* MyBroadcastUploadUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1FC075111E7B466100076178 /* MyBroadcastUpload.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC074F61E7B466000076178 /* MyBroadcastUpload.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FC0751F1E7B46FA00076178 /* CallDirectoryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0751E1E7B46FA00076178 /* CallDirectoryHandler.swift */; };
+		1FC075231E7B46FA00076178 /* MyCallDirectory.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC0751C1E7B46FA00076178 /* MyCallDirectory.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FC0752E1E7B471A00076178 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FC0752D1E7B471A00076178 /* blockerList.json */; };
+		1FC075301E7B471A00076178 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0752F1E7B471A00076178 /* ContentBlockerRequestHandler.swift */; };
+		1FC075341E7B471A00076178 /* MyContentBlocker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC0752B1E7B471A00076178 /* MyContentBlocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +92,20 @@
 			remoteGlobalIDString = 1FC074F51E7B466000076178;
 			remoteInfo = MyBroadcastUpload;
 		};
+		1FC075211E7B46FA00076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC0751B1E7B46FA00076178;
+			remoteInfo = MyCallDirectory;
+		};
+		1FC075321E7B471A00076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC0752A1E7B471A00076178;
+			remoteInfo = MyContentBlocker;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -96,8 +115,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				1FC075341E7B471A00076178 /* MyContentBlocker.appex in Embed App Extensions */,
 				1FC074C01E7B424300076178 /* MyAction.appex in Embed App Extensions */,
 				1FC0750E1E7B466100076178 /* MyBroadcastUploadUI.appex in Embed App Extensions */,
+				1FC075231E7B46FA00076178 /* MyCallDirectory.appex in Embed App Extensions */,
 				1FC074EE1E7B456C00076178 /* MyBroadcastUI.appex in Embed App Extensions */,
 				1FC074D71E7B44A700076178 /* MyAudioUnit.appex in Embed App Extensions */,
 				1FC075111E7B466100076178 /* MyBroadcastUpload.appex in Embed App Extensions */,
@@ -146,6 +167,13 @@
 		1FC075061E7B466100076178 /* BroadcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastViewController.swift; sourceTree = "<group>"; };
 		1FC075091E7B466100076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		1FC0750B1E7B466100076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC0751C1E7B46FA00076178 /* MyCallDirectory.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyCallDirectory.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC0751E1E7B46FA00076178 /* CallDirectoryHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallDirectoryHandler.swift; sourceTree = "<group>"; };
+		1FC075201E7B46FA00076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC0752B1E7B471A00076178 /* MyContentBlocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyContentBlocker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC0752D1E7B471A00076178 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		1FC0752F1E7B471A00076178 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		1FC075311E7B471A00076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +238,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC075191E7B46FA00076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC075281E7B471A00076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -224,6 +266,8 @@
 				1FC074E51E7B456C00076178 /* MyBroadcastUI */,
 				1FC074F81E7B466100076178 /* MyBroadcastUpload */,
 				1FC075051E7B466100076178 /* MyBroadcastUploadUI */,
+				1FC0751D1E7B46FA00076178 /* MyCallDirectory */,
+				1FC0752C1E7B471A00076178 /* MyContentBlocker */,
 				1FC074E01E7B456C00076178 /* Frameworks */,
 				1FC074821E7B41AD00076178 /* Products */,
 			);
@@ -240,6 +284,8 @@
 				1FC074DF1E7B456C00076178 /* MyBroadcastUI.appex */,
 				1FC074F61E7B466000076178 /* MyBroadcastUpload.appex */,
 				1FC075021E7B466100076178 /* MyBroadcastUploadUI.appex */,
+				1FC0751C1E7B46FA00076178 /* MyCallDirectory.appex */,
+				1FC0752B1E7B471A00076178 /* MyContentBlocker.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -337,6 +383,25 @@
 			path = MyBroadcastUploadUI;
 			sourceTree = "<group>";
 		};
+		1FC0751D1E7B46FA00076178 /* MyCallDirectory */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0751E1E7B46FA00076178 /* CallDirectoryHandler.swift */,
+				1FC075201E7B46FA00076178 /* Info.plist */,
+			);
+			path = MyCallDirectory;
+			sourceTree = "<group>";
+		};
+		1FC0752C1E7B471A00076178 /* MyContentBlocker */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0752D1E7B471A00076178 /* blockerList.json */,
+				1FC0752F1E7B471A00076178 /* ContentBlockerRequestHandler.swift */,
+				1FC075311E7B471A00076178 /* Info.plist */,
+			);
+			path = MyContentBlocker;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -357,6 +422,8 @@
 				1FC074ED1E7B456C00076178 /* PBXTargetDependency */,
 				1FC0750D1E7B466100076178 /* PBXTargetDependency */,
 				1FC075101E7B466100076178 /* PBXTargetDependency */,
+				1FC075221E7B46FA00076178 /* PBXTargetDependency */,
+				1FC075331E7B471A00076178 /* PBXTargetDependency */,
 			);
 			name = Clusterfuck;
 			productName = Clusterfuck;
@@ -484,6 +551,40 @@
 			productReference = 1FC075021E7B466100076178 /* MyBroadcastUploadUI.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		1FC0751B1E7B46FA00076178 /* MyCallDirectory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC075241E7B46FA00076178 /* Build configuration list for PBXNativeTarget "MyCallDirectory" */;
+			buildPhases = (
+				1FC075181E7B46FA00076178 /* Sources */,
+				1FC075191E7B46FA00076178 /* Frameworks */,
+				1FC0751A1E7B46FA00076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCallDirectory;
+			productName = MyCallDirectory;
+			productReference = 1FC0751C1E7B46FA00076178 /* MyCallDirectory.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1FC0752A1E7B471A00076178 /* MyContentBlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC075351E7B471A00076178 /* Build configuration list for PBXNativeTarget "MyContentBlocker" */;
+			buildPhases = (
+				1FC075271E7B471A00076178 /* Sources */,
+				1FC075281E7B471A00076178 /* Frameworks */,
+				1FC075291E7B471A00076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyContentBlocker;
+			productName = MyContentBlocker;
+			productReference = 1FC0752B1E7B471A00076178 /* MyContentBlocker.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -536,6 +637,16 @@
 						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
 					};
+					1FC0751B1E7B46FA00076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+					};
+					1FC0752A1E7B471A00076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Clusterfuck" */;
@@ -559,6 +670,8 @@
 				1FC074DE1E7B456C00076178 /* MyBroadcastUI */,
 				1FC074F51E7B466000076178 /* MyBroadcastUpload */,
 				1FC075011E7B466100076178 /* MyBroadcastUploadUI */,
+				1FC0751B1E7B46FA00076178 /* MyCallDirectory */,
+				1FC0752A1E7B471A00076178 /* MyContentBlocker */,
 			);
 		};
 /* End PBXProject section */
@@ -624,6 +737,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC0750A1E7B466100076178 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC0751A1E7B46FA00076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC075291E7B471A00076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC0752E1E7B471A00076178 /* blockerList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -697,6 +825,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC075181E7B46FA00076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC0751F1E7B46FA00076178 /* CallDirectoryHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC075271E7B471A00076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC075301E7B471A00076178 /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -734,6 +878,16 @@
 			isa = PBXTargetDependency;
 			target = 1FC074F51E7B466000076178 /* MyBroadcastUpload */;
 			targetProxy = 1FC0750F1E7B466100076178 /* PBXContainerItemProxy */;
+		};
+		1FC075221E7B46FA00076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC0751B1E7B46FA00076178 /* MyCallDirectory */;
+			targetProxy = 1FC075211E7B46FA00076178 /* PBXContainerItemProxy */;
+		};
+		1FC075331E7B471A00076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC0752A1E7B471A00076178 /* MyContentBlocker */;
+			targetProxy = 1FC075321E7B471A00076178 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1059,7 +1213,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = MyBroadcastUploadUI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.MyBroadcastUploadUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1073,7 +1227,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = MyBroadcastUploadUI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.MyBroadcastUploadUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1087,7 +1241,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = MyBroadcastUpload/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.MyBroadcastUpload;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1101,9 +1255,69 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = MyBroadcastUpload/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.MyBroadcastUpload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1FC075251E7B46FA00076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyCallDirectory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.MyCallDirectory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FC075261E7B46FA00076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyCallDirectory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.MyCallDirectory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1FC075361E7B471A00076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyContentBlocker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.MyContentBlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FC075371E7B471A00076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyContentBlocker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.MyContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -1186,6 +1400,22 @@
 			buildConfigurations = (
 				1FC075161E7B466100076178 /* Debug */,
 				1FC075171E7B466100076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC075241E7B46FA00076178 /* Build configuration list for PBXNativeTarget "MyCallDirectory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC075251E7B46FA00076178 /* Debug */,
+				1FC075261E7B46FA00076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC075351E7B471A00076178 /* Build configuration list for PBXNativeTarget "MyContentBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC075361E7B471A00076178 /* Debug */,
+				1FC075371E7B471A00076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
