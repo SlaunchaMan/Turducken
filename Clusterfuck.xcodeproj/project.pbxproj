@@ -40,6 +40,8 @@
 		1FC0752E1E7B471A00076178 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FC0752D1E7B471A00076178 /* blockerList.json */; };
 		1FC075301E7B471A00076178 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0752F1E7B471A00076178 /* ContentBlockerRequestHandler.swift */; };
 		1FC075341E7B471A00076178 /* MyContentBlocker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC0752B1E7B471A00076178 /* MyContentBlocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FC0753F1E7B47F900076178 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0753E1E7B47F900076178 /* KeyboardViewController.swift */; };
+		1FC075431E7B47F900076178 /* MyCustomKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC0753C1E7B47F900076178 /* MyCustomKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +108,13 @@
 			remoteGlobalIDString = 1FC0752A1E7B471A00076178;
 			remoteInfo = MyContentBlocker;
 		};
+		1FC075411E7B47F900076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC0753B1E7B47F900076178;
+			remoteInfo = MyCustomKeyboard;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -119,6 +128,7 @@
 				1FC074C01E7B424300076178 /* MyAction.appex in Embed App Extensions */,
 				1FC0750E1E7B466100076178 /* MyBroadcastUploadUI.appex in Embed App Extensions */,
 				1FC075231E7B46FA00076178 /* MyCallDirectory.appex in Embed App Extensions */,
+				1FC075431E7B47F900076178 /* MyCustomKeyboard.appex in Embed App Extensions */,
 				1FC074EE1E7B456C00076178 /* MyBroadcastUI.appex in Embed App Extensions */,
 				1FC074D71E7B44A700076178 /* MyAudioUnit.appex in Embed App Extensions */,
 				1FC075111E7B466100076178 /* MyBroadcastUpload.appex in Embed App Extensions */,
@@ -174,6 +184,9 @@
 		1FC0752D1E7B471A00076178 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
 		1FC0752F1E7B471A00076178 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
 		1FC075311E7B471A00076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC0753C1E7B47F900076178 /* MyCustomKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyCustomKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC0753E1E7B47F900076178 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		1FC075401E7B47F900076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +265,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC075391E7B47F900076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -268,6 +288,7 @@
 				1FC075051E7B466100076178 /* MyBroadcastUploadUI */,
 				1FC0751D1E7B46FA00076178 /* MyCallDirectory */,
 				1FC0752C1E7B471A00076178 /* MyContentBlocker */,
+				1FC0753D1E7B47F900076178 /* MyCustomKeyboard */,
 				1FC074E01E7B456C00076178 /* Frameworks */,
 				1FC074821E7B41AD00076178 /* Products */,
 			);
@@ -286,6 +307,7 @@
 				1FC075021E7B466100076178 /* MyBroadcastUploadUI.appex */,
 				1FC0751C1E7B46FA00076178 /* MyCallDirectory.appex */,
 				1FC0752B1E7B471A00076178 /* MyContentBlocker.appex */,
+				1FC0753C1E7B47F900076178 /* MyCustomKeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -402,6 +424,15 @@
 			path = MyContentBlocker;
 			sourceTree = "<group>";
 		};
+		1FC0753D1E7B47F900076178 /* MyCustomKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0753E1E7B47F900076178 /* KeyboardViewController.swift */,
+				1FC075401E7B47F900076178 /* Info.plist */,
+			);
+			path = MyCustomKeyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -424,6 +455,7 @@
 				1FC075101E7B466100076178 /* PBXTargetDependency */,
 				1FC075221E7B46FA00076178 /* PBXTargetDependency */,
 				1FC075331E7B471A00076178 /* PBXTargetDependency */,
+				1FC075421E7B47F900076178 /* PBXTargetDependency */,
 			);
 			name = Clusterfuck;
 			productName = Clusterfuck;
@@ -585,6 +617,23 @@
 			productReference = 1FC0752B1E7B471A00076178 /* MyContentBlocker.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		1FC0753B1E7B47F900076178 /* MyCustomKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC075441E7B47F900076178 /* Build configuration list for PBXNativeTarget "MyCustomKeyboard" */;
+			buildPhases = (
+				1FC075381E7B47F900076178 /* Sources */,
+				1FC075391E7B47F900076178 /* Frameworks */,
+				1FC0753A1E7B47F900076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCustomKeyboard;
+			productName = MyCustomKeyboard;
+			productReference = 1FC0753C1E7B47F900076178 /* MyCustomKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -647,6 +696,11 @@
 						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
 					};
+					1FC0753B1E7B47F900076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Clusterfuck" */;
@@ -672,6 +726,7 @@
 				1FC075011E7B466100076178 /* MyBroadcastUploadUI */,
 				1FC0751B1E7B46FA00076178 /* MyCallDirectory */,
 				1FC0752A1E7B471A00076178 /* MyContentBlocker */,
+				1FC0753B1E7B47F900076178 /* MyCustomKeyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -752,6 +807,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC0752E1E7B471A00076178 /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC0753A1E7B47F900076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -841,6 +903,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC075381E7B47F900076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC0753F1E7B47F900076178 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -888,6 +958,11 @@
 			isa = PBXTargetDependency;
 			target = 1FC0752A1E7B471A00076178 /* MyContentBlocker */;
 			targetProxy = 1FC075321E7B471A00076178 /* PBXContainerItemProxy */;
+		};
+		1FC075421E7B47F900076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC0753B1E7B47F900076178 /* MyCustomKeyboard */;
+			targetProxy = 1FC075411E7B47F900076178 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1324,6 +1399,34 @@
 			};
 			name = Release;
 		};
+		1FC075451E7B47F900076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyCustomKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.MyCustomKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FC075461E7B47F900076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyCustomKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.MyCustomKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1416,6 +1519,14 @@
 			buildConfigurations = (
 				1FC075361E7B471A00076178 /* Debug */,
 				1FC075371E7B471A00076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC075441E7B47F900076178 /* Build configuration list for PBXNativeTarget "MyCustomKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC075451E7B47F900076178 /* Debug */,
+				1FC075461E7B47F900076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
