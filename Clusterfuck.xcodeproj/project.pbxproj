@@ -21,6 +21,11 @@
 		1FC074CF1E7B44A700076178 /* AudioUnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC074CE1E7B44A700076178 /* AudioUnitViewController.swift */; };
 		1FC074D21E7B44A700076178 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC074D01E7B44A700076178 /* MainInterface.storyboard */; };
 		1FC074D71E7B44A700076178 /* MyAudioUnit.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC074C91E7B44A700076178 /* MyAudioUnit.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FC074E21E7B456C00076178 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC074E11E7B456C00076178 /* ReplayKit.framework */; };
+		1FC074E41E7B456C00076178 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC074E31E7B456C00076178 /* UIKit.framework */; };
+		1FC074E71E7B456C00076178 /* BroadcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC074E61E7B456C00076178 /* BroadcastViewController.swift */; };
+		1FC074EA1E7B456C00076178 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC074E81E7B456C00076178 /* MainInterface.storyboard */; };
+		1FC074EE1E7B456C00076178 /* MyBroadcastUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC074DF1E7B456C00076178 /* MyBroadcastUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,13 @@
 			remoteGlobalIDString = 1FC074C81E7B44A700076178;
 			remoteInfo = MyAudioUnit;
 		};
+		1FC074EC1E7B456C00076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC074DE1E7B456C00076178;
+			remoteInfo = MyBroadcastUI;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,6 +74,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				1FC074C01E7B424300076178 /* MyAction.appex in Embed App Extensions */,
+				1FC074EE1E7B456C00076178 /* MyBroadcastUI.appex in Embed App Extensions */,
 				1FC074D71E7B44A700076178 /* MyAudioUnit.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -94,6 +107,12 @@
 		1FC074D11E7B44A700076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		1FC074D31E7B44A700076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FC074D41E7B44A700076178 /* MyAudioUnit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyAudioUnit-Bridging-Header.h"; sourceTree = "<group>"; };
+		1FC074DF1E7B456C00076178 /* MyBroadcastUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyBroadcastUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC074E11E7B456C00076178 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		1FC074E31E7B456C00076178 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1FC074E61E7B456C00076178 /* BroadcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastViewController.swift; sourceTree = "<group>"; };
+		1FC074E91E7B456C00076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		1FC074EB1E7B456C00076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +151,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC074DC1E7B456C00076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC074E21E7B456C00076178 /* ReplayKit.framework in Frameworks */,
+				1FC074E41E7B456C00076178 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -143,6 +171,8 @@
 				1FC074A31E7B41AD00076178 /* ClusterfuckUITests */,
 				1FC074B71E7B424300076178 /* MyAction */,
 				1FC074CA1E7B44A700076178 /* MyAudioUnit */,
+				1FC074E51E7B456C00076178 /* MyBroadcastUI */,
+				1FC074E01E7B456C00076178 /* Frameworks */,
 				1FC074821E7B41AD00076178 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -155,6 +185,7 @@
 				1FC074A01E7B41AD00076178 /* ClusterfuckUITests.xctest */,
 				1FC074B61E7B424300076178 /* MyAction.appex */,
 				1FC074C91E7B44A700076178 /* MyAudioUnit.appex */,
+				1FC074DF1E7B456C00076178 /* MyBroadcastUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,6 +244,25 @@
 			path = MyAudioUnit;
 			sourceTree = "<group>";
 		};
+		1FC074E01E7B456C00076178 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FC074E11E7B456C00076178 /* ReplayKit.framework */,
+				1FC074E31E7B456C00076178 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FC074E51E7B456C00076178 /* MyBroadcastUI */ = {
+			isa = PBXGroup;
+			children = (
+				1FC074E61E7B456C00076178 /* BroadcastViewController.swift */,
+				1FC074E81E7B456C00076178 /* MainInterface.storyboard */,
+				1FC074EB1E7B456C00076178 /* Info.plist */,
+			);
+			path = MyBroadcastUI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,6 +280,7 @@
 			dependencies = (
 				1FC074BF1E7B424300076178 /* PBXTargetDependency */,
 				1FC074D61E7B44A700076178 /* PBXTargetDependency */,
+				1FC074ED1E7B456C00076178 /* PBXTargetDependency */,
 			);
 			name = Clusterfuck;
 			productName = Clusterfuck;
@@ -306,6 +357,23 @@
 			productReference = 1FC074C91E7B44A700076178 /* MyAudioUnit.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		1FC074DE1E7B456C00076178 /* MyBroadcastUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC074EF1E7B456C00076178 /* Build configuration list for PBXNativeTarget "MyBroadcastUI" */;
+			buildPhases = (
+				1FC074DB1E7B456C00076178 /* Sources */,
+				1FC074DC1E7B456C00076178 /* Frameworks */,
+				1FC074DD1E7B456C00076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyBroadcastUI;
+			productName = MyBroadcastUI;
+			productReference = 1FC074DF1E7B456C00076178 /* MyBroadcastUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -343,6 +411,11 @@
 						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
 					};
+					1FC074DE1E7B456C00076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Clusterfuck" */;
@@ -363,6 +436,7 @@
 				1FC0749F1E7B41AD00076178 /* ClusterfuckUITests */,
 				1FC074B51E7B424300076178 /* MyAction */,
 				1FC074C81E7B44A700076178 /* MyAudioUnit */,
+				1FC074DE1E7B456C00076178 /* MyBroadcastUI */,
 			);
 		};
 /* End PBXProject section */
@@ -405,6 +479,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC074D21E7B44A700076178 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC074DD1E7B456C00076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC074EA1E7B456C00076178 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +535,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC074DB1E7B456C00076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC074E71E7B456C00076178 /* BroadcastViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -475,6 +565,11 @@
 			isa = PBXTargetDependency;
 			target = 1FC074C81E7B44A700076178 /* MyAudioUnit */;
 			targetProxy = 1FC074D51E7B44A700076178 /* PBXContainerItemProxy */;
+		};
+		1FC074ED1E7B456C00076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC074DE1E7B456C00076178 /* MyBroadcastUI */;
+			targetProxy = 1FC074EC1E7B456C00076178 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -507,6 +602,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				1FC074D11E7B44A700076178 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		1FC074E81E7B456C00076178 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC074E91E7B456C00076178 /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -751,6 +854,34 @@
 			};
 			name = Release;
 		};
+		1FC074F01E7B456C00076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyBroadcastUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.MyBroadcastUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FC074F11E7B456C00076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyBroadcastUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.MyBroadcastUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -803,6 +934,14 @@
 			buildConfigurations = (
 				1FC074D91E7B44A700076178 /* Debug */,
 				1FC074DA1E7B44A700076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC074EF1E7B456C00076178 /* Build configuration list for PBXNativeTarget "MyBroadcastUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC074F01E7B456C00076178 /* Debug */,
+				1FC074F11E7B456C00076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
