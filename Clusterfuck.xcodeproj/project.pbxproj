@@ -92,6 +92,8 @@
 		1FC0764D1E7B4F2200076178 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0764C1E7B4F2200076178 /* ComplicationController.swift */; };
 		1FC0764F1E7B4F2200076178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC0764E1E7B4F2200076178 /* Assets.xcassets */; };
 		1FC076531E7B4F2200076178 /* ClusterfuckWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1FC076331E7B4F2200076178 /* ClusterfuckWatch.app */; };
+		1FC076631E7B4FB500076178 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC076621E7B4FB500076178 /* IntentHandler.swift */; };
+		1FC076671E7B4FB500076178 /* MyWatchIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC076601E7B4FB500076178 /* MyWatchIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -270,6 +272,13 @@
 			remoteGlobalIDString = 1FC076321E7B4F2200076178;
 			remoteInfo = ClusterfuckWatch;
 		};
+		1FC076651E7B4FB500076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC0765F1E7B4FB500076178;
+			remoteInfo = MyWatchIntents;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -324,6 +333,17 @@
 				1FC076531E7B4F2200076178 /* ClusterfuckWatch.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC0766B1E7B4FB500076178 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1FC076671E7B4FB500076178 /* MyWatchIntents.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -445,6 +465,9 @@
 		1FC0764C1E7B4F2200076178 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		1FC0764E1E7B4F2200076178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FC076501E7B4F2200076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC076601E7B4FB500076178 /* MyWatchIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyWatchIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC076621E7B4FB500076178 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		1FC076641E7B4FB500076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -628,6 +651,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC0765D1E7B4FB500076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -660,6 +690,7 @@
 				1FC076241E7B4EE500076178 /* MyToday */,
 				1FC076341E7B4F2200076178 /* ClusterfuckWatch */,
 				1FC076431E7B4F2200076178 /* ClusterfuckWatch Extension */,
+				1FC076611E7B4FB500076178 /* MyWatchIntents */,
 				1FC074E01E7B456C00076178 /* Frameworks */,
 				1FC074821E7B41AD00076178 /* Products */,
 			);
@@ -694,6 +725,7 @@
 				1FC076211E7B4EE500076178 /* MyToday.appex */,
 				1FC076331E7B4F2200076178 /* ClusterfuckWatch.app */,
 				1FC0763F1E7B4F2200076178 /* ClusterfuckWatch Extension.appex */,
+				1FC076601E7B4FB500076178 /* MyWatchIntents.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -999,6 +1031,15 @@
 				1FC076451E7B4F2200076178 /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FC076611E7B4FB500076178 /* MyWatchIntents */ = {
+			isa = PBXGroup;
+			children = (
+				1FC076621E7B4FB500076178 /* IntentHandler.swift */,
+				1FC076641E7B4FB500076178 /* Info.plist */,
+			);
+			path = MyWatchIntents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1460,15 +1501,34 @@
 				1FC0763B1E7B4F2200076178 /* Sources */,
 				1FC0763C1E7B4F2200076178 /* Frameworks */,
 				1FC0763D1E7B4F2200076178 /* Resources */,
+				1FC0766B1E7B4FB500076178 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1FC076661E7B4FB500076178 /* PBXTargetDependency */,
 			);
 			name = "ClusterfuckWatch Extension";
 			productName = "ClusterfuckWatch Extension";
 			productReference = 1FC0763F1E7B4F2200076178 /* ClusterfuckWatch Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		1FC0765F1E7B4FB500076178 /* MyWatchIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC076681E7B4FB500076178 /* Build configuration list for PBXNativeTarget "MyWatchIntents" */;
+			buildPhases = (
+				1FC0765C1E7B4FB500076178 /* Sources */,
+				1FC0765D1E7B4FB500076178 /* Frameworks */,
+				1FC0765E1E7B4FB500076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyWatchIntents;
+			productName = MyWatchIntents;
+			productReference = 1FC076601E7B4FB500076178 /* MyWatchIntents.appex */;
+			productType = "com.apple.product-type.app-extension.intents-service";
 		};
 /* End PBXNativeTarget section */
 
@@ -1612,6 +1672,11 @@
 						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
 					};
+					1FC0765F1E7B4FB500076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Clusterfuck" */;
@@ -1653,6 +1718,7 @@
 				1FC076201E7B4EE500076178 /* MyToday */,
 				1FC076321E7B4F2200076178 /* ClusterfuckWatch */,
 				1FC0763E1E7B4F2200076178 /* ClusterfuckWatch Extension */,
+				1FC0765F1E7B4FB500076178 /* MyWatchIntents */,
 			);
 		};
 /* End PBXProject section */
@@ -1860,6 +1926,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC0765E1E7B4FB500076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -2061,6 +2134,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC0765C1E7B4FB500076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC076631E7B4FB500076178 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -2188,6 +2269,11 @@
 			isa = PBXTargetDependency;
 			target = 1FC076321E7B4F2200076178 /* ClusterfuckWatch */;
 			targetProxy = 1FC076511E7B4F2200076178 /* PBXContainerItemProxy */;
+		};
+		1FC076661E7B4FB500076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC0765F1E7B4FB500076178 /* MyWatchIntents */;
+			targetProxy = 1FC076651E7B4FB500076178 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -3154,6 +3240,38 @@
 			};
 			name = Release;
 		};
+		1FC076691E7B4FB500076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyWatchIntents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.watchkitapp.watchkitextension.MyWatchIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		1FC0766A1E7B4FB500076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyWatchIntents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.watchkitapp.watchkitextension.MyWatchIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3374,6 +3492,14 @@
 			buildConfigurations = (
 				1FC076591E7B4F2200076178 /* Debug */,
 				1FC0765A1E7B4F2200076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC076681E7B4FB500076178 /* Build configuration list for PBXNativeTarget "MyWatchIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC076691E7B4FB500076178 /* Debug */,
+				1FC0766A1E7B4FB500076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
