@@ -100,6 +100,20 @@
 		1FC0767A1E7B507800076178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC076791E7B507800076178 /* Assets.xcassets */; };
 		1FC076851E7B507900076178 /* ClusterfuckTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC076841E7B507900076178 /* ClusterfuckTVTests.swift */; };
 		1FC076901E7B507900076178 /* ClusterfuckTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0768F1E7B507900076178 /* ClusterfuckTVUITests.swift */; };
+		1FC076A01E7B50B600076178 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC074E11E7B456C00076178 /* ReplayKit.framework */; };
+		1FC076A11E7B50B600076178 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC074E31E7B456C00076178 /* UIKit.framework */; };
+		1FC076A41E7B50B600076178 /* BroadcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC076A31E7B50B600076178 /* BroadcastViewController.swift */; };
+		1FC076A71E7B50B600076178 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC076A51E7B50B600076178 /* MainInterface.storyboard */; };
+		1FC076AB1E7B50B600076178 /* MyTVBroadcastUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC0769F1E7B50B600076178 /* MyTVBroadcastUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FC076B51E7B50C100076178 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC074E11E7B456C00076178 /* ReplayKit.framework */; };
+		1FC076B81E7B50C100076178 /* MovieClipHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC076B71E7B50C100076178 /* MovieClipHandler.swift */; };
+		1FC076BA1E7B50C100076178 /* SampleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC076B91E7B50C100076178 /* SampleHandler.swift */; };
+		1FC076C11E7B50C100076178 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC074E11E7B456C00076178 /* ReplayKit.framework */; };
+		1FC076C21E7B50C100076178 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC074E31E7B456C00076178 /* UIKit.framework */; };
+		1FC076C51E7B50C100076178 /* BroadcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC076C41E7B50C100076178 /* BroadcastViewController.swift */; };
+		1FC076C81E7B50C100076178 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC076C61E7B50C100076178 /* MainInterface.storyboard */; };
+		1FC076CC1E7B50C100076178 /* MyTVBroadcastUploadUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC076C01E7B50C100076178 /* MyTVBroadcastUploadUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FC076CF1E7B50C100076178 /* MyTVBroadcastUpload.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC076B41E7B50C100076178 /* MyTVBroadcastUpload.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -299,6 +313,27 @@
 			remoteGlobalIDString = 1FC0766F1E7B507800076178;
 			remoteInfo = ClusterfuckTV;
 		};
+		1FC076A91E7B50B600076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC0769E1E7B50B600076178;
+			remoteInfo = MyTVBroadcastUI;
+		};
+		1FC076CA1E7B50C100076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC076BF1E7B50C100076178;
+			remoteInfo = MyTVBroadcastUploadUI;
+		};
+		1FC076CD1E7B50C100076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC076B31E7B50C100076178;
+			remoteInfo = MyTVBroadcastUpload;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -362,6 +397,19 @@
 			dstSubfolderSpec = 13;
 			files = (
 				1FC076671E7B4FB500076178 /* MyWatchIntents.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC076AF1E7B50B600076178 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1FC076AB1E7B50B600076178 /* MyTVBroadcastUI.appex in Embed App Extensions */,
+				1FC076CC1E7B50C100076178 /* MyTVBroadcastUploadUI.appex in Embed App Extensions */,
+				1FC076CF1E7B50C100076178 /* MyTVBroadcastUpload.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +548,18 @@
 		1FC0768B1E7B507900076178 /* ClusterfuckTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClusterfuckTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC0768F1E7B507900076178 /* ClusterfuckTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterfuckTVUITests.swift; sourceTree = "<group>"; };
 		1FC076911E7B507900076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC0769F1E7B50B600076178 /* MyTVBroadcastUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyTVBroadcastUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC076A31E7B50B600076178 /* BroadcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastViewController.swift; sourceTree = "<group>"; };
+		1FC076A61E7B50B600076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		1FC076A81E7B50B600076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC076B41E7B50C100076178 /* MyTVBroadcastUpload.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyTVBroadcastUpload.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC076B71E7B50C100076178 /* MovieClipHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieClipHandler.swift; sourceTree = "<group>"; };
+		1FC076B91E7B50C100076178 /* SampleHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleHandler.swift; sourceTree = "<group>"; };
+		1FC076BB1E7B50C100076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC076C01E7B50C100076178 /* MyTVBroadcastUploadUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyTVBroadcastUploadUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC076C41E7B50C100076178 /* BroadcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastViewController.swift; sourceTree = "<group>"; };
+		1FC076C71E7B50C100076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		1FC076C91E7B50C100076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -711,6 +771,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC0769C1E7B50B600076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC076A01E7B50B600076178 /* ReplayKit.framework in Frameworks */,
+				1FC076A11E7B50B600076178 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC076B11E7B50C100076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC076B51E7B50C100076178 /* ReplayKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC076BD1E7B50C100076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC076C11E7B50C100076178 /* ReplayKit.framework in Frameworks */,
+				1FC076C21E7B50C100076178 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -747,6 +833,9 @@
 				1FC076711E7B507800076178 /* ClusterfuckTV */,
 				1FC076831E7B507900076178 /* ClusterfuckTVTests */,
 				1FC0768E1E7B507900076178 /* ClusterfuckTVUITests */,
+				1FC076A21E7B50B600076178 /* MyTVBroadcastUI */,
+				1FC076B61E7B50C100076178 /* MyTVBroadcastUpload */,
+				1FC076C31E7B50C100076178 /* MyTVBroadcastUploadUI */,
 				1FC074E01E7B456C00076178 /* Frameworks */,
 				1FC074821E7B41AD00076178 /* Products */,
 			);
@@ -785,6 +874,9 @@
 				1FC076701E7B507800076178 /* ClusterfuckTV.app */,
 				1FC076801E7B507800076178 /* ClusterfuckTVTests.xctest */,
 				1FC0768B1E7B507900076178 /* ClusterfuckTVUITests.xctest */,
+				1FC0769F1E7B50B600076178 /* MyTVBroadcastUI.appex */,
+				1FC076B41E7B50C100076178 /* MyTVBroadcastUpload.appex */,
+				1FC076C01E7B50C100076178 /* MyTVBroadcastUploadUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1129,6 +1221,36 @@
 				1FC076911E7B507900076178 /* Info.plist */,
 			);
 			path = ClusterfuckTVUITests;
+			sourceTree = "<group>";
+		};
+		1FC076A21E7B50B600076178 /* MyTVBroadcastUI */ = {
+			isa = PBXGroup;
+			children = (
+				1FC076A31E7B50B600076178 /* BroadcastViewController.swift */,
+				1FC076A51E7B50B600076178 /* MainInterface.storyboard */,
+				1FC076A81E7B50B600076178 /* Info.plist */,
+			);
+			path = MyTVBroadcastUI;
+			sourceTree = "<group>";
+		};
+		1FC076B61E7B50C100076178 /* MyTVBroadcastUpload */ = {
+			isa = PBXGroup;
+			children = (
+				1FC076B71E7B50C100076178 /* MovieClipHandler.swift */,
+				1FC076B91E7B50C100076178 /* SampleHandler.swift */,
+				1FC076BB1E7B50C100076178 /* Info.plist */,
+			);
+			path = MyTVBroadcastUpload;
+			sourceTree = "<group>";
+		};
+		1FC076C31E7B50C100076178 /* MyTVBroadcastUploadUI */ = {
+			isa = PBXGroup;
+			children = (
+				1FC076C41E7B50C100076178 /* BroadcastViewController.swift */,
+				1FC076C61E7B50C100076178 /* MainInterface.storyboard */,
+				1FC076C91E7B50C100076178 /* Info.plist */,
+			);
+			path = MyTVBroadcastUploadUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1626,10 +1748,14 @@
 				1FC0766C1E7B507800076178 /* Sources */,
 				1FC0766D1E7B507800076178 /* Frameworks */,
 				1FC0766E1E7B507800076178 /* Resources */,
+				1FC076AF1E7B50B600076178 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1FC076AA1E7B50B600076178 /* PBXTargetDependency */,
+				1FC076CB1E7B50C100076178 /* PBXTargetDependency */,
+				1FC076CE1E7B50C100076178 /* PBXTargetDependency */,
 			);
 			name = ClusterfuckTV;
 			productName = ClusterfuckTV;
@@ -1671,6 +1797,57 @@
 			productName = ClusterfuckTVUITests;
 			productReference = 1FC0768B1E7B507900076178 /* ClusterfuckTVUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1FC0769E1E7B50B600076178 /* MyTVBroadcastUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC076AC1E7B50B600076178 /* Build configuration list for PBXNativeTarget "MyTVBroadcastUI" */;
+			buildPhases = (
+				1FC0769B1E7B50B600076178 /* Sources */,
+				1FC0769C1E7B50B600076178 /* Frameworks */,
+				1FC0769D1E7B50B600076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTVBroadcastUI;
+			productName = MyTVBroadcastUI;
+			productReference = 1FC0769F1E7B50B600076178 /* MyTVBroadcastUI.appex */;
+			productType = "com.apple.product-type.tv-broadcast-extension";
+		};
+		1FC076B31E7B50C100076178 /* MyTVBroadcastUpload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC076D31E7B50C100076178 /* Build configuration list for PBXNativeTarget "MyTVBroadcastUpload" */;
+			buildPhases = (
+				1FC076B01E7B50C100076178 /* Sources */,
+				1FC076B11E7B50C100076178 /* Frameworks */,
+				1FC076B21E7B50C100076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTVBroadcastUpload;
+			productName = MyTVBroadcastUpload;
+			productReference = 1FC076B41E7B50C100076178 /* MyTVBroadcastUpload.appex */;
+			productType = "com.apple.product-type.tv-broadcast-extension";
+		};
+		1FC076BF1E7B50C100076178 /* MyTVBroadcastUploadUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC076D01E7B50C100076178 /* Build configuration list for PBXNativeTarget "MyTVBroadcastUploadUI" */;
+			buildPhases = (
+				1FC076BC1E7B50C100076178 /* Sources */,
+				1FC076BD1E7B50C100076178 /* Frameworks */,
+				1FC076BE1E7B50C100076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTVBroadcastUploadUI;
+			productName = MyTVBroadcastUploadUI;
+			productReference = 1FC076C01E7B50C100076178 /* MyTVBroadcastUploadUI.appex */;
+			productType = "com.apple.product-type.tv-broadcast-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -1836,6 +2013,21 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1FC0766F1E7B507800076178;
 					};
+					1FC0769E1E7B50B600076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+					};
+					1FC076B31E7B50C100076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+					};
+					1FC076BF1E7B50C100076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Clusterfuck" */;
@@ -1881,6 +2073,9 @@
 				1FC0766F1E7B507800076178 /* ClusterfuckTV */,
 				1FC0767F1E7B507800076178 /* ClusterfuckTVTests */,
 				1FC0768A1E7B507900076178 /* ClusterfuckTVUITests */,
+				1FC0769E1E7B50B600076178 /* MyTVBroadcastUI */,
+				1FC076B31E7B50C100076178 /* MyTVBroadcastUpload */,
+				1FC076BF1E7B50C100076178 /* MyTVBroadcastUploadUI */,
 			);
 		};
 /* End PBXProject section */
@@ -2118,6 +2313,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC0769D1E7B50B600076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC076A71E7B50B600076178 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC076B21E7B50C100076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC076BE1E7B50C100076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC076C81E7B50C100076178 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -2352,6 +2570,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC0769B1E7B50B600076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC076A41E7B50B600076178 /* BroadcastViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC076B01E7B50C100076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC076BA1E7B50C100076178 /* SampleHandler.swift in Sources */,
+				1FC076B81E7B50C100076178 /* MovieClipHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC076BC1E7B50C100076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC076C51E7B50C100076178 /* BroadcastViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -2495,6 +2738,21 @@
 			target = 1FC0766F1E7B507800076178 /* ClusterfuckTV */;
 			targetProxy = 1FC0768C1E7B507900076178 /* PBXContainerItemProxy */;
 		};
+		1FC076AA1E7B50B600076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC0769E1E7B50B600076178 /* MyTVBroadcastUI */;
+			targetProxy = 1FC076A91E7B50B600076178 /* PBXContainerItemProxy */;
+		};
+		1FC076CB1E7B50C100076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC076BF1E7B50C100076178 /* MyTVBroadcastUploadUI */;
+			targetProxy = 1FC076CA1E7B50C100076178 /* PBXContainerItemProxy */;
+		};
+		1FC076CE1E7B50C100076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC076B31E7B50C100076178 /* MyTVBroadcastUpload */;
+			targetProxy = 1FC076CD1E7B50C100076178 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -2616,6 +2874,22 @@
 				1FC076771E7B507800076178 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FC076A51E7B50B600076178 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC076A61E7B50B600076178 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		1FC076C61E7B50C100076178 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC076C71E7B50C100076178 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -3503,6 +3777,7 @@
 		1FC076931E7B507900076178 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = UCFNS9576M;
@@ -3513,13 +3788,14 @@
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.2;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
 		1FC076941E7B507900076178 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = UCFNS9576M;
@@ -3530,7 +3806,7 @@
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.2;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -3597,6 +3873,96 @@
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = ClusterfuckTV;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		1FC076AD1E7B50B600076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyTVBroadcastUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckTV.MyTVBroadcastUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		1FC076AE1E7B50B600076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyTVBroadcastUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckTV.MyTVBroadcastUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		1FC076D11E7B50C100076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyTVBroadcastUploadUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckTV.MyTVBroadcastUploadUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		1FC076D21E7B50C100076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyTVBroadcastUploadUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckTV.MyTVBroadcastUploadUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		1FC076D41E7B50C100076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyTVBroadcastUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckTV.MyTVBroadcastUpload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		1FC076D51E7B50C100076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyTVBroadcastUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckTV.MyTVBroadcastUpload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
 		};
@@ -3852,6 +4218,30 @@
 			buildConfigurations = (
 				1FC076991E7B507900076178 /* Debug */,
 				1FC0769A1E7B507900076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC076AC1E7B50B600076178 /* Build configuration list for PBXNativeTarget "MyTVBroadcastUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC076AD1E7B50B600076178 /* Debug */,
+				1FC076AE1E7B50B600076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC076D01E7B50C100076178 /* Build configuration list for PBXNativeTarget "MyTVBroadcastUploadUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC076D11E7B50C100076178 /* Debug */,
+				1FC076D21E7B50C100076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC076D31E7B50C100076178 /* Build configuration list for PBXNativeTarget "MyTVBroadcastUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC076D41E7B50C100076178 /* Debug */,
+				1FC076D51E7B50C100076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
