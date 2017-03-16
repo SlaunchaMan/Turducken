@@ -79,6 +79,10 @@
 		1FC0760C1E7B4E8000076178 /* MySpotlightIndex.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC076051E7B4E8000076178 /* MySpotlightIndex.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1FC076151E7B4EB600076178 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC076141E7B4EB600076178 /* Stickers.xcassets */; };
 		1FC076191E7B4EB600076178 /* MyStickerPack.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC076121E7B4EB600076178 /* MyStickerPack.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FC076231E7B4EE500076178 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC076221E7B4EE500076178 /* NotificationCenter.framework */; };
+		1FC076261E7B4EE500076178 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC076251E7B4EE500076178 /* TodayViewController.swift */; };
+		1FC076291E7B4EE500076178 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC076271E7B4EE500076178 /* MainInterface.storyboard */; };
+		1FC0762D1E7B4EE500076178 /* MyToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC076211E7B4EE500076178 /* MyToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -236,6 +240,13 @@
 			remoteGlobalIDString = 1FC076111E7B4EB600076178;
 			remoteInfo = MyStickerPack;
 		};
+		1FC0762B1E7B4EE500076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC076201E7B4EE500076178;
+			remoteInfo = MyToday;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -251,6 +262,7 @@
 				1FC075EE1E7B4E0300076178 /* MyShare.appex in Embed App Extensions */,
 				1FC075341E7B471A00076178 /* MyContentBlocker.appex in Embed App Extensions */,
 				1FC074C01E7B424300076178 /* MyAction.appex in Embed App Extensions */,
+				1FC0762D1E7B4EE500076178 /* MyToday.appex in Embed App Extensions */,
 				1FC0750E1E7B466100076178 /* MyBroadcastUploadUI.appex in Embed App Extensions */,
 				1FC075DC1E7B4DA800076178 /* MyPhotoEditing.appex in Embed App Extensions */,
 				1FC075651E7B4BD300076178 /* MyDocumentProvider.appex in Embed App Extensions */,
@@ -371,6 +383,11 @@
 		1FC076121E7B4EB600076178 /* MyStickerPack.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyStickerPack.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC076141E7B4EB600076178 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 		1FC076161E7B4EB600076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC076211E7B4EE500076178 /* MyToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC076221E7B4EE500076178 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		1FC076251E7B4EE500076178 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		1FC076281E7B4EE500076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		1FC0762A1E7B4EE500076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -539,6 +556,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC0761E1E7B4EE500076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC076231E7B4EE500076178 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -568,6 +593,7 @@
 				1FC075F71E7B4E3600076178 /* MySharedLinks */,
 				1FC076061E7B4E8000076178 /* MySpotlightIndex */,
 				1FC076131E7B4EB600076178 /* MyStickerPack */,
+				1FC076241E7B4EE500076178 /* MyToday */,
 				1FC074E01E7B456C00076178 /* Frameworks */,
 				1FC074821E7B41AD00076178 /* Products */,
 			);
@@ -599,6 +625,7 @@
 				1FC075F61E7B4E3600076178 /* MySharedLinks.appex */,
 				1FC076051E7B4E8000076178 /* MySpotlightIndex.appex */,
 				1FC076121E7B4EB600076178 /* MyStickerPack.appex */,
+				1FC076211E7B4EE500076178 /* MyToday.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -668,6 +695,7 @@
 				1FC075AC1E7B4D3E00076178 /* UserNotificationsUI.framework */,
 				1FC075CF1E7B4DA800076178 /* PhotosUI.framework */,
 				1FC075D11E7B4DA800076178 /* Photos.framework */,
+				1FC076221E7B4EE500076178 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -863,6 +891,16 @@
 			path = MyStickerPack;
 			sourceTree = "<group>";
 		};
+		1FC076241E7B4EE500076178 /* MyToday */ = {
+			isa = PBXGroup;
+			children = (
+				1FC076251E7B4EE500076178 /* TodayViewController.swift */,
+				1FC076271E7B4EE500076178 /* MainInterface.storyboard */,
+				1FC0762A1E7B4EE500076178 /* Info.plist */,
+			);
+			path = MyToday;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -898,6 +936,7 @@
 				1FC075FC1E7B4E3600076178 /* PBXTargetDependency */,
 				1FC0760B1E7B4E8000076178 /* PBXTargetDependency */,
 				1FC076181E7B4EB600076178 /* PBXTargetDependency */,
+				1FC0762C1E7B4EE500076178 /* PBXTargetDependency */,
 			);
 			name = Clusterfuck;
 			productName = Clusterfuck;
@@ -1278,6 +1317,23 @@
 			productReference = 1FC076121E7B4EB600076178 /* MyStickerPack.appex */;
 			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
 		};
+		1FC076201E7B4EE500076178 /* MyToday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC0762E1E7B4EE500076178 /* Build configuration list for PBXNativeTarget "MyToday" */;
+			buildPhases = (
+				1FC0761D1E7B4EE500076178 /* Sources */,
+				1FC0761E1E7B4EE500076178 /* Frameworks */,
+				1FC0761F1E7B4EE500076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyToday;
+			productName = MyToday;
+			productReference = 1FC076211E7B4EE500076178 /* MyToday.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1405,6 +1461,11 @@
 						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
 					};
+					1FC076201E7B4EE500076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Clusterfuck" */;
@@ -1443,6 +1504,7 @@
 				1FC075F51E7B4E3600076178 /* MySharedLinks */,
 				1FC076041E7B4E8000076178 /* MySpotlightIndex */,
 				1FC076111E7B4EB600076178 /* MyStickerPack */,
+				1FC076201E7B4EE500076178 /* MyToday */,
 			);
 		};
 /* End PBXProject section */
@@ -1622,6 +1684,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC076151E7B4EB600076178 /* Stickers.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC0761F1E7B4EE500076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC076291E7B4EE500076178 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1807,6 +1877,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC0761D1E7B4EE500076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC076261E7B4EE500076178 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1920,6 +1998,11 @@
 			target = 1FC076111E7B4EB600076178 /* MyStickerPack */;
 			targetProxy = 1FC076171E7B4EB600076178 /* PBXContainerItemProxy */;
 		};
+		1FC0762C1E7B4EE500076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC076201E7B4EE500076178 /* MyToday */;
+			targetProxy = 1FC0762B1E7B4EE500076178 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -2015,6 +2098,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				1FC075E91E7B4E0300076178 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		1FC076271E7B4EE500076178 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC076281E7B4EE500076178 /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -2771,6 +2862,34 @@
 			};
 			name = Release;
 		};
+		1FC0762F1E7B4EE500076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyToday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.MyToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FC076301E7B4EE500076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyToday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.MyToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2967,6 +3086,14 @@
 			buildConfigurations = (
 				1FC0761B1E7B4EB600076178 /* Debug */,
 				1FC0761C1E7B4EB600076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC0762E1E7B4EE500076178 /* Build configuration list for PBXNativeTarget "MyToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC0762F1E7B4EE500076178 /* Debug */,
+				1FC076301E7B4EE500076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
