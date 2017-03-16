@@ -94,6 +94,12 @@
 		1FC076531E7B4F2200076178 /* ClusterfuckWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1FC076331E7B4F2200076178 /* ClusterfuckWatch.app */; };
 		1FC076631E7B4FB500076178 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC076621E7B4FB500076178 /* IntentHandler.swift */; };
 		1FC076671E7B4FB500076178 /* MyWatchIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC076601E7B4FB500076178 /* MyWatchIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FC076731E7B507800076178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC076721E7B507800076178 /* AppDelegate.swift */; };
+		1FC076751E7B507800076178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC076741E7B507800076178 /* ViewController.swift */; };
+		1FC076781E7B507800076178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC076761E7B507800076178 /* Main.storyboard */; };
+		1FC0767A1E7B507800076178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC076791E7B507800076178 /* Assets.xcassets */; };
+		1FC076851E7B507900076178 /* ClusterfuckTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC076841E7B507900076178 /* ClusterfuckTVTests.swift */; };
+		1FC076901E7B507900076178 /* ClusterfuckTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0768F1E7B507900076178 /* ClusterfuckTVUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -278,6 +284,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1FC0765F1E7B4FB500076178;
 			remoteInfo = MyWatchIntents;
+		};
+		1FC076811E7B507900076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC0766F1E7B507800076178;
+			remoteInfo = ClusterfuckTV;
+		};
+		1FC0768C1E7B507900076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC0766F1E7B507800076178;
+			remoteInfo = ClusterfuckTV;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -468,6 +488,18 @@
 		1FC076601E7B4FB500076178 /* MyWatchIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyWatchIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC076621E7B4FB500076178 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		1FC076641E7B4FB500076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC076701E7B507800076178 /* ClusterfuckTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClusterfuckTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC076721E7B507800076178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FC076741E7B507800076178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FC076771E7B507800076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FC076791E7B507800076178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FC0767B1E7B507800076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC076801E7B507800076178 /* ClusterfuckTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClusterfuckTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC076841E7B507900076178 /* ClusterfuckTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterfuckTVTests.swift; sourceTree = "<group>"; };
+		1FC076861E7B507900076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC0768B1E7B507900076178 /* ClusterfuckTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClusterfuckTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC0768F1E7B507900076178 /* ClusterfuckTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterfuckTVUITests.swift; sourceTree = "<group>"; };
+		1FC076911E7B507900076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -658,6 +690,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC0766D1E7B507800076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC0767D1E7B507800076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC076881E7B507900076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -691,6 +744,9 @@
 				1FC076341E7B4F2200076178 /* ClusterfuckWatch */,
 				1FC076431E7B4F2200076178 /* ClusterfuckWatch Extension */,
 				1FC076611E7B4FB500076178 /* MyWatchIntents */,
+				1FC076711E7B507800076178 /* ClusterfuckTV */,
+				1FC076831E7B507900076178 /* ClusterfuckTVTests */,
+				1FC0768E1E7B507900076178 /* ClusterfuckTVUITests */,
 				1FC074E01E7B456C00076178 /* Frameworks */,
 				1FC074821E7B41AD00076178 /* Products */,
 			);
@@ -726,6 +782,9 @@
 				1FC076331E7B4F2200076178 /* ClusterfuckWatch.app */,
 				1FC0763F1E7B4F2200076178 /* ClusterfuckWatch Extension.appex */,
 				1FC076601E7B4FB500076178 /* MyWatchIntents.appex */,
+				1FC076701E7B507800076178 /* ClusterfuckTV.app */,
+				1FC076801E7B507800076178 /* ClusterfuckTVTests.xctest */,
+				1FC0768B1E7B507900076178 /* ClusterfuckTVUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1040,6 +1099,36 @@
 				1FC076641E7B4FB500076178 /* Info.plist */,
 			);
 			path = MyWatchIntents;
+			sourceTree = "<group>";
+		};
+		1FC076711E7B507800076178 /* ClusterfuckTV */ = {
+			isa = PBXGroup;
+			children = (
+				1FC076721E7B507800076178 /* AppDelegate.swift */,
+				1FC076741E7B507800076178 /* ViewController.swift */,
+				1FC076761E7B507800076178 /* Main.storyboard */,
+				1FC076791E7B507800076178 /* Assets.xcassets */,
+				1FC0767B1E7B507800076178 /* Info.plist */,
+			);
+			path = ClusterfuckTV;
+			sourceTree = "<group>";
+		};
+		1FC076831E7B507900076178 /* ClusterfuckTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FC076841E7B507900076178 /* ClusterfuckTVTests.swift */,
+				1FC076861E7B507900076178 /* Info.plist */,
+			);
+			path = ClusterfuckTVTests;
+			sourceTree = "<group>";
+		};
+		1FC0768E1E7B507900076178 /* ClusterfuckTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0768F1E7B507900076178 /* ClusterfuckTVUITests.swift */,
+				1FC076911E7B507900076178 /* Info.plist */,
+			);
+			path = ClusterfuckTVUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1530,6 +1619,59 @@
 			productReference = 1FC076601E7B4FB500076178 /* MyWatchIntents.appex */;
 			productType = "com.apple.product-type.app-extension.intents-service";
 		};
+		1FC0766F1E7B507800076178 /* ClusterfuckTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC076921E7B507900076178 /* Build configuration list for PBXNativeTarget "ClusterfuckTV" */;
+			buildPhases = (
+				1FC0766C1E7B507800076178 /* Sources */,
+				1FC0766D1E7B507800076178 /* Frameworks */,
+				1FC0766E1E7B507800076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClusterfuckTV;
+			productName = ClusterfuckTV;
+			productReference = 1FC076701E7B507800076178 /* ClusterfuckTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FC0767F1E7B507800076178 /* ClusterfuckTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC076951E7B507900076178 /* Build configuration list for PBXNativeTarget "ClusterfuckTVTests" */;
+			buildPhases = (
+				1FC0767C1E7B507800076178 /* Sources */,
+				1FC0767D1E7B507800076178 /* Frameworks */,
+				1FC0767E1E7B507800076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FC076821E7B507900076178 /* PBXTargetDependency */,
+			);
+			name = ClusterfuckTVTests;
+			productName = ClusterfuckTVTests;
+			productReference = 1FC076801E7B507800076178 /* ClusterfuckTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FC0768A1E7B507900076178 /* ClusterfuckTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC076981E7B507900076178 /* Build configuration list for PBXNativeTarget "ClusterfuckTVUITests" */;
+			buildPhases = (
+				1FC076871E7B507900076178 /* Sources */,
+				1FC076881E7B507900076178 /* Frameworks */,
+				1FC076891E7B507900076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FC0768D1E7B507900076178 /* PBXTargetDependency */,
+			);
+			name = ClusterfuckTVUITests;
+			productName = ClusterfuckTVUITests;
+			productReference = 1FC0768B1E7B507900076178 /* ClusterfuckTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1677,6 +1819,23 @@
 						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
 					};
+					1FC0766F1E7B507800076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+					};
+					1FC0767F1E7B507800076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FC0766F1E7B507800076178;
+					};
+					1FC0768A1E7B507900076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FC0766F1E7B507800076178;
+					};
 				};
 			};
 			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Clusterfuck" */;
@@ -1719,6 +1878,9 @@
 				1FC076321E7B4F2200076178 /* ClusterfuckWatch */,
 				1FC0763E1E7B4F2200076178 /* ClusterfuckWatch Extension */,
 				1FC0765F1E7B4FB500076178 /* MyWatchIntents */,
+				1FC0766F1E7B507800076178 /* ClusterfuckTV */,
+				1FC0767F1E7B507800076178 /* ClusterfuckTVTests */,
+				1FC0768A1E7B507900076178 /* ClusterfuckTVUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1927,6 +2089,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1FC0765E1E7B4FB500076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC0766E1E7B507800076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC0767A1E7B507800076178 /* Assets.xcassets in Resources */,
+				1FC076781E7B507800076178 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC0767E1E7B507800076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC076891E7B507900076178 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2142,6 +2327,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC0766C1E7B507800076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC076751E7B507800076178 /* ViewController.swift in Sources */,
+				1FC076731E7B507800076178 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC0767C1E7B507800076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC076851E7B507900076178 /* ClusterfuckTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC076871E7B507900076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC076901E7B507900076178 /* ClusterfuckTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -2275,6 +2485,16 @@
 			target = 1FC0765F1E7B4FB500076178 /* MyWatchIntents */;
 			targetProxy = 1FC076651E7B4FB500076178 /* PBXContainerItemProxy */;
 		};
+		1FC076821E7B507900076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC0766F1E7B507800076178 /* ClusterfuckTV */;
+			targetProxy = 1FC076811E7B507900076178 /* PBXContainerItemProxy */;
+		};
+		1FC0768D1E7B507900076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC0766F1E7B507800076178 /* ClusterfuckTV */;
+			targetProxy = 1FC0768C1E7B507900076178 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -2388,6 +2608,14 @@
 				1FC076361E7B4F2200076178 /* Base */,
 			);
 			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		1FC076761E7B507800076178 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC076771E7B507800076178 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -3272,6 +3500,106 @@
 			};
 			name = Release;
 		};
+		1FC076931E7B507900076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = ClusterfuckTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		1FC076941E7B507900076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = ClusterfuckTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		1FC076961E7B507900076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = ClusterfuckTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClusterfuckTV.app/ClusterfuckTV";
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		1FC076971E7B507900076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = ClusterfuckTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClusterfuckTV.app/ClusterfuckTV";
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		1FC076991E7B507900076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = ClusterfuckTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ClusterfuckTV;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		1FC0769A1E7B507900076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = ClusterfuckTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ClusterfuckTV;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3500,6 +3828,30 @@
 			buildConfigurations = (
 				1FC076691E7B4FB500076178 /* Debug */,
 				1FC0766A1E7B4FB500076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC076921E7B507900076178 /* Build configuration list for PBXNativeTarget "ClusterfuckTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC076931E7B507900076178 /* Debug */,
+				1FC076941E7B507900076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC076951E7B507900076178 /* Build configuration list for PBXNativeTarget "ClusterfuckTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC076961E7B507900076178 /* Debug */,
+				1FC076971E7B507900076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC076981E7B507900076178 /* Build configuration list for PBXNativeTarget "ClusterfuckTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC076991E7B507900076178 /* Debug */,
+				1FC0769A1E7B507900076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
