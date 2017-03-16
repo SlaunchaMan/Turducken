@@ -7,64 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FC074381E7B405000076178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC074371E7B405000076178 /* AppDelegate.swift */; };
-		1FC0743A1E7B405000076178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC074391E7B405000076178 /* ViewController.swift */; };
-		1FC0743D1E7B405000076178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC0743B1E7B405000076178 /* Main.storyboard */; };
-		1FC0743F1E7B405000076178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC0743E1E7B405000076178 /* Assets.xcassets */; };
-		1FC074421E7B405000076178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC074401E7B405000076178 /* LaunchScreen.storyboard */; };
-		1FC0744D1E7B405000076178 /* ClusterfuckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0744C1E7B405000076178 /* ClusterfuckTests.swift */; };
-		1FC074581E7B405000076178 /* ClusterfuckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC074571E7B405000076178 /* ClusterfuckUITests.swift */; };
+		1FC074851E7B41AD00076178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC074841E7B41AD00076178 /* AppDelegate.swift */; };
+		1FC074871E7B41AD00076178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC074861E7B41AD00076178 /* ViewController.swift */; };
+		1FC0748A1E7B41AD00076178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC074881E7B41AD00076178 /* Main.storyboard */; };
+		1FC0748C1E7B41AD00076178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC0748B1E7B41AD00076178 /* Assets.xcassets */; };
+		1FC0748F1E7B41AD00076178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC0748D1E7B41AD00076178 /* LaunchScreen.storyboard */; };
+		1FC0749A1E7B41AD00076178 /* ClusterfuckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC074991E7B41AD00076178 /* ClusterfuckTests.swift */; };
+		1FC074A51E7B41AD00076178 /* ClusterfuckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC074A41E7B41AD00076178 /* ClusterfuckUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1FC074491E7B405000076178 /* PBXContainerItemProxy */ = {
+		1FC074961E7B41AD00076178 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1FC0742C1E7B405000076178 /* Project object */;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1FC074331E7B405000076178;
+			remoteGlobalIDString = 1FC074801E7B41AD00076178;
 			remoteInfo = Clusterfuck;
 		};
-		1FC074541E7B405000076178 /* PBXContainerItemProxy */ = {
+		1FC074A11E7B41AD00076178 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1FC0742C1E7B405000076178 /* Project object */;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1FC074331E7B405000076178;
+			remoteGlobalIDString = 1FC074801E7B41AD00076178;
 			remoteInfo = Clusterfuck;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1FC074341E7B405000076178 /* Clusterfuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clusterfuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FC074371E7B405000076178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1FC074391E7B405000076178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1FC0743C1E7B405000076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1FC0743E1E7B405000076178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1FC074411E7B405000076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1FC074431E7B405000076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FC074481E7B405000076178 /* ClusterfuckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClusterfuckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FC0744C1E7B405000076178 /* ClusterfuckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterfuckTests.swift; sourceTree = "<group>"; };
-		1FC0744E1E7B405000076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FC074531E7B405000076178 /* ClusterfuckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClusterfuckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FC074571E7B405000076178 /* ClusterfuckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterfuckUITests.swift; sourceTree = "<group>"; };
-		1FC074591E7B405000076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC074811E7B41AD00076178 /* Clusterfuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clusterfuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC074841E7B41AD00076178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FC074861E7B41AD00076178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FC074891E7B41AD00076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FC0748B1E7B41AD00076178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FC0748E1E7B41AD00076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FC074901E7B41AD00076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC074951E7B41AD00076178 /* ClusterfuckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClusterfuckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC074991E7B41AD00076178 /* ClusterfuckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterfuckTests.swift; sourceTree = "<group>"; };
+		1FC0749B1E7B41AD00076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC074A01E7B41AD00076178 /* ClusterfuckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClusterfuckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC074A41E7B41AD00076178 /* ClusterfuckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterfuckUITests.swift; sourceTree = "<group>"; };
+		1FC074A61E7B41AD00076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1FC074311E7B405000076178 /* Frameworks */ = {
+		1FC0747E1E7B41AD00076178 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FC074451E7B405000076178 /* Frameworks */ = {
+		1FC074921E7B41AD00076178 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FC074501E7B405000076178 /* Frameworks */ = {
+		1FC0749D1E7B41AD00076178 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,53 +74,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1FC0742B1E7B405000076178 = {
+		1FC074781E7B41AD00076178 = {
 			isa = PBXGroup;
 			children = (
-				1FC074361E7B405000076178 /* Clusterfuck */,
-				1FC0744B1E7B405000076178 /* ClusterfuckTests */,
-				1FC074561E7B405000076178 /* ClusterfuckUITests */,
-				1FC074351E7B405000076178 /* Products */,
+				1FC074831E7B41AD00076178 /* Clusterfuck */,
+				1FC074981E7B41AD00076178 /* ClusterfuckTests */,
+				1FC074A31E7B41AD00076178 /* ClusterfuckUITests */,
+				1FC074821E7B41AD00076178 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1FC074351E7B405000076178 /* Products */ = {
+		1FC074821E7B41AD00076178 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1FC074341E7B405000076178 /* Clusterfuck.app */,
-				1FC074481E7B405000076178 /* ClusterfuckTests.xctest */,
-				1FC074531E7B405000076178 /* ClusterfuckUITests.xctest */,
+				1FC074811E7B41AD00076178 /* Clusterfuck.app */,
+				1FC074951E7B41AD00076178 /* ClusterfuckTests.xctest */,
+				1FC074A01E7B41AD00076178 /* ClusterfuckUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1FC074361E7B405000076178 /* Clusterfuck */ = {
+		1FC074831E7B41AD00076178 /* Clusterfuck */ = {
 			isa = PBXGroup;
 			children = (
-				1FC074371E7B405000076178 /* AppDelegate.swift */,
-				1FC074391E7B405000076178 /* ViewController.swift */,
-				1FC0743B1E7B405000076178 /* Main.storyboard */,
-				1FC0743E1E7B405000076178 /* Assets.xcassets */,
-				1FC074401E7B405000076178 /* LaunchScreen.storyboard */,
-				1FC074431E7B405000076178 /* Info.plist */,
+				1FC074841E7B41AD00076178 /* AppDelegate.swift */,
+				1FC074861E7B41AD00076178 /* ViewController.swift */,
+				1FC074881E7B41AD00076178 /* Main.storyboard */,
+				1FC0748B1E7B41AD00076178 /* Assets.xcassets */,
+				1FC0748D1E7B41AD00076178 /* LaunchScreen.storyboard */,
+				1FC074901E7B41AD00076178 /* Info.plist */,
 			);
 			path = Clusterfuck;
 			sourceTree = "<group>";
 		};
-		1FC0744B1E7B405000076178 /* ClusterfuckTests */ = {
+		1FC074981E7B41AD00076178 /* ClusterfuckTests */ = {
 			isa = PBXGroup;
 			children = (
-				1FC0744C1E7B405000076178 /* ClusterfuckTests.swift */,
-				1FC0744E1E7B405000076178 /* Info.plist */,
+				1FC074991E7B41AD00076178 /* ClusterfuckTests.swift */,
+				1FC0749B1E7B41AD00076178 /* Info.plist */,
 			);
 			path = ClusterfuckTests;
 			sourceTree = "<group>";
 		};
-		1FC074561E7B405000076178 /* ClusterfuckUITests */ = {
+		1FC074A31E7B41AD00076178 /* ClusterfuckUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1FC074571E7B405000076178 /* ClusterfuckUITests.swift */,
-				1FC074591E7B405000076178 /* Info.plist */,
+				1FC074A41E7B41AD00076178 /* ClusterfuckUITests.swift */,
+				1FC074A61E7B41AD00076178 /* Info.plist */,
 			);
 			path = ClusterfuckUITests;
 			sourceTree = "<group>";
@@ -128,13 +128,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1FC074331E7B405000076178 /* Clusterfuck */ = {
+		1FC074801E7B41AD00076178 /* Clusterfuck */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FC0745C1E7B405000076178 /* Build configuration list for PBXNativeTarget "Clusterfuck" */;
+			buildConfigurationList = 1FC074A91E7B41AD00076178 /* Build configuration list for PBXNativeTarget "Clusterfuck" */;
 			buildPhases = (
-				1FC074301E7B405000076178 /* Sources */,
-				1FC074311E7B405000076178 /* Frameworks */,
-				1FC074321E7B405000076178 /* Resources */,
+				1FC0747D1E7B41AD00076178 /* Sources */,
+				1FC0747E1E7B41AD00076178 /* Frameworks */,
+				1FC0747F1E7B41AD00076178 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,75 +142,75 @@
 			);
 			name = Clusterfuck;
 			productName = Clusterfuck;
-			productReference = 1FC074341E7B405000076178 /* Clusterfuck.app */;
+			productReference = 1FC074811E7B41AD00076178 /* Clusterfuck.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1FC074471E7B405000076178 /* ClusterfuckTests */ = {
+		1FC074941E7B41AD00076178 /* ClusterfuckTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FC0745F1E7B405000076178 /* Build configuration list for PBXNativeTarget "ClusterfuckTests" */;
+			buildConfigurationList = 1FC074AC1E7B41AD00076178 /* Build configuration list for PBXNativeTarget "ClusterfuckTests" */;
 			buildPhases = (
-				1FC074441E7B405000076178 /* Sources */,
-				1FC074451E7B405000076178 /* Frameworks */,
-				1FC074461E7B405000076178 /* Resources */,
+				1FC074911E7B41AD00076178 /* Sources */,
+				1FC074921E7B41AD00076178 /* Frameworks */,
+				1FC074931E7B41AD00076178 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1FC0744A1E7B405000076178 /* PBXTargetDependency */,
+				1FC074971E7B41AD00076178 /* PBXTargetDependency */,
 			);
 			name = ClusterfuckTests;
 			productName = ClusterfuckTests;
-			productReference = 1FC074481E7B405000076178 /* ClusterfuckTests.xctest */;
+			productReference = 1FC074951E7B41AD00076178 /* ClusterfuckTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1FC074521E7B405000076178 /* ClusterfuckUITests */ = {
+		1FC0749F1E7B41AD00076178 /* ClusterfuckUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FC074621E7B405000076178 /* Build configuration list for PBXNativeTarget "ClusterfuckUITests" */;
+			buildConfigurationList = 1FC074AF1E7B41AD00076178 /* Build configuration list for PBXNativeTarget "ClusterfuckUITests" */;
 			buildPhases = (
-				1FC0744F1E7B405000076178 /* Sources */,
-				1FC074501E7B405000076178 /* Frameworks */,
-				1FC074511E7B405000076178 /* Resources */,
+				1FC0749C1E7B41AD00076178 /* Sources */,
+				1FC0749D1E7B41AD00076178 /* Frameworks */,
+				1FC0749E1E7B41AD00076178 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1FC074551E7B405000076178 /* PBXTargetDependency */,
+				1FC074A21E7B41AD00076178 /* PBXTargetDependency */,
 			);
 			name = ClusterfuckUITests;
 			productName = ClusterfuckUITests;
-			productReference = 1FC074531E7B405000076178 /* ClusterfuckUITests.xctest */;
+			productReference = 1FC074A01E7B41AD00076178 /* ClusterfuckUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1FC0742C1E7B405000076178 /* Project object */ = {
+		1FC074791E7B41AD00076178 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "Detroit Labs, LLC";
+				ORGANIZATIONNAME = "Jeff Kelley";
 				TargetAttributes = {
-					1FC074331E7B405000076178 = {
+					1FC074801E7B41AD00076178 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 2Z262HL3RX;
+						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
 					};
-					1FC074471E7B405000076178 = {
+					1FC074941E7B41AD00076178 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 2Z262HL3RX;
+						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 1FC074331E7B405000076178;
+						TestTargetID = 1FC074801E7B41AD00076178;
 					};
-					1FC074521E7B405000076178 = {
+					1FC0749F1E7B41AD00076178 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 2Z262HL3RX;
+						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 1FC074331E7B405000076178;
+						TestTargetID = 1FC074801E7B41AD00076178;
 					};
 				};
 			};
-			buildConfigurationList = 1FC0742F1E7B405000076178 /* Build configuration list for PBXProject "Clusterfuck" */;
+			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Clusterfuck" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,37 +218,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 1FC0742B1E7B405000076178;
-			productRefGroup = 1FC074351E7B405000076178 /* Products */;
+			mainGroup = 1FC074781E7B41AD00076178;
+			productRefGroup = 1FC074821E7B41AD00076178 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1FC074331E7B405000076178 /* Clusterfuck */,
-				1FC074471E7B405000076178 /* ClusterfuckTests */,
-				1FC074521E7B405000076178 /* ClusterfuckUITests */,
+				1FC074801E7B41AD00076178 /* Clusterfuck */,
+				1FC074941E7B41AD00076178 /* ClusterfuckTests */,
+				1FC0749F1E7B41AD00076178 /* ClusterfuckUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1FC074321E7B405000076178 /* Resources */ = {
+		1FC0747F1E7B41AD00076178 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FC074421E7B405000076178 /* LaunchScreen.storyboard in Resources */,
-				1FC0743F1E7B405000076178 /* Assets.xcassets in Resources */,
-				1FC0743D1E7B405000076178 /* Main.storyboard in Resources */,
+				1FC0748F1E7B41AD00076178 /* LaunchScreen.storyboard in Resources */,
+				1FC0748C1E7B41AD00076178 /* Assets.xcassets in Resources */,
+				1FC0748A1E7B41AD00076178 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FC074461E7B405000076178 /* Resources */ = {
+		1FC074931E7B41AD00076178 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FC074511E7B405000076178 /* Resources */ = {
+		1FC0749E1E7B41AD00076178 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,59 +258,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1FC074301E7B405000076178 /* Sources */ = {
+		1FC0747D1E7B41AD00076178 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FC0743A1E7B405000076178 /* ViewController.swift in Sources */,
-				1FC074381E7B405000076178 /* AppDelegate.swift in Sources */,
+				1FC074871E7B41AD00076178 /* ViewController.swift in Sources */,
+				1FC074851E7B41AD00076178 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FC074441E7B405000076178 /* Sources */ = {
+		1FC074911E7B41AD00076178 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FC0744D1E7B405000076178 /* ClusterfuckTests.swift in Sources */,
+				1FC0749A1E7B41AD00076178 /* ClusterfuckTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FC0744F1E7B405000076178 /* Sources */ = {
+		1FC0749C1E7B41AD00076178 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FC074581E7B405000076178 /* ClusterfuckUITests.swift in Sources */,
+				1FC074A51E7B41AD00076178 /* ClusterfuckUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1FC0744A1E7B405000076178 /* PBXTargetDependency */ = {
+		1FC074971E7B41AD00076178 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1FC074331E7B405000076178 /* Clusterfuck */;
-			targetProxy = 1FC074491E7B405000076178 /* PBXContainerItemProxy */;
+			target = 1FC074801E7B41AD00076178 /* Clusterfuck */;
+			targetProxy = 1FC074961E7B41AD00076178 /* PBXContainerItemProxy */;
 		};
-		1FC074551E7B405000076178 /* PBXTargetDependency */ = {
+		1FC074A21E7B41AD00076178 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1FC074331E7B405000076178 /* Clusterfuck */;
-			targetProxy = 1FC074541E7B405000076178 /* PBXContainerItemProxy */;
+			target = 1FC074801E7B41AD00076178 /* Clusterfuck */;
+			targetProxy = 1FC074A11E7B41AD00076178 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1FC0743B1E7B405000076178 /* Main.storyboard */ = {
+		1FC074881E7B41AD00076178 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1FC0743C1E7B405000076178 /* Base */,
+				1FC074891E7B41AD00076178 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1FC074401E7B405000076178 /* LaunchScreen.storyboard */ = {
+		1FC0748D1E7B41AD00076178 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1FC074411E7B405000076178 /* Base */,
+				1FC0748E1E7B41AD00076178 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -318,7 +318,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1FC0745A1E7B405000076178 /* Debug */ = {
+		1FC074A71E7B41AD00076178 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -368,7 +368,7 @@
 			};
 			name = Debug;
 		};
-		1FC0745B1E7B405000076178 /* Release */ = {
+		1FC074A81E7B41AD00076178 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -411,84 +411,84 @@
 			};
 			name = Release;
 		};
-		1FC0745D1E7B405000076178 /* Debug */ = {
+		1FC074AA1E7B41AD00076178 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2Z262HL3RX;
+				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = Clusterfuck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.Clusterfuck;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		1FC0745E1E7B405000076178 /* Release */ = {
+		1FC074AB1E7B41AD00076178 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2Z262HL3RX;
+				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = Clusterfuck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.Clusterfuck;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		1FC074601E7B405000076178 /* Debug */ = {
+		1FC074AD1E7B41AD00076178 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 2Z262HL3RX;
+				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = ClusterfuckTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.ClusterfuckTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clusterfuck.app/Clusterfuck";
 			};
 			name = Debug;
 		};
-		1FC074611E7B405000076178 /* Release */ = {
+		1FC074AE1E7B41AD00076178 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 2Z262HL3RX;
+				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = ClusterfuckTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.ClusterfuckTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clusterfuck.app/Clusterfuck";
 			};
 			name = Release;
 		};
-		1FC074631E7B405000076178 /* Debug */ = {
+		1FC074B01E7B41AD00076178 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 2Z262HL3RX;
+				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = ClusterfuckUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.ClusterfuckUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Clusterfuck;
 			};
 			name = Debug;
 		};
-		1FC074641E7B405000076178 /* Release */ = {
+		1FC074B11E7B41AD00076178 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 2Z262HL3RX;
+				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = ClusterfuckUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.ClusterfuckUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Clusterfuck;
@@ -498,43 +498,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1FC0742F1E7B405000076178 /* Build configuration list for PBXProject "Clusterfuck" */ = {
+		1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Clusterfuck" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1FC0745A1E7B405000076178 /* Debug */,
-				1FC0745B1E7B405000076178 /* Release */,
+				1FC074A71E7B41AD00076178 /* Debug */,
+				1FC074A81E7B41AD00076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FC0745C1E7B405000076178 /* Build configuration list for PBXNativeTarget "Clusterfuck" */ = {
+		1FC074A91E7B41AD00076178 /* Build configuration list for PBXNativeTarget "Clusterfuck" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1FC0745D1E7B405000076178 /* Debug */,
-				1FC0745E1E7B405000076178 /* Release */,
+				1FC074AA1E7B41AD00076178 /* Debug */,
+				1FC074AB1E7B41AD00076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		1FC0745F1E7B405000076178 /* Build configuration list for PBXNativeTarget "ClusterfuckTests" */ = {
+		1FC074AC1E7B41AD00076178 /* Build configuration list for PBXNativeTarget "ClusterfuckTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1FC074601E7B405000076178 /* Debug */,
-				1FC074611E7B405000076178 /* Release */,
+				1FC074AD1E7B41AD00076178 /* Debug */,
+				1FC074AE1E7B41AD00076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		1FC074621E7B405000076178 /* Build configuration list for PBXNativeTarget "ClusterfuckUITests" */ = {
+		1FC074AF1E7B41AD00076178 /* Build configuration list for PBXNativeTarget "ClusterfuckUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1FC074631E7B405000076178 /* Debug */,
-				1FC074641E7B405000076178 /* Release */,
+				1FC074B01E7B41AD00076178 /* Debug */,
+				1FC074B11E7B41AD00076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1FC0742C1E7B405000076178 /* Project object */;
+	rootObject = 1FC074791E7B41AD00076178 /* Project object */;
 }
