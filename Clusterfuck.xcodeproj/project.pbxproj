@@ -73,6 +73,8 @@
 		1FC075E71E7B4E0300076178 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC075E61E7B4E0300076178 /* ShareViewController.swift */; };
 		1FC075EA1E7B4E0300076178 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC075E81E7B4E0300076178 /* MainInterface.storyboard */; };
 		1FC075EE1E7B4E0300076178 /* MyShare.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC075E41E7B4E0300076178 /* MyShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FC075F91E7B4E3600076178 /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC075F81E7B4E3600076178 /* RequestHandler.swift */; };
+		1FC075FD1E7B4E3600076178 /* MySharedLinks.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC075F61E7B4E3600076178 /* MySharedLinks.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -209,6 +211,13 @@
 			remoteGlobalIDString = 1FC075E31E7B4E0300076178;
 			remoteInfo = MyShare;
 		};
+		1FC075FB1E7B4E3600076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC075F51E7B4E3600076178;
+			remoteInfo = MySharedLinks;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -231,6 +240,7 @@
 				1FC074EE1E7B456C00076178 /* MyBroadcastUI.appex in Embed App Extensions */,
 				1FC074D71E7B44A700076178 /* MyAudioUnit.appex in Embed App Extensions */,
 				1FC075111E7B466100076178 /* MyBroadcastUpload.appex in Embed App Extensions */,
+				1FC075FD1E7B4E3600076178 /* MySharedLinks.appex in Embed App Extensions */,
 				1FC0759B1E7B4CD400076178 /* MyIntentsUI.appex in Embed App Extensions */,
 				1FC0757E1E7B4CA400076178 /* MyiMessage.appex in Embed App Extensions */,
 				1FC0759E1E7B4CD400076178 /* MyIntents.appex in Embed App Extensions */,
@@ -332,6 +342,9 @@
 		1FC075E61E7B4E0300076178 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		1FC075E91E7B4E0300076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		1FC075EB1E7B4E0300076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC075F61E7B4E3600076178 /* MySharedLinks.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MySharedLinks.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC075F81E7B4E3600076178 /* RequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
+		1FC075FA1E7B4E3600076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -486,6 +499,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC075F31E7B4E3600076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -512,6 +532,7 @@
 				1FC075C01E7B4D7300076178 /* MyNotificationService */,
 				1FC075D31E7B4DA800076178 /* MyPhotoEditing */,
 				1FC075E51E7B4E0300076178 /* MyShare */,
+				1FC075F71E7B4E3600076178 /* MySharedLinks */,
 				1FC074E01E7B456C00076178 /* Frameworks */,
 				1FC074821E7B41AD00076178 /* Products */,
 			);
@@ -540,6 +561,7 @@
 				1FC075BF1E7B4D7300076178 /* MyNotificationService.appex */,
 				1FC075CE1E7B4DA800076178 /* MyPhotoEditing.appex */,
 				1FC075E41E7B4E0300076178 /* MyShare.appex */,
+				1FC075F61E7B4E3600076178 /* MySharedLinks.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -777,6 +799,15 @@
 			path = MyShare;
 			sourceTree = "<group>";
 		};
+		1FC075F71E7B4E3600076178 /* MySharedLinks */ = {
+			isa = PBXGroup;
+			children = (
+				1FC075F81E7B4E3600076178 /* RequestHandler.swift */,
+				1FC075FA1E7B4E3600076178 /* Info.plist */,
+			);
+			path = MySharedLinks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -809,6 +840,7 @@
 				1FC075C51E7B4D7300076178 /* PBXTargetDependency */,
 				1FC075DB1E7B4DA800076178 /* PBXTargetDependency */,
 				1FC075ED1E7B4E0300076178 /* PBXTargetDependency */,
+				1FC075FC1E7B4E3600076178 /* PBXTargetDependency */,
 			);
 			name = Clusterfuck;
 			productName = Clusterfuck;
@@ -1140,6 +1172,23 @@
 			productReference = 1FC075E41E7B4E0300076178 /* MyShare.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		1FC075F51E7B4E3600076178 /* MySharedLinks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC075FE1E7B4E3600076178 /* Build configuration list for PBXNativeTarget "MySharedLinks" */;
+			buildPhases = (
+				1FC075F21E7B4E3600076178 /* Sources */,
+				1FC075F31E7B4E3600076178 /* Frameworks */,
+				1FC075F41E7B4E3600076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySharedLinks;
+			productName = MySharedLinks;
+			productReference = 1FC075F61E7B4E3600076178 /* MySharedLinks.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1252,6 +1301,11 @@
 						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
 					};
+					1FC075F51E7B4E3600076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Clusterfuck" */;
@@ -1287,6 +1341,7 @@
 				1FC075BE1E7B4D7300076178 /* MyNotificationService */,
 				1FC075CD1E7B4DA800076178 /* MyPhotoEditing */,
 				1FC075E31E7B4E0300076178 /* MyShare */,
+				1FC075F51E7B4E3600076178 /* MySharedLinks */,
 			);
 		};
 /* End PBXProject section */
@@ -1444,6 +1499,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC075EA1E7B4E0300076178 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC075F41E7B4E3600076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1613,6 +1675,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC075F21E7B4E3600076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC075F91E7B4E3600076178 /* RequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1710,6 +1780,11 @@
 			isa = PBXTargetDependency;
 			target = 1FC075E31E7B4E0300076178 /* MyShare */;
 			targetProxy = 1FC075EC1E7B4E0300076178 /* PBXContainerItemProxy */;
+		};
+		1FC075FC1E7B4E3600076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC075F51E7B4E3600076178 /* MySharedLinks */;
+			targetProxy = 1FC075FB1E7B4E3600076178 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2480,6 +2555,34 @@
 			};
 			name = Release;
 		};
+		1FC075FF1E7B4E3600076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MySharedLinks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.MySharedLinks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FC076001E7B4E3600076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MySharedLinks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Clusterfuck.MySharedLinks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2652,6 +2755,14 @@
 			buildConfigurations = (
 				1FC075F01E7B4E0300076178 /* Debug */,
 				1FC075F11E7B4E0300076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC075FE1E7B4E3600076178 /* Build configuration list for PBXNativeTarget "MySharedLinks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC075FF1E7B4E3600076178 /* Debug */,
+				1FC076001E7B4E3600076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
