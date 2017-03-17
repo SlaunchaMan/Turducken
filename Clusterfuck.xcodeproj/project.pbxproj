@@ -5032,6 +5032,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = ClusterfuckUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5046,6 +5047,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = ClusterfuckUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6652,7 +6654,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = UCFNS9576M;
-				INFOPLIST_FILE = "MyFramework-tvOSTests/Info.plist";
+				INFOPLIST_FILE = MyFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.slaunchaman.MyFramework-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6668,7 +6670,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = UCFNS9576M;
-				INFOPLIST_FILE = "MyFramework-tvOSTests/Info.plist";
+				INFOPLIST_FILE = MyFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.slaunchaman.MyFramework-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -6743,7 +6745,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = UCFNS9576M;
-				INFOPLIST_FILE = "MyFramework-macOSTests/Info.plist";
+				INFOPLIST_FILE = MyFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.slaunchaman.MyFramework-macOSTests";
@@ -6761,7 +6763,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = UCFNS9576M;
-				INFOPLIST_FILE = "MyFramework-macOSTests/Info.plist";
+				INFOPLIST_FILE = MyFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.slaunchaman.MyFramework-macOSTests";
@@ -6818,6 +6820,7 @@
 				1FC074C21E7B424300076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC074D81E7B44A700076178 /* Build configuration list for PBXNativeTarget "MyAudioUnit" */ = {
 			isa = XCConfigurationList;
@@ -6826,6 +6829,7 @@
 				1FC074DA1E7B44A700076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC074EF1E7B456C00076178 /* Build configuration list for PBXNativeTarget "MyBroadcastUI" */ = {
 			isa = XCConfigurationList;
@@ -6834,6 +6838,7 @@
 				1FC074F11E7B456C00076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC075121E7B466100076178 /* Build configuration list for PBXNativeTarget "MyBroadcastUploadUI" */ = {
 			isa = XCConfigurationList;
@@ -6842,6 +6847,7 @@
 				1FC075141E7B466100076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC075151E7B466100076178 /* Build configuration list for PBXNativeTarget "MyBroadcastUpload" */ = {
 			isa = XCConfigurationList;
@@ -6850,6 +6856,7 @@
 				1FC075171E7B466100076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC075241E7B46FA00076178 /* Build configuration list for PBXNativeTarget "MyCallDirectory" */ = {
 			isa = XCConfigurationList;
@@ -6858,6 +6865,7 @@
 				1FC075261E7B46FA00076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC075351E7B471A00076178 /* Build configuration list for PBXNativeTarget "MyContentBlocker" */ = {
 			isa = XCConfigurationList;
@@ -6866,6 +6874,7 @@
 				1FC075371E7B471A00076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC075441E7B47F900076178 /* Build configuration list for PBXNativeTarget "MyCustomKeyboard" */ = {
 			isa = XCConfigurationList;
@@ -6874,6 +6883,7 @@
 				1FC075461E7B47F900076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC075661E7B4BD300076178 /* Build configuration list for PBXNativeTarget "MyDocumentProviderFileProvider" */ = {
 			isa = XCConfigurationList;
@@ -6882,6 +6892,7 @@
 				1FC075681E7B4BD300076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC075691E7B4BD300076178 /* Build configuration list for PBXNativeTarget "MyDocumentProvider" */ = {
 			isa = XCConfigurationList;
@@ -6890,6 +6901,7 @@
 				1FC0756B1E7B4BD300076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC0757F1E7B4CA400076178 /* Build configuration list for PBXNativeTarget "MyiMessage" */ = {
 			isa = XCConfigurationList;
@@ -6898,6 +6910,7 @@
 				1FC075811E7B4CA400076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC0759F1E7B4CD400076178 /* Build configuration list for PBXNativeTarget "MyIntentsUI" */ = {
 			isa = XCConfigurationList;
@@ -6906,6 +6919,7 @@
 				1FC075A11E7B4CD400076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC075A21E7B4CD400076178 /* Build configuration list for PBXNativeTarget "MyIntents" */ = {
 			isa = XCConfigurationList;
@@ -6914,6 +6928,7 @@
 				1FC075A41E7B4CD400076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC075B81E7B4D3E00076178 /* Build configuration list for PBXNativeTarget "MyNotificationContent" */ = {
 			isa = XCConfigurationList;
@@ -6922,6 +6937,7 @@
 				1FC075BA1E7B4D3E00076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC075C71E7B4D7300076178 /* Build configuration list for PBXNativeTarget "MyNotificationService" */ = {
 			isa = XCConfigurationList;
@@ -6930,6 +6946,7 @@
 				1FC075C91E7B4D7300076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC075DD1E7B4DA800076178 /* Build configuration list for PBXNativeTarget "MyPhotoEditing" */ = {
 			isa = XCConfigurationList;
@@ -6938,6 +6955,7 @@
 				1FC075DF1E7B4DA800076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC075EF1E7B4E0300076178 /* Build configuration list for PBXNativeTarget "MyShare" */ = {
 			isa = XCConfigurationList;
@@ -6946,6 +6964,7 @@
 				1FC075F11E7B4E0300076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC075FE1E7B4E3600076178 /* Build configuration list for PBXNativeTarget "MySharedLinks" */ = {
 			isa = XCConfigurationList;
@@ -6954,6 +6973,7 @@
 				1FC076001E7B4E3600076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC0760D1E7B4E8000076178 /* Build configuration list for PBXNativeTarget "MySpotlightIndex" */ = {
 			isa = XCConfigurationList;
@@ -6962,6 +6982,7 @@
 				1FC0760F1E7B4E8000076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC0762E1E7B4EE500076178 /* Build configuration list for PBXNativeTarget "MyToday" */ = {
 			isa = XCConfigurationList;
@@ -6970,6 +6991,7 @@
 				1FC076301E7B4EE500076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC076541E7B4F2200076178 /* Build configuration list for PBXNativeTarget "ClusterfuckWatch Extension" */ = {
 			isa = XCConfigurationList;
@@ -6978,6 +7000,7 @@
 				1FC076561E7B4F2200076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC076581E7B4F2200076178 /* Build configuration list for PBXNativeTarget "ClusterfuckWatch" */ = {
 			isa = XCConfigurationList;
@@ -6986,6 +7009,7 @@
 				1FC0765A1E7B4F2200076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC076681E7B4FB500076178 /* Build configuration list for PBXNativeTarget "MyWatchIntents" */ = {
 			isa = XCConfigurationList;
@@ -6994,6 +7018,7 @@
 				1FC0766A1E7B4FB500076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC076921E7B507900076178 /* Build configuration list for PBXNativeTarget "ClusterfuckTV" */ = {
 			isa = XCConfigurationList;
@@ -7002,6 +7027,7 @@
 				1FC076941E7B507900076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC076951E7B507900076178 /* Build configuration list for PBXNativeTarget "ClusterfuckTVTests" */ = {
 			isa = XCConfigurationList;
@@ -7010,6 +7036,7 @@
 				1FC076971E7B507900076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC076981E7B507900076178 /* Build configuration list for PBXNativeTarget "ClusterfuckTVUITests" */ = {
 			isa = XCConfigurationList;
@@ -7018,6 +7045,7 @@
 				1FC0769A1E7B507900076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC076AC1E7B50B600076178 /* Build configuration list for PBXNativeTarget "MyTVBroadcastUI" */ = {
 			isa = XCConfigurationList;
@@ -7026,6 +7054,7 @@
 				1FC076AE1E7B50B600076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC076D01E7B50C100076178 /* Build configuration list for PBXNativeTarget "MyTVBroadcastUploadUI" */ = {
 			isa = XCConfigurationList;
@@ -7034,6 +7063,7 @@
 				1FC076D21E7B50C100076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC076D31E7B50C100076178 /* Build configuration list for PBXNativeTarget "MyTVBroadcastUpload" */ = {
 			isa = XCConfigurationList;
@@ -7042,6 +7072,7 @@
 				1FC076D51E7B50C100076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC076E41E7B518000076178 /* Build configuration list for PBXNativeTarget "MyTVServices" */ = {
 			isa = XCConfigurationList;
@@ -7050,6 +7081,7 @@
 				1FC076E61E7B518000076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC0770D1E7B541000076178 /* Build configuration list for PBXNativeTarget "ClusterfuckMac" */ = {
 			isa = XCConfigurationList;
@@ -7058,6 +7090,7 @@
 				1FC0770F1E7B541000076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC077101E7B541000076178 /* Build configuration list for PBXNativeTarget "ClusterfuckMacTests" */ = {
 			isa = XCConfigurationList;
@@ -7066,6 +7099,7 @@
 				1FC077121E7B541000076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC077131E7B541000076178 /* Build configuration list for PBXNativeTarget "ClusterfuckMacUITests" */ = {
 			isa = XCConfigurationList;
@@ -7074,6 +7108,7 @@
 				1FC077151E7B541000076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC0772E1E7B5D8E00076178 /* Build configuration list for PBXNativeTarget "MyMaction" */ = {
 			isa = XCConfigurationList;
@@ -7082,6 +7117,7 @@
 				1FC077301E7B5D8E00076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC077471E7B5E2F00076178 /* Build configuration list for PBXNativeTarget "MyMacAudioUnit" */ = {
 			isa = XCConfigurationList;
@@ -7090,6 +7126,7 @@
 				1FC077491E7B5E2F00076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC0775C1E7B5EAA00076178 /* Build configuration list for PBXNativeTarget "MyMacContentBlocker" */ = {
 			isa = XCConfigurationList;
@@ -7098,6 +7135,7 @@
 				1FC0775E1E7B5EAA00076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC0776D1E7B5F1400076178 /* Build configuration list for PBXNativeTarget "MyFinderSync" */ = {
 			isa = XCConfigurationList;
@@ -7106,6 +7144,7 @@
 				1FC0776F1E7B5F1400076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC0778D1E7B668200076178 /* Build configuration list for PBXNativeTarget "MyMacPhotoEditing" */ = {
 			isa = XCConfigurationList;
@@ -7114,6 +7153,7 @@
 				1FC0778F1E7B668200076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC077A81E7B66C300076178 /* Build configuration list for PBXNativeTarget "MySafariExtension" */ = {
 			isa = XCConfigurationList;
@@ -7122,6 +7162,7 @@
 				1FC077AA1E7B66C300076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC077BE1E7B671100076178 /* Build configuration list for PBXNativeTarget "MyMacShare" */ = {
 			isa = XCConfigurationList;
@@ -7130,6 +7171,7 @@
 				1FC077C01E7B671100076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC077D01E7B677F00076178 /* Build configuration list for PBXNativeTarget "MyMacSharedLinks" */ = {
 			isa = XCConfigurationList;
@@ -7138,6 +7180,7 @@
 				1FC077D21E7B677F00076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC077E61E7B67CC00076178 /* Build configuration list for PBXNativeTarget "MySmartCardToken" */ = {
 			isa = XCConfigurationList;
@@ -7146,6 +7189,7 @@
 				1FC077E81E7B67CC00076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC077FE1E7B681500076178 /* Build configuration list for PBXNativeTarget "MyMacToday" */ = {
 			isa = XCConfigurationList;
@@ -7154,6 +7198,7 @@
 				1FC078001E7B681500076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC078121E7B684600076178 /* Build configuration list for PBXNativeTarget "MyXcodeSourceEditor" */ = {
 			isa = XCConfigurationList;
@@ -7162,6 +7207,7 @@
 				1FC078141E7B684600076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC078591E7B691200076178 /* Build configuration list for PBXNativeTarget "MyFramework" */ = {
 			isa = XCConfigurationList;
@@ -7170,6 +7216,7 @@
 				1FC0785B1E7B691200076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC0785D1E7B691200076178 /* Build configuration list for PBXNativeTarget "MyFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -7178,6 +7225,7 @@
 				1FC0785F1E7B691200076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC0786E1E7B695600076178 /* Build configuration list for PBXNativeTarget "MyFramework-watchOS" */ = {
 			isa = XCConfigurationList;
@@ -7186,6 +7234,7 @@
 				1FC078701E7B695600076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC0788E1E7B698900076178 /* Build configuration list for PBXNativeTarget "MyFramework-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -7194,6 +7243,7 @@
 				1FC078901E7B698900076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC078911E7B698900076178 /* Build configuration list for PBXNativeTarget "MyFramework-tvOSTests" */ = {
 			isa = XCConfigurationList;
@@ -7202,6 +7252,7 @@
 				1FC078931E7B698900076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC078B01E7B699800076178 /* Build configuration list for PBXNativeTarget "MyFramework-macOS" */ = {
 			isa = XCConfigurationList;
@@ -7210,6 +7261,7 @@
 				1FC078B21E7B699800076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC078B31E7B699800076178 /* Build configuration list for PBXNativeTarget "MyFramework-macOSTests" */ = {
 			isa = XCConfigurationList;
@@ -7218,6 +7270,7 @@
 				1FC078B51E7B699800076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1FC078761E7B698800076178"
-               BuildableName = "MyFramework-tvOS.framework"
+               BuildableName = "MyFramework.framework"
                BlueprintName = "MyFramework-tvOS"
                ReferencedContainer = "container:Clusterfuck.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FC078761E7B698800076178"
-            BuildableName = "MyFramework-tvOS.framework"
+            BuildableName = "MyFramework.framework"
             BlueprintName = "MyFramework-tvOS"
             ReferencedContainer = "container:Clusterfuck.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FC078761E7B698800076178"
-            BuildableName = "MyFramework-tvOS.framework"
+            BuildableName = "MyFramework.framework"
             BlueprintName = "MyFramework-tvOS"
             ReferencedContainer = "container:Clusterfuck.xcodeproj">
          </BuildableReference>

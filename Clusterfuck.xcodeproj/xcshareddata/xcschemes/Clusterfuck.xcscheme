@@ -48,6 +48,16 @@
                ReferencedContainer = "container:Clusterfuck.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1FC078491E7B691200076178"
+               BuildableName = "MyFrameworkTests.xctest"
+               BlueprintName = "MyFrameworkTests"
+               ReferencedContainer = "container:Clusterfuck.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
