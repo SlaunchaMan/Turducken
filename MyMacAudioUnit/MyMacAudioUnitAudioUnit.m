@@ -65,7 +65,7 @@ const AudioUnitParameterID myParam1 = 0;
 // Subclassers must override this property getter and should return the same object every time.
 // See sample code.
 - (AUAudioUnitBusArray *)inputBusses {
-#warning implementation must return non-nil AUAudioUnitBusArray
+//#warning implementation must return non-nil AUAudioUnitBusArray
     return nil;
 }
 
@@ -73,7 +73,7 @@ const AudioUnitParameterID myParam1 = 0;
 // Subclassers must override this property getter and should return the same object every time.
 // See sample code.
 - (AUAudioUnitBusArray *)outputBusses {
-#warning implementation must return non-nil AUAudioUnitBusArray
+//#warning implementation must return non-nil AUAudioUnitBusArray
     return nil;
 }
 
