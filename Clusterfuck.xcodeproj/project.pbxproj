@@ -151,6 +151,9 @@
 		1FC077B61E7B671100076178 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC077B51E7B671100076178 /* ShareViewController.swift */; };
 		1FC077B91E7B671100076178 /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FC077B71E7B671100076178 /* ShareViewController.xib */; };
 		1FC077BD1E7B671100076178 /* MyMacShare.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC077AF1E7B671000076178 /* MyMacShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FC077C61E7B677F00076178 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC0774F1E7B5EAA00076178 /* Cocoa.framework */; };
+		1FC077CB1E7B677F00076178 /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC077CA1E7B677F00076178 /* RequestHandler.swift */; };
+		1FC077CF1E7B677F00076178 /* MyMacSharedLinks.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC077C51E7B677F00076178 /* MyMacSharedLinks.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -434,6 +437,13 @@
 			remoteGlobalIDString = 1FC077AE1E7B671000076178;
 			remoteInfo = MyMacShare;
 		};
+		1FC077CD1E7B677F00076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC077C41E7B677F00076178;
+			remoteInfo = MyMacSharedLinks;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -521,6 +531,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				1FC077BD1E7B671100076178 /* MyMacShare.appex in Embed App Extensions */,
+				1FC077CF1E7B677F00076178 /* MyMacSharedLinks.appex in Embed App Extensions */,
 				1FC0775B1E7B5EAA00076178 /* MyMacContentBlocker.appex in Embed App Extensions */,
 				1FC0776C1E7B5F1400076178 /* MyFinderSync.appex in Embed App Extensions */,
 				1FC0778C1E7B668100076178 /* MyMacPhotoEditing.appex in Embed App Extensions */,
@@ -733,6 +744,10 @@
 		1FC077B51E7B671100076178 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		1FC077B81E7B671100076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ShareViewController.xib; sourceTree = "<group>"; };
 		1FC077BA1E7B671100076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC077C51E7B677F00076178 /* MyMacSharedLinks.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyMacSharedLinks.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC077C91E7B677F00076178 /* MyMacSharedLinks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyMacSharedLinks.entitlements; sourceTree = "<group>"; };
+		1FC077CA1E7B677F00076178 /* RequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
+		1FC077CC1E7B677F00076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1052,6 +1067,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC077C21E7B677F00076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC077C61E7B677F00076178 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1113,6 +1136,7 @@
 				1FC0777E1E7B668100076178 /* MyMacPhotoEditing.appex */,
 				1FC077941E7B66C200076178 /* MySafariExtension.appex */,
 				1FC077AF1E7B671000076178 /* MyMacShare.appex */,
+				1FC077C51E7B677F00076178 /* MyMacSharedLinks.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1588,6 +1612,7 @@
 				1FC077811E7B668100076178 /* MyMacPhotoEditing */,
 				1FC077961E7B66C200076178 /* MySafariExtension */,
 				1FC077B01E7B671000076178 /* MyMacShare */,
+				1FC077C71E7B677F00076178 /* MyMacSharedLinks */,
 			);
 			name = macOS;
 			sourceTree = "<group>";
@@ -1728,6 +1753,24 @@
 			children = (
 				1FC077B21E7B671100076178 /* icon.icns */,
 				1FC077B41E7B671100076178 /* MyMacShare.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FC077C71E7B677F00076178 /* MyMacSharedLinks */ = {
+			isa = PBXGroup;
+			children = (
+				1FC077CA1E7B677F00076178 /* RequestHandler.swift */,
+				1FC077CC1E7B677F00076178 /* Info.plist */,
+				1FC077C81E7B677F00076178 /* Supporting Files */,
+			);
+			path = MyMacSharedLinks;
+			sourceTree = "<group>";
+		};
+		1FC077C81E7B677F00076178 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FC077C91E7B677F00076178 /* MyMacSharedLinks.entitlements */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -2349,6 +2392,7 @@
 				1FC0778B1E7B668100076178 /* PBXTargetDependency */,
 				1FC077A61E7B66C200076178 /* PBXTargetDependency */,
 				1FC077BC1E7B671100076178 /* PBXTargetDependency */,
+				1FC077CE1E7B677F00076178 /* PBXTargetDependency */,
 			);
 			name = ClusterfuckMac;
 			productName = ClusterfuckMac;
@@ -2508,6 +2552,23 @@
 			name = MyMacShare;
 			productName = MyMacShare;
 			productReference = 1FC077AF1E7B671000076178 /* MyMacShare.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1FC077C41E7B677F00076178 /* MyMacSharedLinks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC077D01E7B677F00076178 /* Build configuration list for PBXNativeTarget "MyMacSharedLinks" */;
+			buildPhases = (
+				1FC077C11E7B677F00076178 /* Sources */,
+				1FC077C21E7B677F00076178 /* Frameworks */,
+				1FC077C31E7B677F00076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMacSharedLinks;
+			productName = MyMacSharedLinks;
+			productReference = 1FC077C51E7B677F00076178 /* MyMacSharedLinks.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -2741,6 +2802,11 @@
 						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
 					};
+					1FC077C41E7B677F00076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Clusterfuck" */;
@@ -2799,6 +2865,7 @@
 				1FC0777D1E7B668100076178 /* MyMacPhotoEditing */,
 				1FC077931E7B66C200076178 /* MySafariExtension */,
 				1FC077AE1E7B671000076178 /* MyMacShare */,
+				1FC077C41E7B677F00076178 /* MyMacSharedLinks */,
 			);
 		};
 /* End PBXProject section */
@@ -3137,6 +3204,13 @@
 			files = (
 				1FC077B91E7B671100076178 /* ShareViewController.xib in Resources */,
 				1FC077B31E7B671100076178 /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC077C31E7B677F00076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3490,6 +3564,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC077C11E7B677F00076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC077CB1E7B677F00076178 /* RequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -3692,6 +3774,11 @@
 			isa = PBXTargetDependency;
 			target = 1FC077AE1E7B671000076178 /* MyMacShare */;
 			targetProxy = 1FC077BB1E7B671100076178 /* PBXContainerItemProxy */;
+		};
+		1FC077CE1E7B677F00076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC077C41E7B677F00076178 /* MyMacSharedLinks */;
+			targetProxy = 1FC077CD1E7B677F00076178 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -5314,6 +5401,42 @@
 			};
 			name = Release;
 		};
+		1FC077D11E7B677F00076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MyMacSharedLinks/MyMacSharedLinks.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyMacSharedLinks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckMac.MyMacSharedLinks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FC077D21E7B677F00076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MyMacSharedLinks/MyMacSharedLinks.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyMacSharedLinks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckMac.MyMacSharedLinks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -5670,6 +5793,14 @@
 			buildConfigurations = (
 				1FC077BF1E7B671100076178 /* Debug */,
 				1FC077C01E7B671100076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC077D01E7B677F00076178 /* Build configuration list for PBXNativeTarget "MyMacSharedLinks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC077D11E7B677F00076178 /* Debug */,
+				1FC077D21E7B677F00076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
