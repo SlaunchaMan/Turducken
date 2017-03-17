@@ -135,6 +135,11 @@
 		1FC0775B1E7B5EAA00076178 /* MyMacContentBlocker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC0774E1E7B5EAA00076178 /* MyMacContentBlocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1FC077681E7B5F1400076178 /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC077671E7B5F1400076178 /* FinderSync.swift */; };
 		1FC0776C1E7B5F1400076178 /* MyFinderSync.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC077631E7B5F1400076178 /* MyFinderSync.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FC0777F1E7B668100076178 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC075CF1E7B4DA800076178 /* PhotosUI.framework */; };
+		1FC077801E7B668100076178 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC075D11E7B4DA800076178 /* Photos.framework */; };
+		1FC077851E7B668100076178 /* PhotoEditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC077841E7B668100076178 /* PhotoEditingViewController.swift */; };
+		1FC077881E7B668100076178 /* PhotoEditingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FC077861E7B668100076178 /* PhotoEditingViewController.xib */; };
+		1FC0778C1E7B668100076178 /* MyMacPhotoEditing.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC0777E1E7B668100076178 /* MyMacPhotoEditing.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -397,6 +402,13 @@
 			remoteGlobalIDString = 1FC077621E7B5F1400076178;
 			remoteInfo = MyFinderSync;
 		};
+		1FC0778A1E7B668100076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC0777D1E7B668100076178;
+			remoteInfo = MyMacPhotoEditing;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -485,6 +497,7 @@
 			files = (
 				1FC0775B1E7B5EAA00076178 /* MyMacContentBlocker.appex in Embed App Extensions */,
 				1FC0776C1E7B5F1400076178 /* MyFinderSync.appex in Embed App Extensions */,
+				1FC0778C1E7B668100076178 /* MyMacPhotoEditing.appex in Embed App Extensions */,
 				1FC0772D1E7B5D8E00076178 /* MyMaction.appex in Embed App Extensions */,
 				1FC077461E7B5E2F00076178 /* MyMacAudioUnit.appex in Embed App Extensions */,
 			);
@@ -674,6 +687,11 @@
 		1FC077661E7B5F1400076178 /* MyFinderSync.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyFinderSync.entitlements; sourceTree = "<group>"; };
 		1FC077671E7B5F1400076178 /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
 		1FC077691E7B5F1400076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC0777E1E7B668100076178 /* MyMacPhotoEditing.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyMacPhotoEditing.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC077831E7B668100076178 /* MyMacPhotoEditing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyMacPhotoEditing.entitlements; sourceTree = "<group>"; };
+		1FC077841E7B668100076178 /* PhotoEditingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditingViewController.swift; sourceTree = "<group>"; };
+		1FC077871E7B668100076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PhotoEditingViewController.xib; sourceTree = "<group>"; };
+		1FC077891E7B668100076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -969,6 +987,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC0777B1E7B668100076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC0777F1E7B668100076178 /* PhotosUI.framework in Frameworks */,
+				1FC077801E7B668100076178 /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -979,6 +1006,7 @@
 				1FC077181E7B5C5D00076178 /* watchOS */,
 				1FC077191E7B5C6500076178 /* tvOS */,
 				1FC0771A1E7B5C6B00076178 /* macOS */,
+				1FC077811E7B668100076178 /* MyMacPhotoEditing */,
 				1FC074E01E7B456C00076178 /* Frameworks */,
 				1FC074821E7B41AD00076178 /* Products */,
 			);
@@ -1027,6 +1055,7 @@
 				1FC077361E7B5E2F00076178 /* MyMacAudioUnit.appex */,
 				1FC0774E1E7B5EAA00076178 /* MyMacContentBlocker.appex */,
 				1FC077631E7B5F1400076178 /* MyFinderSync.appex */,
+				1FC0777E1E7B668100076178 /* MyMacPhotoEditing.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1578,6 +1607,25 @@
 			isa = PBXGroup;
 			children = (
 				1FC077661E7B5F1400076178 /* MyFinderSync.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FC077811E7B668100076178 /* MyMacPhotoEditing */ = {
+			isa = PBXGroup;
+			children = (
+				1FC077841E7B668100076178 /* PhotoEditingViewController.swift */,
+				1FC077861E7B668100076178 /* PhotoEditingViewController.xib */,
+				1FC077891E7B668100076178 /* Info.plist */,
+				1FC077821E7B668100076178 /* Supporting Files */,
+			);
+			path = MyMacPhotoEditing;
+			sourceTree = "<group>";
+		};
+		1FC077821E7B668100076178 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FC077831E7B668100076178 /* MyMacPhotoEditing.entitlements */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -2196,6 +2244,7 @@
 				1FC077451E7B5E2F00076178 /* PBXTargetDependency */,
 				1FC0775A1E7B5EAA00076178 /* PBXTargetDependency */,
 				1FC0776B1E7B5F1400076178 /* PBXTargetDependency */,
+				1FC0778B1E7B668100076178 /* PBXTargetDependency */,
 			);
 			name = ClusterfuckMac;
 			productName = ClusterfuckMac;
@@ -2304,6 +2353,23 @@
 			name = MyFinderSync;
 			productName = MyFinderSync;
 			productReference = 1FC077631E7B5F1400076178 /* MyFinderSync.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1FC0777D1E7B668100076178 /* MyMacPhotoEditing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC0778D1E7B668200076178 /* Build configuration list for PBXNativeTarget "MyMacPhotoEditing" */;
+			buildPhases = (
+				1FC0777A1E7B668100076178 /* Sources */,
+				1FC0777B1E7B668100076178 /* Frameworks */,
+				1FC0777C1E7B668100076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMacPhotoEditing;
+			productName = MyMacPhotoEditing;
+			productReference = 1FC0777E1E7B668100076178 /* MyMacPhotoEditing.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -2522,6 +2588,11 @@
 						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
 					};
+					1FC0777D1E7B668100076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Clusterfuck" */;
@@ -2577,6 +2648,7 @@
 				1FC077351E7B5E2F00076178 /* MyMacAudioUnit */,
 				1FC0774D1E7B5EAA00076178 /* MyMacContentBlocker */,
 				1FC077621E7B5F1400076178 /* MyFinderSync */,
+				1FC0777D1E7B668100076178 /* MyMacPhotoEditing */,
 			);
 		};
 /* End PBXProject section */
@@ -2888,6 +2960,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC0777C1E7B668100076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC077881E7B668100076178 /* PhotoEditingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3216,6 +3296,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC0777A1E7B668100076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC077851E7B668100076178 /* PhotoEditingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -3404,6 +3492,11 @@
 			target = 1FC077621E7B5F1400076178 /* MyFinderSync */;
 			targetProxy = 1FC0776A1E7B5F1400076178 /* PBXContainerItemProxy */;
 		};
+		1FC0778B1E7B668100076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC0777D1E7B668100076178 /* MyMacPhotoEditing */;
+			targetProxy = 1FC0778A1E7B668100076178 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -3565,6 +3658,14 @@
 				1FC077401E7B5E2F00076178 /* Base */,
 			);
 			name = AudioUnitViewController.xib;
+			sourceTree = "<group>";
+		};
+		1FC077861E7B668100076178 /* PhotoEditingViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC077871E7B668100076178 /* Base */,
+			);
+			name = PhotoEditingViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -4897,6 +4998,40 @@
 			};
 			name = Release;
 		};
+		1FC0778E1E7B668200076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MyMacPhotoEditing/MyMacPhotoEditing.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyMacPhotoEditing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckMac.MyMacPhotoEditing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FC0778F1E7B668200076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MyMacPhotoEditing/MyMacPhotoEditing.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyMacPhotoEditing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckMac.MyMacPhotoEditing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -5229,6 +5364,14 @@
 			buildConfigurations = (
 				1FC0776E1E7B5F1400076178 /* Debug */,
 				1FC0776F1E7B5F1400076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC0778D1E7B668200076178 /* Build configuration list for PBXNativeTarget "MyMacPhotoEditing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC0778E1E7B668200076178 /* Debug */,
+				1FC0778F1E7B668200076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
