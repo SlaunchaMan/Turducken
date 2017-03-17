@@ -6,6 +6,22 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		1FC077701E7B661800076178 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1FC077711E7B661800076178 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+			);
+			dependencies = (
+				1FC077751E7B662900076178 /* PBXTargetDependency */,
+				1FC077771E7B662900076178 /* PBXTargetDependency */,
+				1FC077791E7B662900076178 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		1FC074851E7B41AD00076178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC074841E7B41AD00076178 /* AppDelegate.swift */; };
 		1FC074871E7B41AD00076178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC074861E7B41AD00076178 /* ViewController.swift */; };
@@ -133,6 +149,8 @@
 		1FC077531E7B5EAA00076178 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FC077521E7B5EAA00076178 /* blockerList.json */; };
 		1FC077571E7B5EAA00076178 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC077561E7B5EAA00076178 /* ContentBlockerRequestHandler.swift */; };
 		1FC0775B1E7B5EAA00076178 /* MyMacContentBlocker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC0774E1E7B5EAA00076178 /* MyMacContentBlocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FC077681E7B5F1400076178 /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC077671E7B5F1400076178 /* FinderSync.swift */; };
+		1FC0776C1E7B5F1400076178 /* MyFinderSync.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC077631E7B5F1400076178 /* MyFinderSync.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -388,6 +406,34 @@
 			remoteGlobalIDString = 1FC0774D1E7B5EAA00076178;
 			remoteInfo = MyMacContentBlocker;
 		};
+		1FC0776A1E7B5F1400076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC077621E7B5F1400076178;
+			remoteInfo = MyFinderSync;
+		};
+		1FC077741E7B662900076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC074801E7B41AD00076178;
+			remoteInfo = Clusterfuck;
+		};
+		1FC077761E7B662900076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC0766F1E7B507800076178;
+			remoteInfo = ClusterfuckTV;
+		};
+		1FC077781E7B662900076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC076EA1E7B540F00076178;
+			remoteInfo = ClusterfuckMac;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -475,6 +521,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				1FC0775B1E7B5EAA00076178 /* MyMacContentBlocker.appex in Embed App Extensions */,
+				1FC0776C1E7B5F1400076178 /* MyFinderSync.appex in Embed App Extensions */,
 				1FC0772D1E7B5D8E00076178 /* MyMaction.appex in Embed App Extensions */,
 				1FC077461E7B5E2F00076178 /* MyMacAudioUnit.appex in Embed App Extensions */,
 			);
@@ -660,6 +707,10 @@
 		1FC077551E7B5EAA00076178 /* MyMacContentBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyMacContentBlocker.entitlements; sourceTree = "<group>"; };
 		1FC077561E7B5EAA00076178 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
 		1FC077581E7B5EAA00076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC077631E7B5F1400076178 /* MyFinderSync.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyFinderSync.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC077661E7B5F1400076178 /* MyFinderSync.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyFinderSync.entitlements; sourceTree = "<group>"; };
+		1FC077671E7B5F1400076178 /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
+		1FC077691E7B5F1400076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -948,6 +999,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC077601E7B5F1400076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1005,6 +1063,7 @@
 				1FC0771F1E7B5D8E00076178 /* MyMaction.appex */,
 				1FC077361E7B5E2F00076178 /* MyMacAudioUnit.appex */,
 				1FC0774E1E7B5EAA00076178 /* MyMacContentBlocker.appex */,
+				1FC077631E7B5F1400076178 /* MyFinderSync.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1476,6 +1535,7 @@
 				1FC077201E7B5D8E00076178 /* MyMaction */,
 				1FC077371E7B5E2F00076178 /* MyMacAudioUnit */,
 				1FC077511E7B5EAA00076178 /* MyMacContentBlocker */,
+				1FC077641E7B5F1400076178 /* MyFinderSync */,
 			);
 			name = macOS;
 			sourceTree = "<group>";
@@ -1537,6 +1597,24 @@
 			isa = PBXGroup;
 			children = (
 				1FC077551E7B5EAA00076178 /* MyMacContentBlocker.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FC077641E7B5F1400076178 /* MyFinderSync */ = {
+			isa = PBXGroup;
+			children = (
+				1FC077671E7B5F1400076178 /* FinderSync.swift */,
+				1FC077691E7B5F1400076178 /* Info.plist */,
+				1FC077651E7B5F1400076178 /* Supporting Files */,
+			);
+			path = MyFinderSync;
+			sourceTree = "<group>";
+		};
+		1FC077651E7B5F1400076178 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FC077661E7B5F1400076178 /* MyFinderSync.entitlements */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -2154,6 +2232,7 @@
 				1FC0772C1E7B5D8E00076178 /* PBXTargetDependency */,
 				1FC077451E7B5E2F00076178 /* PBXTargetDependency */,
 				1FC0775A1E7B5EAA00076178 /* PBXTargetDependency */,
+				1FC0776B1E7B5F1400076178 /* PBXTargetDependency */,
 			);
 			name = ClusterfuckMac;
 			productName = ClusterfuckMac;
@@ -2245,6 +2324,23 @@
 			name = MyMacContentBlocker;
 			productName = MyMacContentBlocker;
 			productReference = 1FC0774E1E7B5EAA00076178 /* MyMacContentBlocker.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1FC077621E7B5F1400076178 /* MyFinderSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC0776D1E7B5F1400076178 /* Build configuration list for PBXNativeTarget "MyFinderSync" */;
+			buildPhases = (
+				1FC0775F1E7B5F1400076178 /* Sources */,
+				1FC077601E7B5F1400076178 /* Frameworks */,
+				1FC077611E7B5F1400076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFinderSync;
+			productName = MyFinderSync;
+			productReference = 1FC077631E7B5F1400076178 /* MyFinderSync.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -2458,6 +2554,16 @@
 						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
 					};
+					1FC077621E7B5F1400076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+					};
+					1FC077701E7B661800076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Clusterfuck" */;
@@ -2473,6 +2579,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				1FC077701E7B661800076178 /* ALL_BUILD */,
 				1FC074801E7B41AD00076178 /* Clusterfuck */,
 				1FC074941E7B41AD00076178 /* ClusterfuckTests */,
 				1FC0749F1E7B41AD00076178 /* ClusterfuckUITests */,
@@ -2512,6 +2619,7 @@
 				1FC0771E1E7B5D8E00076178 /* MyMaction */,
 				1FC077351E7B5E2F00076178 /* MyMacAudioUnit */,
 				1FC0774D1E7B5EAA00076178 /* MyMacContentBlocker */,
+				1FC077621E7B5F1400076178 /* MyFinderSync */,
 			);
 		};
 /* End PBXProject section */
@@ -2816,6 +2924,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC077531E7B5EAA00076178 /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC077611E7B5F1400076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3136,6 +3251,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC0775F1E7B5F1400076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC077681E7B5F1400076178 /* FinderSync.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -3318,6 +3441,26 @@
 			isa = PBXTargetDependency;
 			target = 1FC0774D1E7B5EAA00076178 /* MyMacContentBlocker */;
 			targetProxy = 1FC077591E7B5EAA00076178 /* PBXContainerItemProxy */;
+		};
+		1FC0776B1E7B5F1400076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC077621E7B5F1400076178 /* MyFinderSync */;
+			targetProxy = 1FC0776A1E7B5F1400076178 /* PBXContainerItemProxy */;
+		};
+		1FC077751E7B662900076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC074801E7B41AD00076178 /* Clusterfuck */;
+			targetProxy = 1FC077741E7B662900076178 /* PBXContainerItemProxy */;
+		};
+		1FC077771E7B662900076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC0766F1E7B507800076178 /* ClusterfuckTV */;
+			targetProxy = 1FC077761E7B662900076178 /* PBXContainerItemProxy */;
+		};
+		1FC077791E7B662900076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC076EA1E7B540F00076178 /* ClusterfuckMac */;
+			targetProxy = 1FC077781E7B662900076178 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -4776,6 +4919,58 @@
 			};
 			name = Release;
 		};
+		1FC0776E1E7B5F1400076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MyFinderSync/MyFinderSync.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyFinderSync/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckMac.MyFinderSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FC0776F1E7B5F1400076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MyFinderSync/MyFinderSync.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyFinderSync/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckMac.MyFinderSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1FC077721E7B661800076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FC077731E7B661800076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -5100,6 +5295,22 @@
 			buildConfigurations = (
 				1FC0775D1E7B5EAA00076178 /* Debug */,
 				1FC0775E1E7B5EAA00076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC0776D1E7B5F1400076178 /* Build configuration list for PBXNativeTarget "MyFinderSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC0776E1E7B5F1400076178 /* Debug */,
+				1FC0776F1E7B5F1400076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC077711E7B661800076178 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC077721E7B661800076178 /* Debug */,
+				1FC077731E7B661800076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
