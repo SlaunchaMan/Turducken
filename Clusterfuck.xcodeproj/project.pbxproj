@@ -125,6 +125,10 @@
 		1FC077261E7B5D8E00076178 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC077251E7B5D8E00076178 /* ActionViewController.swift */; };
 		1FC077291E7B5D8E00076178 /* ActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FC077271E7B5D8E00076178 /* ActionViewController.xib */; };
 		1FC0772D1E7B5D8E00076178 /* MyMaction.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC0771F1E7B5D8E00076178 /* MyMaction.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FC0773A1E7B5E2F00076178 /* MyMacAudioUnitAudioUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC077391E7B5E2F00076178 /* MyMacAudioUnitAudioUnit.m */; };
+		1FC0773E1E7B5E2F00076178 /* AudioUnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0773D1E7B5E2F00076178 /* AudioUnitViewController.swift */; };
+		1FC077411E7B5E2F00076178 /* AudioUnitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FC0773F1E7B5E2F00076178 /* AudioUnitViewController.xib */; };
+		1FC077461E7B5E2F00076178 /* MyMacAudioUnit.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC077361E7B5E2F00076178 /* MyMacAudioUnit.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -366,6 +370,13 @@
 			remoteGlobalIDString = 1FC0771E1E7B5D8E00076178;
 			remoteInfo = MyMaction;
 		};
+		1FC077441E7B5E2F00076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC077351E7B5E2F00076178;
+			remoteInfo = MyMacAudioUnit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -453,6 +464,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				1FC0772D1E7B5D8E00076178 /* MyMaction.appex in Embed App Extensions */,
+				1FC077461E7B5E2F00076178 /* MyMacAudioUnit.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -622,6 +634,14 @@
 		1FC077251E7B5D8E00076178 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		1FC077281E7B5D8E00076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ActionViewController.xib; sourceTree = "<group>"; };
 		1FC0772A1E7B5D8E00076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC077361E7B5E2F00076178 /* MyMacAudioUnit.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyMacAudioUnit.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC077381E7B5E2F00076178 /* MyMacAudioUnitAudioUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMacAudioUnitAudioUnit.h; sourceTree = "<group>"; };
+		1FC077391E7B5E2F00076178 /* MyMacAudioUnitAudioUnit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMacAudioUnitAudioUnit.m; sourceTree = "<group>"; };
+		1FC0773C1E7B5E2F00076178 /* MyMacAudioUnit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyMacAudioUnit.entitlements; sourceTree = "<group>"; };
+		1FC0773D1E7B5E2F00076178 /* AudioUnitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitViewController.swift; sourceTree = "<group>"; };
+		1FC077401E7B5E2F00076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AudioUnitViewController.xib; sourceTree = "<group>"; };
+		1FC077421E7B5E2F00076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC077431E7B5E2F00076178 /* MyMacAudioUnit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyMacAudioUnit-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -895,6 +915,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC077331E7B5E2F00076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -950,6 +977,7 @@
 				1FC076FB1E7B541000076178 /* ClusterfuckMacTests.xctest */,
 				1FC077061E7B541000076178 /* ClusterfuckMacUITests.xctest */,
 				1FC0771F1E7B5D8E00076178 /* MyMaction.appex */,
+				1FC077361E7B5E2F00076178 /* MyMacAudioUnit.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1418,6 +1446,7 @@
 				1FC076FE1E7B541000076178 /* ClusterfuckMacTests */,
 				1FC077091E7B541000076178 /* ClusterfuckMacUITests */,
 				1FC077201E7B5D8E00076178 /* MyMaction */,
+				1FC077371E7B5E2F00076178 /* MyMacAudioUnit */,
 			);
 			name = macOS;
 			sourceTree = "<group>";
@@ -1438,6 +1467,28 @@
 			children = (
 				1FC077221E7B5D8E00076178 /* icon.icns */,
 				1FC077241E7B5D8E00076178 /* MyMaction.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FC077371E7B5E2F00076178 /* MyMacAudioUnit */ = {
+			isa = PBXGroup;
+			children = (
+				1FC077381E7B5E2F00076178 /* MyMacAudioUnitAudioUnit.h */,
+				1FC077391E7B5E2F00076178 /* MyMacAudioUnitAudioUnit.m */,
+				1FC0773D1E7B5E2F00076178 /* AudioUnitViewController.swift */,
+				1FC0773F1E7B5E2F00076178 /* AudioUnitViewController.xib */,
+				1FC077421E7B5E2F00076178 /* Info.plist */,
+				1FC077431E7B5E2F00076178 /* MyMacAudioUnit-Bridging-Header.h */,
+				1FC0773B1E7B5E2F00076178 /* Supporting Files */,
+			);
+			path = MyMacAudioUnit;
+			sourceTree = "<group>";
+		};
+		1FC0773B1E7B5E2F00076178 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0773C1E7B5E2F00076178 /* MyMacAudioUnit.entitlements */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -2053,6 +2104,7 @@
 			);
 			dependencies = (
 				1FC0772C1E7B5D8E00076178 /* PBXTargetDependency */,
+				1FC077451E7B5E2F00076178 /* PBXTargetDependency */,
 			);
 			name = ClusterfuckMac;
 			productName = ClusterfuckMac;
@@ -2110,6 +2162,23 @@
 			name = MyMaction;
 			productName = MyMaction;
 			productReference = 1FC0771F1E7B5D8E00076178 /* MyMaction.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1FC077351E7B5E2F00076178 /* MyMacAudioUnit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC077471E7B5E2F00076178 /* Build configuration list for PBXNativeTarget "MyMacAudioUnit" */;
+			buildPhases = (
+				1FC077321E7B5E2F00076178 /* Sources */,
+				1FC077331E7B5E2F00076178 /* Frameworks */,
+				1FC077341E7B5E2F00076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMacAudioUnit;
+			productName = MyMacAudioUnit;
+			productReference = 1FC077361E7B5E2F00076178 /* MyMacAudioUnit.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -2313,6 +2382,11 @@
 						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
 					};
+					1FC077351E7B5E2F00076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Clusterfuck" */;
@@ -2365,6 +2439,7 @@
 				1FC076FA1E7B541000076178 /* ClusterfuckMacTests */,
 				1FC077051E7B541000076178 /* ClusterfuckMacUITests */,
 				1FC0771E1E7B5D8E00076178 /* MyMaction */,
+				1FC077351E7B5E2F00076178 /* MyMacAudioUnit */,
 			);
 		};
 /* End PBXProject section */
@@ -2653,6 +2728,14 @@
 			files = (
 				1FC077291E7B5D8E00076178 /* ActionViewController.xib in Resources */,
 				1FC077231E7B5D8E00076178 /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC077341E7B5E2F00076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC077411E7B5E2F00076178 /* AudioUnitViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2956,6 +3039,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC077321E7B5E2F00076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC0773A1E7B5E2F00076178 /* MyMacAudioUnitAudioUnit.m in Sources */,
+				1FC0773E1E7B5E2F00076178 /* AudioUnitViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -3129,6 +3221,11 @@
 			target = 1FC0771E1E7B5D8E00076178 /* MyMaction */;
 			targetProxy = 1FC0772B1E7B5D8E00076178 /* PBXContainerItemProxy */;
 		};
+		1FC077451E7B5E2F00076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC077351E7B5E2F00076178 /* MyMacAudioUnit */;
+			targetProxy = 1FC077441E7B5E2F00076178 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -3282,6 +3379,14 @@
 				1FC077281E7B5D8E00076178 /* Base */,
 			);
 			name = ActionViewController.xib;
+			sourceTree = "<group>";
+		};
+		1FC0773F1E7B5E2F00076178 /* AudioUnitViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC077401E7B5E2F00076178 /* Base */,
+			);
+			name = AudioUnitViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -4508,6 +4613,42 @@
 			};
 			name = Release;
 		};
+		1FC077481E7B5E2F00076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MyMacAudioUnit/MyMacAudioUnit.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyMacAudioUnit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckMac.MyMacAudioUnit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyMacAudioUnit/MyMacAudioUnit-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FC077491E7B5E2F00076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MyMacAudioUnit/MyMacAudioUnit.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MyMacAudioUnit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckMac.MyMacAudioUnit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyMacAudioUnit/MyMacAudioUnit-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -4816,6 +4957,14 @@
 			buildConfigurations = (
 				1FC0772F1E7B5D8E00076178 /* Debug */,
 				1FC077301E7B5D8E00076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC077471E7B5E2F00076178 /* Build configuration list for PBXNativeTarget "MyMacAudioUnit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC077481E7B5E2F00076178 /* Debug */,
+				1FC077491E7B5E2F00076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
