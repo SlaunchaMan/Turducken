@@ -529,13 +529,6 @@
 			remoteGlobalIDString = 1FC078411E7B691100076178;
 			remoteInfo = MyFramework;
 		};
-		1FC0784E1E7B691200076178 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FC074801E7B41AD00076178;
-			remoteInfo = Clusterfuck;
-		};
 		1FC078551E7B691200076178 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
@@ -557,13 +550,6 @@
 			remoteGlobalIDString = 1FC078761E7B698800076178;
 			remoteInfo = "MyFramework-tvOS";
 		};
-		1FC078831E7B698900076178 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FC0766F1E7B507800076178;
-			remoteInfo = ClusterfuckTV;
-		};
 		1FC0788A1E7B698900076178 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
@@ -577,13 +563,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1FC078981E7B699800076178;
 			remoteInfo = "MyFramework-macOS";
-		};
-		1FC078A51E7B699800076178 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FC076EA1E7B540F00076178;
-			remoteInfo = ClusterfuckMac;
 		};
 		1FC078AC1E7B699800076178 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -3116,7 +3095,6 @@
 			);
 			dependencies = (
 				1FC0784D1E7B691200076178 /* PBXTargetDependency */,
-				1FC0784F1E7B691200076178 /* PBXTargetDependency */,
 			);
 			name = MyFrameworkTests;
 			productName = MyFrameworkTests;
@@ -3171,7 +3149,6 @@
 			);
 			dependencies = (
 				1FC078821E7B698900076178 /* PBXTargetDependency */,
-				1FC078841E7B698900076178 /* PBXTargetDependency */,
 			);
 			name = "MyFramework-tvOSTests";
 			productName = "MyFramework-tvOSTests";
@@ -3208,7 +3185,6 @@
 			);
 			dependencies = (
 				1FC078A41E7B699800076178 /* PBXTargetDependency */,
-				1FC078A61E7B699800076178 /* PBXTargetDependency */,
 			);
 			name = "MyFramework-macOSTests";
 			productName = "MyFramework-macOSTests";
@@ -3476,7 +3452,6 @@
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 1FC074801E7B41AD00076178;
 					};
 					1FC078641E7B695600076178 = {
 						CreatedOnToolsVersion = 8.3;
@@ -3494,7 +3469,6 @@
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 1FC0766F1E7B507800076178;
 					};
 					1FC078981E7B699800076178 = {
 						CreatedOnToolsVersion = 8.3;
@@ -3506,7 +3480,6 @@
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 1FC076EA1E7B540F00076178;
 					};
 				};
 			};
@@ -4666,11 +4639,6 @@
 			target = 1FC078411E7B691100076178 /* MyFramework */;
 			targetProxy = 1FC0784C1E7B691200076178 /* PBXContainerItemProxy */;
 		};
-		1FC0784F1E7B691200076178 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FC074801E7B41AD00076178 /* Clusterfuck */;
-			targetProxy = 1FC0784E1E7B691200076178 /* PBXContainerItemProxy */;
-		};
 		1FC078561E7B691200076178 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1FC078411E7B691100076178 /* MyFramework */;
@@ -4686,11 +4654,6 @@
 			target = 1FC078761E7B698800076178 /* MyFramework-tvOS */;
 			targetProxy = 1FC078811E7B698900076178 /* PBXContainerItemProxy */;
 		};
-		1FC078841E7B698900076178 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FC0766F1E7B507800076178 /* ClusterfuckTV */;
-			targetProxy = 1FC078831E7B698900076178 /* PBXContainerItemProxy */;
-		};
 		1FC0788B1E7B698900076178 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1FC078761E7B698800076178 /* MyFramework-tvOS */;
@@ -4700,11 +4663,6 @@
 			isa = PBXTargetDependency;
 			target = 1FC078981E7B699800076178 /* MyFramework-macOS */;
 			targetProxy = 1FC078A31E7B699800076178 /* PBXContainerItemProxy */;
-		};
-		1FC078A61E7B699800076178 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FC076EA1E7B540F00076178 /* ClusterfuckMac */;
-			targetProxy = 1FC078A51E7B699800076178 /* PBXContainerItemProxy */;
 		};
 		1FC078AD1E7B699800076178 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -6562,7 +6520,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.MyFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clusterfuck.app/Clusterfuck";
 			};
 			name = Debug;
 		};
@@ -6577,7 +6534,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.MyFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clusterfuck.app/Clusterfuck";
 			};
 			name = Release;
 		};
@@ -6706,7 +6662,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClusterfuckTV.app/ClusterfuckTV";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
@@ -6722,7 +6677,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClusterfuckTV.app/ClusterfuckTV";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
@@ -6800,7 +6754,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClusterfuckMac.app/Contents/MacOS/ClusterfuckMac";
 			};
 			name = Debug;
 		};
@@ -6818,7 +6771,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClusterfuckMac.app/Contents/MacOS/ClusterfuckMac";
 			};
 			name = Release;
 		};
