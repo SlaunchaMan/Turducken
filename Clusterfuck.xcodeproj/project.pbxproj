@@ -140,6 +140,13 @@
 		1FC077851E7B668100076178 /* PhotoEditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC077841E7B668100076178 /* PhotoEditingViewController.swift */; };
 		1FC077881E7B668100076178 /* PhotoEditingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FC077861E7B668100076178 /* PhotoEditingViewController.xib */; };
 		1FC0778C1E7B668100076178 /* MyMacPhotoEditing.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC0777E1E7B668100076178 /* MyMacPhotoEditing.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FC077951E7B66C200076178 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC0774F1E7B5EAA00076178 /* Cocoa.framework */; };
+		1FC0779A1E7B66C200076178 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC077991E7B66C200076178 /* SafariExtensionHandler.swift */; };
+		1FC0779C1E7B66C200076178 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0779B1E7B66C200076178 /* SafariExtensionViewController.swift */; };
+		1FC0779F1E7B66C200076178 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FC0779D1E7B66C200076178 /* SafariExtensionViewController.xib */; };
+		1FC077A21E7B66C200076178 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1FC077A11E7B66C200076178 /* script.js */; };
+		1FC077A41E7B66C200076178 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1FC077A31E7B66C200076178 /* ToolbarItemIcon.pdf */; };
+		1FC077A71E7B66C200076178 /* MySafariExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC077941E7B66C200076178 /* MySafariExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -409,6 +416,13 @@
 			remoteGlobalIDString = 1FC0777D1E7B668100076178;
 			remoteInfo = MyMacPhotoEditing;
 		};
+		1FC077A51E7B66C200076178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC077931E7B66C200076178;
+			remoteInfo = MySafariExtension;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -499,6 +513,7 @@
 				1FC0776C1E7B5F1400076178 /* MyFinderSync.appex in Embed App Extensions */,
 				1FC0778C1E7B668100076178 /* MyMacPhotoEditing.appex in Embed App Extensions */,
 				1FC0772D1E7B5D8E00076178 /* MyMaction.appex in Embed App Extensions */,
+				1FC077A71E7B66C200076178 /* MySafariExtension.appex in Embed App Extensions */,
 				1FC077461E7B5E2F00076178 /* MyMacAudioUnit.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -692,6 +707,14 @@
 		1FC077841E7B668100076178 /* PhotoEditingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditingViewController.swift; sourceTree = "<group>"; };
 		1FC077871E7B668100076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PhotoEditingViewController.xib; sourceTree = "<group>"; };
 		1FC077891E7B668100076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC077941E7B66C200076178 /* MySafariExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MySafariExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC077981E7B66C200076178 /* MySafariExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MySafariExtension.entitlements; sourceTree = "<group>"; };
+		1FC077991E7B66C200076178 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		1FC0779B1E7B66C200076178 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		1FC0779E1E7B66C200076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		1FC077A01E7B66C200076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC077A11E7B66C200076178 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		1FC077A31E7B66C200076178 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -996,6 +1019,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC077911E7B66C200076178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC077951E7B66C200076178 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1006,7 +1037,6 @@
 				1FC077181E7B5C5D00076178 /* watchOS */,
 				1FC077191E7B5C6500076178 /* tvOS */,
 				1FC0771A1E7B5C6B00076178 /* macOS */,
-				1FC077811E7B668100076178 /* MyMacPhotoEditing */,
 				1FC074E01E7B456C00076178 /* Frameworks */,
 				1FC074821E7B41AD00076178 /* Products */,
 			);
@@ -1056,6 +1086,7 @@
 				1FC0774E1E7B5EAA00076178 /* MyMacContentBlocker.appex */,
 				1FC077631E7B5F1400076178 /* MyFinderSync.appex */,
 				1FC0777E1E7B668100076178 /* MyMacPhotoEditing.appex */,
+				1FC077941E7B66C200076178 /* MySafariExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1528,6 +1559,8 @@
 				1FC077371E7B5E2F00076178 /* MyMacAudioUnit */,
 				1FC077511E7B5EAA00076178 /* MyMacContentBlocker */,
 				1FC077641E7B5F1400076178 /* MyFinderSync */,
+				1FC077811E7B668100076178 /* MyMacPhotoEditing */,
+				1FC077961E7B66C200076178 /* MySafariExtension */,
 			);
 			name = macOS;
 			sourceTree = "<group>";
@@ -1626,6 +1659,28 @@
 			isa = PBXGroup;
 			children = (
 				1FC077831E7B668100076178 /* MyMacPhotoEditing.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FC077961E7B66C200076178 /* MySafariExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1FC077991E7B66C200076178 /* SafariExtensionHandler.swift */,
+				1FC0779B1E7B66C200076178 /* SafariExtensionViewController.swift */,
+				1FC0779D1E7B66C200076178 /* SafariExtensionViewController.xib */,
+				1FC077A01E7B66C200076178 /* Info.plist */,
+				1FC077A11E7B66C200076178 /* script.js */,
+				1FC077A31E7B66C200076178 /* ToolbarItemIcon.pdf */,
+				1FC077971E7B66C200076178 /* Supporting Files */,
+			);
+			path = MySafariExtension;
+			sourceTree = "<group>";
+		};
+		1FC077971E7B66C200076178 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FC077981E7B66C200076178 /* MySafariExtension.entitlements */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -2245,6 +2300,7 @@
 				1FC0775A1E7B5EAA00076178 /* PBXTargetDependency */,
 				1FC0776B1E7B5F1400076178 /* PBXTargetDependency */,
 				1FC0778B1E7B668100076178 /* PBXTargetDependency */,
+				1FC077A61E7B66C200076178 /* PBXTargetDependency */,
 			);
 			name = ClusterfuckMac;
 			productName = ClusterfuckMac;
@@ -2370,6 +2426,23 @@
 			name = MyMacPhotoEditing;
 			productName = MyMacPhotoEditing;
 			productReference = 1FC0777E1E7B668100076178 /* MyMacPhotoEditing.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1FC077931E7B66C200076178 /* MySafariExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC077A81E7B66C300076178 /* Build configuration list for PBXNativeTarget "MySafariExtension" */;
+			buildPhases = (
+				1FC077901E7B66C200076178 /* Sources */,
+				1FC077911E7B66C200076178 /* Frameworks */,
+				1FC077921E7B66C200076178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySafariExtension;
+			productName = MySafariExtension;
+			productReference = 1FC077941E7B66C200076178 /* MySafariExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -2593,6 +2666,11 @@
 						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
 					};
+					1FC077931E7B66C200076178 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UCFNS9576M;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Clusterfuck" */;
@@ -2649,6 +2727,7 @@
 				1FC0774D1E7B5EAA00076178 /* MyMacContentBlocker */,
 				1FC077621E7B5F1400076178 /* MyFinderSync */,
 				1FC0777D1E7B668100076178 /* MyMacPhotoEditing */,
+				1FC077931E7B66C200076178 /* MySafariExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -2968,6 +3047,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC077881E7B668100076178 /* PhotoEditingViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC077921E7B66C200076178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC077A41E7B66C200076178 /* ToolbarItemIcon.pdf in Resources */,
+				1FC0779F1E7B66C200076178 /* SafariExtensionViewController.xib in Resources */,
+				1FC077A21E7B66C200076178 /* script.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3304,6 +3393,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC077901E7B66C200076178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC0779C1E7B66C200076178 /* SafariExtensionViewController.swift in Sources */,
+				1FC0779A1E7B66C200076178 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -3497,6 +3595,11 @@
 			target = 1FC0777D1E7B668100076178 /* MyMacPhotoEditing */;
 			targetProxy = 1FC0778A1E7B668100076178 /* PBXContainerItemProxy */;
 		};
+		1FC077A61E7B66C200076178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC077931E7B66C200076178 /* MySafariExtension */;
+			targetProxy = 1FC077A51E7B66C200076178 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -3666,6 +3769,14 @@
 				1FC077871E7B668100076178 /* Base */,
 			);
 			name = PhotoEditingViewController.xib;
+			sourceTree = "<group>";
+		};
+		1FC0779D1E7B66C200076178 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC0779E1E7B66C200076178 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -5032,6 +5143,40 @@
 			};
 			name = Release;
 		};
+		1FC077A91E7B66C300076178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MySafariExtension/MySafariExtension.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MySafariExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckMac.MySafariExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FC077AA1E7B66C300076178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MySafariExtension/MySafariExtension.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				INFOPLIST_FILE = MySafariExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.ClusterfuckMac.MySafariExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -5372,6 +5517,14 @@
 			buildConfigurations = (
 				1FC0778E1E7B668200076178 /* Debug */,
 				1FC0778F1E7B668200076178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC077A81E7B66C300076178 /* Build configuration list for PBXNativeTarget "MySafariExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC077A91E7B66C300076178 /* Debug */,
+				1FC077AA1E7B66C300076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
