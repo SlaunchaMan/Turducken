@@ -6,22 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		1FC077701E7B661800076178 /* ALL_BUILD */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 1FC077711E7B661800076178 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
-			buildPhases = (
-			);
-			dependencies = (
-				1FC077751E7B662900076178 /* PBXTargetDependency */,
-				1FC077771E7B662900076178 /* PBXTargetDependency */,
-				1FC077791E7B662900076178 /* PBXTargetDependency */,
-			);
-			name = ALL_BUILD;
-			productName = ALL_BUILD;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		1FC074851E7B41AD00076178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC074841E7B41AD00076178 /* AppDelegate.swift */; };
 		1FC074871E7B41AD00076178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC074861E7B41AD00076178 /* ViewController.swift */; };
@@ -412,27 +396,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1FC077621E7B5F1400076178;
 			remoteInfo = MyFinderSync;
-		};
-		1FC077741E7B662900076178 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FC074801E7B41AD00076178;
-			remoteInfo = Clusterfuck;
-		};
-		1FC077761E7B662900076178 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FC0766F1E7B507800076178;
-			remoteInfo = ClusterfuckTV;
-		};
-		1FC077781E7B662900076178 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FC076EA1E7B540F00076178;
-			remoteInfo = ClusterfuckMac;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -2559,11 +2522,6 @@
 						DevelopmentTeam = UCFNS9576M;
 						ProvisioningStyle = Automatic;
 					};
-					1FC077701E7B661800076178 = {
-						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = UCFNS9576M;
-						ProvisioningStyle = Automatic;
-					};
 				};
 			};
 			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Clusterfuck" */;
@@ -2579,7 +2537,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1FC077701E7B661800076178 /* ALL_BUILD */,
 				1FC074801E7B41AD00076178 /* Clusterfuck */,
 				1FC074941E7B41AD00076178 /* ClusterfuckTests */,
 				1FC0749F1E7B41AD00076178 /* ClusterfuckUITests */,
@@ -3446,21 +3403,6 @@
 			isa = PBXTargetDependency;
 			target = 1FC077621E7B5F1400076178 /* MyFinderSync */;
 			targetProxy = 1FC0776A1E7B5F1400076178 /* PBXContainerItemProxy */;
-		};
-		1FC077751E7B662900076178 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FC074801E7B41AD00076178 /* Clusterfuck */;
-			targetProxy = 1FC077741E7B662900076178 /* PBXContainerItemProxy */;
-		};
-		1FC077771E7B662900076178 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FC0766F1E7B507800076178 /* ClusterfuckTV */;
-			targetProxy = 1FC077761E7B662900076178 /* PBXContainerItemProxy */;
-		};
-		1FC077791E7B662900076178 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FC076EA1E7B540F00076178 /* ClusterfuckMac */;
-			targetProxy = 1FC077781E7B662900076178 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -4955,22 +4897,6 @@
 			};
 			name = Release;
 		};
-		1FC077721E7B661800076178 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = UCFNS9576M;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		1FC077731E7B661800076178 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = UCFNS9576M;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -5303,14 +5229,6 @@
 			buildConfigurations = (
 				1FC0776E1E7B5F1400076178 /* Debug */,
 				1FC0776F1E7B5F1400076178 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		1FC077711E7B661800076178 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1FC077721E7B661800076178 /* Debug */,
-				1FC077731E7B661800076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
