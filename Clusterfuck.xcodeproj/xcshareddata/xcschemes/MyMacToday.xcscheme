@@ -43,26 +43,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1FC078491E7B691200076178"
-               BuildableName = "MyFrameworkTests.xctest"
-               BlueprintName = "MyFrameworkTests"
-               ReferencedContainer = "container:Clusterfuck.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1FC078A01E7B699800076178"
-               BuildableName = "MyFramework-macOSTests.xctest"
-               BlueprintName = "MyFramework-macOSTests"
-               ReferencedContainer = "container:Clusterfuck.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
