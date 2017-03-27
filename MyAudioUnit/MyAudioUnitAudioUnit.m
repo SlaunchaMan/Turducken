@@ -64,18 +64,16 @@ const AudioUnitParameterID myParam1 = 0;
 // If an audio unit has input, an audio unit's audio input connection points.
 // Subclassers must override this property getter and should return the same object every time.
 // See sample code.
-- (AUAudioUnitBusArray *)inputBusses {
-//#warning implementation must return non-nil AUAudioUnitBusArray
-    return nil;
-}
+//- (AUAudioUnitBusArray *)inputBusses {
+//    return nil;
+//}
 
 // An audio unit's audio output connection points.
 // Subclassers must override this property getter and should return the same object every time.
 // See sample code.
-- (AUAudioUnitBusArray *)outputBusses {
-//#warning implementation must return non-nil AUAudioUnitBusArray
-    return nil;
-}
+//- (AUAudioUnitBusArray *)outputBusses {
+//    return nil;
+//}
 
 // Allocate resources required to render.
 // Subclassers should call the superclass implementation.
