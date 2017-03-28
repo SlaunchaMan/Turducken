@@ -8,9 +8,7 @@ env:
   - LANG=en_US.UTF-8
   matrix:
    - DESTINATION="OS=10.3,name=iPhone 7,platform=iOS Simulator" SCHEME="Clusterfuck"
-   - DESTINATION="OS=10.2,name=iPhone 7,platform=iOS Simulator" SCHEME="Clusterfuck"
    - DESTINATION="OS=10.1,name=iPhone 7,platform=iOS Simulator" SCHEME="Clusterfuck"
-   - DESTINATION="OS=10.0,name=iPhone 7,platform=iOS Simulator" SCHEME="Clusterfuck"
    - DESTINATION="OS=9.3,name=iPhone 6s,platform=iOS Simulator" SCHEME="Clusterfuck"
    - DESTINATION="OS=9.2,name=iPhone 6s,platform=iOS Simulator" SCHEME="Clusterfuck"
    - DESTINATION="OS=9.1,name=iPhone 6s,platform=iOS Simulator" SCHEME="Clusterfuck"
