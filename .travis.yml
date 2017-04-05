@@ -1,5 +1,5 @@
 language: objective-c
-osx_image: xcode8.3simfix
+osx_image: xcode8.3
 notifications:
   email: false
 env:
