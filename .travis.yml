@@ -7,27 +7,30 @@ env:
   - LC_CTYPE=en_US.UTF-8
   - LANG=en_US.UTF-8
   matrix:
-   - SCAN_DEVICE="iPhone 7 (10.3)" SCHEME="Clusterfuck"
-   - SCAN_DEVICE="iPhone 7 (10.2)" SCHEME="Clusterfuck"
-   - SCAN_DEVICE="iPhone 7 (10.1)" SCHEME="Clusterfuck"
-   - SCAN_DEVICE="iPhone 7 (10.0)" SCHEME="Clusterfuck"
-   - SCAN_DEVICE="iPhone 6s (9.3)" SCHEME="Clusterfuck"
-   - SCAN_DEVICE="iPhone 6s (9.2)" SCHEME="Clusterfuck"
-   - SCAN_DEVICE="iPhone 6s (9.1)" SCHEME="Clusterfuck"
-   - SCAN_DEVICE="iPhone 6s (9.0)" SCHEME="Clusterfuck"
-   - SCAN_DEVICE="iPhone 6 (8.4)" SCHEME="Clusterfuck-no-UI-tests"
-   - SCAN_DEVICE="iPhone 6 (8.3)" SCHEME="Clusterfuck-no-UI-tests"
-   - SCAN_DEVICE="iPhone 6 (8.2)" SCHEME="Clusterfuck-no-UI-tests"
-   - SCAN_DEVICE="iPhone 6 (8.1)" SCHEME="Clusterfuck-no-UI-tests"
+   - SCAN_DEVICE="iPhone 7 (10.3)" SCAN_SCHEME="Clusterfuck"
+   - SCAN_DEVICE="iPhone 7 (10.2)" SCAN_SCHEME="Clusterfuck"
+   - SCAN_DEVICE="iPhone 7 (10.1)" SCAN_SCHEME="Clusterfuck"
+   - SCAN_DEVICE="iPhone 7 (10.0)" SCAN_SCHEME="Clusterfuck"
+   - SCAN_DEVICE="iPhone 6s (9.3)" SCAN_SCHEME="Clusterfuck"
+   - SCAN_DEVICE="iPhone 6s (9.2)" SCAN_SCHEME="Clusterfuck"
+   - SCAN_DEVICE="iPhone 6s (9.1)" SCAN_SCHEME="Clusterfuck"
+   - SCAN_DEVICE="iPhone 6s (9.0)" SCAN_SCHEME="Clusterfuck"
+   - SCAN_DEVICE="iPhone 6 (8.4)" SCAN_SCHEME="Clusterfuck-no-UI-tests"
+   - SCAN_DEVICE="iPhone 6 (8.3)" SCAN_SCHEME="Clusterfuck-no-UI-tests"
+   - SCAN_DEVICE="iPhone 6 (8.2)" SCAN_SCHEME="Clusterfuck-no-UI-tests"
+   - SCAN_DEVICE="iPhone 6 (8.1)" SCAN_SCHEME="Clusterfuck-no-UI-tests"
 
-   - SCAN_DEVICE="Apple TV 1080p (10.2)" SCHEME="ClusterfuckTV"
-   - SCAN_DEVICE="Apple TV 1080p (10.1)" SCHEME="ClusterfuckTV"
-   - SCAN_DEVICE="Apple TV 1080p (10.0)" SCHEME="ClusterfuckTV"
-   - SCAN_DEVICE="Apple TV 1080p (9.2)" SCHEME="ClusterfuckTV"
-   - SCAN_DEVICE="Apple TV 1080p (9.1)" SCHEME="ClusterfuckTV"
-   - SCAN_DEVICE="Apple TV 1080p (9.0)" SCHEME="ClusterfuckTV"
+   - SCAN_DEVICE="Apple TV 1080p (10.2)" SCAN_SCHEME="ClusterfuckTV"
+   - SCAN_DEVICE="Apple TV 1080p (10.1)" SCAN_SCHEME="ClusterfuckTV"
+   - SCAN_DEVICE="Apple TV 1080p (10.0)" SCAN_SCHEME="ClusterfuckTV"
+   - SCAN_DEVICE="Apple TV 1080p (9.2)" SCAN_SCHEME="ClusterfuckTV"
+   - SCAN_DEVICE="Apple TV 1080p (9.1)" SCAN_SCHEME="ClusterfuckTV"
+   - SCAN_DEVICE="Apple TV 1080p (9.0)" SCAN_SCHEME="ClusterfuckTV"
 
-   - SCAN_DEVICE="arch=x86_64" SCHEME="ClusterfuckMac"
+   - SCAN_DEVICE="arch=x86_64" SCAN_SCHEME="ClusterfuckMac"
+
+install:
+  - bundle update
 
 script:
-  - fastlane scan --scheme="$SCHEME"
+  - bundle exec fastlane scan
