@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>MySmartCardToken</string>
+	<string>TurduckenWatch Extension</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -20,25 +20,29 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>LSMinimumSystemVersion</key>
-	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>CLKComplicationPrincipalClass</key>
+	<string>$(PRODUCT_MODULE_NAME).ComplicationController</string>
+	<key>CLKComplicationSupportedFamilies</key>
+	<array>
+		<string>CLKComplicationFamilyModularSmall</string>
+		<string>CLKComplicationFamilyModularLarge</string>
+		<string>CLKComplicationFamilyUtilitarianSmall</string>
+		<string>CLKComplicationFamilyUtilitarianSmallFlat</string>
+		<string>CLKComplicationFamilyUtilitarianLarge</string>
+		<string>CLKComplicationFamilyCircularSmall</string>
+		<string>CLKComplicationFamilyExtraLarge</string>
+	</array>
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionAttributes</key>
 		<dict>
-			<key>com.apple.ctk.aid</key>
-			<string>uhhhhhhh</string>
-			<key>com.apple.ctk.class-id</key>
-			<string>com.slaunchaman.TurduckenMac.MySmartCardToken</string>
-			<key>com.apple.ctk.driver-class</key>
-			<string>$(PRODUCT_MODULE_NAME).TokenDriver</string>
-			<key>com.apple.ctk.token-type</key>
-			<string>smartcard</string>
+			<key>WKAppBundleIdentifier</key>
+			<string>com.slaunchaman.Turducken.watchkitapp</string>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
-		<string>com.apple.ctk-tokens</string>
+		<string>com.apple.watchkit</string>
 	</dict>
-	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2017 Jeff Kelley. All rights reserved.</string>
+	<key>WKExtensionDelegateClassName</key>
+	<string>$(PRODUCT_MODULE_NAME).ExtensionDelegate</string>
 </dict>
 </plist>
