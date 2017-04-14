@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -3197,6 +3197,7 @@
 		1FC074791E7B41AD00076178 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JK;
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Jeff Kelley";
@@ -3489,7 +3490,7 @@
 				};
 			};
 			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Turducken" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
