@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F338A0D1EF5503F00C2D16C /* FileProviderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F338A0C1EF5503F00C2D16C /* FileProviderExtension.swift */; };
+		1F338A0F1EF5503F00C2D16C /* FileProviderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F338A0E1EF5503F00C2D16C /* FileProviderItem.swift */; };
+		1F338A111EF5503F00C2D16C /* FileProviderEnumerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F338A101EF5503F00C2D16C /* FileProviderEnumerator.swift */; };
+		1F338A161EF5503F00C2D16C /* MyFileProvider.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F338A0A1EF5503F00C2D16C /* MyFileProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F338A1A1EF5505D00C2D16C /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F8264541E7B6FAB00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F8264551E7B6FEA00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F8264561E7B6FEF00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
@@ -214,6 +219,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1F338A141EF5503F00C2D16C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F338A091EF5503F00C2D16C;
+			remoteInfo = MyFileProvider;
+		};
 		1FC074961E7B41AD00076178 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
@@ -583,6 +595,7 @@
 				1FC0760C1E7B4E8000076178 /* MySpotlightIndex.appex in Embed App Extensions */,
 				1FC075621E7B4BD300076178 /* MyDocumentProviderFileProvider.appex in Embed App Extensions */,
 				1FC075EE1E7B4E0300076178 /* MyShare.appex in Embed App Extensions */,
+				1F338A161EF5503F00C2D16C /* MyFileProvider.appex in Embed App Extensions */,
 				1FC075341E7B471A00076178 /* MyContentBlocker.appex in Embed App Extensions */,
 				1FC074C01E7B424300076178 /* MyAction.appex in Embed App Extensions */,
 				1FC0762D1E7B4EE500076178 /* MyToday.appex in Embed App Extensions */,
@@ -719,6 +732,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F338A0A1EF5503F00C2D16C /* MyFileProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyFileProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F338A0C1EF5503F00C2D16C /* FileProviderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProviderExtension.swift; sourceTree = "<group>"; };
+		1F338A0E1EF5503F00C2D16C /* FileProviderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProviderItem.swift; sourceTree = "<group>"; };
+		1F338A101EF5503F00C2D16C /* FileProviderEnumerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProviderEnumerator.swift; sourceTree = "<group>"; };
+		1F338A121EF5503F00C2D16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F338A131EF5503F00C2D16C /* MyFileProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyFileProvider.entitlements; sourceTree = "<group>"; };
 		1FC074811E7B41AD00076178 /* Turducken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turducken.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC074841E7B41AD00076178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FC074861E7B41AD00076178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -954,6 +973,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1F338A071EF5503F00C2D16C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F338A1A1EF5505D00C2D16C /* MyFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1FC0747E1E7B41AD00076178 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1382,6 +1409,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F338A0B1EF5503F00C2D16C /* MyFileProvider */ = {
+			isa = PBXGroup;
+			children = (
+				1F338A0C1EF5503F00C2D16C /* FileProviderExtension.swift */,
+				1F338A0E1EF5503F00C2D16C /* FileProviderItem.swift */,
+				1F338A101EF5503F00C2D16C /* FileProviderEnumerator.swift */,
+				1F338A121EF5503F00C2D16C /* Info.plist */,
+				1F338A131EF5503F00C2D16C /* MyFileProvider.entitlements */,
+			);
+			path = MyFileProvider;
+			sourceTree = "<group>";
+		};
 		1FC074781E7B41AD00076178 = {
 			isa = PBXGroup;
 			children = (
@@ -1453,6 +1492,7 @@
 				1FC0787F1E7B698900076178 /* MyFramework-tvOSTests.xctest */,
 				1FC078991E7B699800076178 /* MyFramework.framework */,
 				1FC078A11E7B699800076178 /* MyFramework-macOSTests.xctest */,
+				1F338A0A1EF5503F00C2D16C /* MyFileProvider.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1877,6 +1917,7 @@
 				1FC0753D1E7B47F900076178 /* MyCustomKeyboard */,
 				1FC0754C1E7B4BD200076178 /* MyDocumentProvider */,
 				1FC0755A1E7B4BD300076178 /* MyDocumentProviderFileProvider */,
+				1F338A0B1EF5503F00C2D16C /* MyFileProvider */,
 				1FC075731E7B4CA400076178 /* MyiMessage */,
 				1FC075871E7B4CD300076178 /* MyIntents */,
 				1FC075921E7B4CD400076178 /* MyIntentsUI */,
@@ -2210,6 +2251,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1F338A091EF5503F00C2D16C /* MyFileProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F338A171EF5503F00C2D16C /* Build configuration list for PBXNativeTarget "MyFileProvider" */;
+			buildPhases = (
+				1F338A061EF5503F00C2D16C /* Sources */,
+				1F338A071EF5503F00C2D16C /* Frameworks */,
+				1F338A081EF5503F00C2D16C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFileProvider;
+			productName = MyFileProvider;
+			productReference = 1F338A0A1EF5503F00C2D16C /* MyFileProvider.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		1FC074801E7B41AD00076178 /* Turducken */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FC074A91E7B41AD00076178 /* Build configuration list for PBXNativeTarget "Turducken" */;
@@ -2246,6 +2304,7 @@
 				1FC0762C1E7B4EE500076178 /* PBXTargetDependency */,
 				1FC076521E7B4F2200076178 /* PBXTargetDependency */,
 				1FC078561E7B691200076178 /* PBXTargetDependency */,
+				1F338A151EF5503F00C2D16C /* PBXTargetDependency */,
 			);
 			name = Turducken;
 			productName = Turducken;
@@ -3198,10 +3257,13 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = JK;
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Jeff Kelley";
 				TargetAttributes = {
+					1F338A091EF5503F00C2D16C = {
+						CreatedOnToolsVersion = 9.0;
+					};
 					1FC074801E7B41AD00076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
@@ -3564,6 +3626,7 @@
 				1FC0753B1E7B47F900076178 /* MyCustomKeyboard */,
 				1FC0754A1E7B4BD200076178 /* MyDocumentProvider */,
 				1FC075581E7B4BD300076178 /* MyDocumentProviderFileProvider */,
+				1F338A091EF5503F00C2D16C /* MyFileProvider */,
 				1FC0756F1E7B4CA400076178 /* MyiMessage */,
 				1FC075851E7B4CD300076178 /* MyIntents */,
 				1FC0758E1E7B4CD400076178 /* MyIntentsUI */,
@@ -3610,6 +3673,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1F338A081EF5503F00C2D16C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1FC0747F1E7B41AD00076178 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -4028,6 +4098,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1F338A061EF5503F00C2D16C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F338A0D1EF5503F00C2D16C /* FileProviderExtension.swift in Sources */,
+				1F338A0F1EF5503F00C2D16C /* FileProviderItem.swift in Sources */,
+				1F338A111EF5503F00C2D16C /* FileProviderEnumerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1FC0747D1E7B41AD00076178 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -4469,6 +4549,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1F338A151EF5503F00C2D16C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F338A091EF5503F00C2D16C /* MyFileProvider */;
+			targetProxy = 1F338A141EF5503F00C2D16C /* PBXContainerItemProxy */;
+		};
 		1FC074971E7B41AD00076178 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1FC074801E7B41AD00076178 /* Turducken */;
@@ -4930,6 +5015,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1F338A181EF5503F00C2D16C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyFileProvider/MyFileProvider.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyFileProvider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyFileProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F338A191EF5503F00C2D16C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyFileProvider/MyFileProvider.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyFileProvider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyFileProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		1FC074A71E7B41AD00076178 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -5044,6 +5169,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = Turducken/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -5058,6 +5184,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = Turducken/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -6880,6 +7007,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1F338A171EF5503F00C2D16C /* Build configuration list for PBXNativeTarget "MyFileProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F338A181EF5503F00C2D16C /* Debug */,
+				1F338A191EF5503F00C2D16C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Turducken" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
