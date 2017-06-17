@@ -14,6 +14,21 @@
 		1F338A1A1EF5505D00C2D16C /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F338A221EF550B700C2D16C /* MessageFilterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F338A211EF550B700C2D16C /* MessageFilterExtension.swift */; };
 		1F338A261EF550B700C2D16C /* MyMessageFilter.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F338A1F1EF550B700C2D16C /* MyMessageFilter.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F338A311EF5512200C2D16C /* AppProxyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F338A301EF5512200C2D16C /* AppProxyProvider.swift */; };
+		1F338A361EF5512200C2D16C /* MyNetworkAppProxy.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F338A2E1EF5512200C2D16C /* MyNetworkAppProxy.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F338A411EF5514200C2D16C /* FilterControlProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F338A401EF5514200C2D16C /* FilterControlProvider.swift */; };
+		1F338A461EF5514200C2D16C /* MyNetworkFilterControl.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F338A3E1EF5514200C2D16C /* MyNetworkFilterControl.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F338A511EF5515400C2D16C /* FilterDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F338A501EF5515400C2D16C /* FilterDataProvider.swift */; };
+		1F338A561EF5515400C2D16C /* MyNetworkFilterData.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F338A4E1EF5515300C2D16C /* MyNetworkFilterData.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F338A611EF5516600C2D16C /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F338A601EF5516600C2D16C /* PacketTunnelProvider.swift */; };
+		1F338A661EF5516600C2D16C /* MyNetworkPacketTunnel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F338A5E1EF5516600C2D16C /* MyNetworkPacketTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F338A711EF5518700C2D16C /* DNSProxyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F338A701EF5518700C2D16C /* DNSProxyProvider.swift */; };
+		1F338A761EF5518700C2D16C /* MyNetworkDNSProxy.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F338A6E1EF5518600C2D16C /* MyNetworkDNSProxy.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F338A7A1EF5519800C2D16C /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
+		1F338A7B1EF551B200C2D16C /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
+		1F338A7C1EF551BB00C2D16C /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
+		1F338A7D1EF551C000C2D16C /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
+		1F338A7E1EF551C400C2D16C /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F8264541E7B6FAB00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F8264551E7B6FEA00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F8264561E7B6FEF00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
@@ -234,6 +249,41 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1F338A1E1EF550B600C2D16C;
 			remoteInfo = MyMessageFilter;
+		};
+		1F338A341EF5512200C2D16C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F338A2D1EF5512100C2D16C;
+			remoteInfo = MyNetworkAppProxy;
+		};
+		1F338A441EF5514200C2D16C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F338A3D1EF5514200C2D16C;
+			remoteInfo = MyNetworkFilterControl;
+		};
+		1F338A541EF5515400C2D16C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F338A4D1EF5515300C2D16C;
+			remoteInfo = MyNetworkFilterData;
+		};
+		1F338A641EF5516600C2D16C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F338A5D1EF5516600C2D16C;
+			remoteInfo = MyNetworkPacketTunnel;
+		};
+		1F338A741EF5518700C2D16C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F338A6D1EF5518600C2D16C;
+			remoteInfo = MyNetworkDNSProxy;
 		};
 		1FC074961E7B41AD00076178 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -602,6 +652,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				1FC0760C1E7B4E8000076178 /* MySpotlightIndex.appex in Embed App Extensions */,
+				1F338A661EF5516600C2D16C /* MyNetworkPacketTunnel.appex in Embed App Extensions */,
 				1FC075621E7B4BD300076178 /* MyDocumentProviderFileProvider.appex in Embed App Extensions */,
 				1FC075EE1E7B4E0300076178 /* MyShare.appex in Embed App Extensions */,
 				1F338A161EF5503F00C2D16C /* MyFileProvider.appex in Embed App Extensions */,
@@ -610,7 +661,10 @@
 				1F338A261EF550B700C2D16C /* MyMessageFilter.appex in Embed App Extensions */,
 				1FC0762D1E7B4EE500076178 /* MyToday.appex in Embed App Extensions */,
 				1FC0750E1E7B466100076178 /* MyBroadcastUploadUI.appex in Embed App Extensions */,
+				1F338A361EF5512200C2D16C /* MyNetworkAppProxy.appex in Embed App Extensions */,
 				1FC075DC1E7B4DA800076178 /* MyPhotoEditing.appex in Embed App Extensions */,
+				1F338A561EF5515400C2D16C /* MyNetworkFilterData.appex in Embed App Extensions */,
+				1F338A761EF5518700C2D16C /* MyNetworkDNSProxy.appex in Embed App Extensions */,
 				1FC075651E7B4BD300076178 /* MyDocumentProvider.appex in Embed App Extensions */,
 				1FC075231E7B46FA00076178 /* MyCallDirectory.appex in Embed App Extensions */,
 				1FC075431E7B47F900076178 /* MyCustomKeyboard.appex in Embed App Extensions */,
@@ -623,6 +677,7 @@
 				1FC0757E1E7B4CA400076178 /* MyiMessage.appex in Embed App Extensions */,
 				1FC0759E1E7B4CD400076178 /* MyIntents.appex in Embed App Extensions */,
 				1FC075C61E7B4D7300076178 /* MyNotificationService.appex in Embed App Extensions */,
+				1F338A461EF5514200C2D16C /* MyNetworkFilterControl.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -751,6 +806,26 @@
 		1F338A1F1EF550B700C2D16C /* MyMessageFilter.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyMessageFilter.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F338A211EF550B700C2D16C /* MessageFilterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageFilterExtension.swift; sourceTree = "<group>"; };
 		1F338A231EF550B700C2D16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F338A2E1EF5512200C2D16C /* MyNetworkAppProxy.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyNetworkAppProxy.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F338A301EF5512200C2D16C /* AppProxyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProxyProvider.swift; sourceTree = "<group>"; };
+		1F338A321EF5512200C2D16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F338A331EF5512200C2D16C /* MyNetworkAppProxy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyNetworkAppProxy.entitlements; sourceTree = "<group>"; };
+		1F338A3E1EF5514200C2D16C /* MyNetworkFilterControl.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyNetworkFilterControl.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F338A401EF5514200C2D16C /* FilterControlProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterControlProvider.swift; sourceTree = "<group>"; };
+		1F338A421EF5514200C2D16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F338A431EF5514200C2D16C /* MyNetworkFilterControl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyNetworkFilterControl.entitlements; sourceTree = "<group>"; };
+		1F338A4E1EF5515300C2D16C /* MyNetworkFilterData.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyNetworkFilterData.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F338A501EF5515400C2D16C /* FilterDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterDataProvider.swift; sourceTree = "<group>"; };
+		1F338A521EF5515400C2D16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F338A531EF5515400C2D16C /* MyNetworkFilterData.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyNetworkFilterData.entitlements; sourceTree = "<group>"; };
+		1F338A5E1EF5516600C2D16C /* MyNetworkPacketTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyNetworkPacketTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F338A601EF5516600C2D16C /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
+		1F338A621EF5516600C2D16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F338A631EF5516600C2D16C /* MyNetworkPacketTunnel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyNetworkPacketTunnel.entitlements; sourceTree = "<group>"; };
+		1F338A6E1EF5518600C2D16C /* MyNetworkDNSProxy.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyNetworkDNSProxy.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F338A701EF5518700C2D16C /* DNSProxyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSProxyProvider.swift; sourceTree = "<group>"; };
+		1F338A721EF5518700C2D16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F338A731EF5518700C2D16C /* MyNetworkDNSProxy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyNetworkDNSProxy.entitlements; sourceTree = "<group>"; };
 		1FC074811E7B41AD00076178 /* Turducken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turducken.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC074841E7B41AD00076178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FC074861E7B41AD00076178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -998,6 +1073,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F338A2B1EF5512100C2D16C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F338A7A1EF5519800C2D16C /* MyFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F338A3B1EF5514200C2D16C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F338A7B1EF551B200C2D16C /* MyFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F338A4B1EF5515300C2D16C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F338A7C1EF551BB00C2D16C /* MyFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F338A5B1EF5516600C2D16C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F338A7D1EF551C000C2D16C /* MyFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F338A6B1EF5518600C2D16C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F338A7E1EF551C400C2D16C /* MyFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1450,6 +1565,56 @@
 			path = MyMessageFilter;
 			sourceTree = "<group>";
 		};
+		1F338A2F1EF5512200C2D16C /* MyNetworkAppProxy */ = {
+			isa = PBXGroup;
+			children = (
+				1F338A301EF5512200C2D16C /* AppProxyProvider.swift */,
+				1F338A321EF5512200C2D16C /* Info.plist */,
+				1F338A331EF5512200C2D16C /* MyNetworkAppProxy.entitlements */,
+			);
+			path = MyNetworkAppProxy;
+			sourceTree = "<group>";
+		};
+		1F338A3F1EF5514200C2D16C /* MyNetworkFilterControl */ = {
+			isa = PBXGroup;
+			children = (
+				1F338A401EF5514200C2D16C /* FilterControlProvider.swift */,
+				1F338A421EF5514200C2D16C /* Info.plist */,
+				1F338A431EF5514200C2D16C /* MyNetworkFilterControl.entitlements */,
+			);
+			path = MyNetworkFilterControl;
+			sourceTree = "<group>";
+		};
+		1F338A4F1EF5515400C2D16C /* MyNetworkFilterData */ = {
+			isa = PBXGroup;
+			children = (
+				1F338A501EF5515400C2D16C /* FilterDataProvider.swift */,
+				1F338A521EF5515400C2D16C /* Info.plist */,
+				1F338A531EF5515400C2D16C /* MyNetworkFilterData.entitlements */,
+			);
+			path = MyNetworkFilterData;
+			sourceTree = "<group>";
+		};
+		1F338A5F1EF5516600C2D16C /* MyNetworkPacketTunnel */ = {
+			isa = PBXGroup;
+			children = (
+				1F338A601EF5516600C2D16C /* PacketTunnelProvider.swift */,
+				1F338A621EF5516600C2D16C /* Info.plist */,
+				1F338A631EF5516600C2D16C /* MyNetworkPacketTunnel.entitlements */,
+			);
+			path = MyNetworkPacketTunnel;
+			sourceTree = "<group>";
+		};
+		1F338A6F1EF5518700C2D16C /* MyNetworkDNSProxy */ = {
+			isa = PBXGroup;
+			children = (
+				1F338A701EF5518700C2D16C /* DNSProxyProvider.swift */,
+				1F338A721EF5518700C2D16C /* Info.plist */,
+				1F338A731EF5518700C2D16C /* MyNetworkDNSProxy.entitlements */,
+			);
+			path = MyNetworkDNSProxy;
+			sourceTree = "<group>";
+		};
 		1FC074781E7B41AD00076178 = {
 			isa = PBXGroup;
 			children = (
@@ -1523,6 +1688,11 @@
 				1FC078A11E7B699800076178 /* MyFramework-macOSTests.xctest */,
 				1F338A0A1EF5503F00C2D16C /* MyFileProvider.appex */,
 				1F338A1F1EF550B700C2D16C /* MyMessageFilter.appex */,
+				1F338A2E1EF5512200C2D16C /* MyNetworkAppProxy.appex */,
+				1F338A3E1EF5514200C2D16C /* MyNetworkFilterControl.appex */,
+				1F338A4E1EF5515300C2D16C /* MyNetworkFilterData.appex */,
+				1F338A5E1EF5516600C2D16C /* MyNetworkPacketTunnel.appex */,
+				1F338A6E1EF5518600C2D16C /* MyNetworkDNSProxy.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1952,6 +2122,11 @@
 				1FC075871E7B4CD300076178 /* MyIntents */,
 				1FC075921E7B4CD400076178 /* MyIntentsUI */,
 				1F338A201EF550B700C2D16C /* MyMessageFilter */,
+				1F338A2F1EF5512200C2D16C /* MyNetworkAppProxy */,
+				1F338A3F1EF5514200C2D16C /* MyNetworkFilterControl */,
+				1F338A4F1EF5515400C2D16C /* MyNetworkFilterData */,
+				1F338A5F1EF5516600C2D16C /* MyNetworkPacketTunnel */,
+				1F338A6F1EF5518700C2D16C /* MyNetworkDNSProxy */,
 				1FC075AE1E7B4D3E00076178 /* MyNotificationContent */,
 				1FC075C01E7B4D7300076178 /* MyNotificationService */,
 				1FC075D31E7B4DA800076178 /* MyPhotoEditing */,
@@ -2316,6 +2491,91 @@
 			productReference = 1F338A1F1EF550B700C2D16C /* MyMessageFilter.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		1F338A2D1EF5512100C2D16C /* MyNetworkAppProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F338A371EF5512200C2D16C /* Build configuration list for PBXNativeTarget "MyNetworkAppProxy" */;
+			buildPhases = (
+				1F338A2A1EF5512100C2D16C /* Sources */,
+				1F338A2B1EF5512100C2D16C /* Frameworks */,
+				1F338A2C1EF5512100C2D16C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyNetworkAppProxy;
+			productName = MyNetworkAppProxy;
+			productReference = 1F338A2E1EF5512200C2D16C /* MyNetworkAppProxy.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1F338A3D1EF5514200C2D16C /* MyNetworkFilterControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F338A471EF5514200C2D16C /* Build configuration list for PBXNativeTarget "MyNetworkFilterControl" */;
+			buildPhases = (
+				1F338A3A1EF5514200C2D16C /* Sources */,
+				1F338A3B1EF5514200C2D16C /* Frameworks */,
+				1F338A3C1EF5514200C2D16C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyNetworkFilterControl;
+			productName = MyNetworkFilterControl;
+			productReference = 1F338A3E1EF5514200C2D16C /* MyNetworkFilterControl.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1F338A4D1EF5515300C2D16C /* MyNetworkFilterData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F338A571EF5515400C2D16C /* Build configuration list for PBXNativeTarget "MyNetworkFilterData" */;
+			buildPhases = (
+				1F338A4A1EF5515300C2D16C /* Sources */,
+				1F338A4B1EF5515300C2D16C /* Frameworks */,
+				1F338A4C1EF5515300C2D16C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyNetworkFilterData;
+			productName = MyNetworkFilterData;
+			productReference = 1F338A4E1EF5515300C2D16C /* MyNetworkFilterData.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1F338A5D1EF5516600C2D16C /* MyNetworkPacketTunnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F338A671EF5516700C2D16C /* Build configuration list for PBXNativeTarget "MyNetworkPacketTunnel" */;
+			buildPhases = (
+				1F338A5A1EF5516600C2D16C /* Sources */,
+				1F338A5B1EF5516600C2D16C /* Frameworks */,
+				1F338A5C1EF5516600C2D16C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyNetworkPacketTunnel;
+			productName = MyNetworkPacketTunnel;
+			productReference = 1F338A5E1EF5516600C2D16C /* MyNetworkPacketTunnel.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1F338A6D1EF5518600C2D16C /* MyNetworkDNSProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F338A771EF5518700C2D16C /* Build configuration list for PBXNativeTarget "MyNetworkDNSProxy" */;
+			buildPhases = (
+				1F338A6A1EF5518600C2D16C /* Sources */,
+				1F338A6B1EF5518600C2D16C /* Frameworks */,
+				1F338A6C1EF5518600C2D16C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyNetworkDNSProxy;
+			productName = MyNetworkDNSProxy;
+			productReference = 1F338A6E1EF5518600C2D16C /* MyNetworkDNSProxy.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		1FC074801E7B41AD00076178 /* Turducken */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FC074A91E7B41AD00076178 /* Build configuration list for PBXNativeTarget "Turducken" */;
@@ -2354,6 +2614,11 @@
 				1FC078561E7B691200076178 /* PBXTargetDependency */,
 				1F338A151EF5503F00C2D16C /* PBXTargetDependency */,
 				1F338A251EF550B700C2D16C /* PBXTargetDependency */,
+				1F338A351EF5512200C2D16C /* PBXTargetDependency */,
+				1F338A451EF5514200C2D16C /* PBXTargetDependency */,
+				1F338A551EF5515400C2D16C /* PBXTargetDependency */,
+				1F338A651EF5516600C2D16C /* PBXTargetDependency */,
+				1F338A751EF5518700C2D16C /* PBXTargetDependency */,
 			);
 			name = Turducken;
 			productName = Turducken;
@@ -3316,6 +3581,21 @@
 					1F338A1E1EF550B600C2D16C = {
 						CreatedOnToolsVersion = 9.0;
 					};
+					1F338A2D1EF5512100C2D16C = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					1F338A3D1EF5514200C2D16C = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					1F338A4D1EF5515300C2D16C = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					1F338A5D1EF5516600C2D16C = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					1F338A6D1EF5518600C2D16C = {
+						CreatedOnToolsVersion = 9.0;
+					};
 					1FC074801E7B41AD00076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
@@ -3683,6 +3963,11 @@
 				1FC075851E7B4CD300076178 /* MyIntents */,
 				1FC0758E1E7B4CD400076178 /* MyIntentsUI */,
 				1F338A1E1EF550B600C2D16C /* MyMessageFilter */,
+				1F338A2D1EF5512100C2D16C /* MyNetworkAppProxy */,
+				1F338A3D1EF5514200C2D16C /* MyNetworkFilterControl */,
+				1F338A4D1EF5515300C2D16C /* MyNetworkFilterData */,
+				1F338A5D1EF5516600C2D16C /* MyNetworkPacketTunnel */,
+				1F338A6D1EF5518600C2D16C /* MyNetworkDNSProxy */,
 				1FC075A81E7B4D3E00076178 /* MyNotificationContent */,
 				1FC075BE1E7B4D7300076178 /* MyNotificationService */,
 				1FC075CD1E7B4DA800076178 /* MyPhotoEditing */,
@@ -3734,6 +4019,41 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1F338A1D1EF550B600C2D16C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F338A2C1EF5512100C2D16C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F338A3C1EF5514200C2D16C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F338A4C1EF5515300C2D16C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F338A5C1EF5516600C2D16C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F338A6C1EF5518600C2D16C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4173,6 +4493,46 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F338A221EF550B700C2D16C /* MessageFilterExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F338A2A1EF5512100C2D16C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F338A311EF5512200C2D16C /* AppProxyProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F338A3A1EF5514200C2D16C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F338A411EF5514200C2D16C /* FilterControlProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F338A4A1EF5515300C2D16C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F338A511EF5515400C2D16C /* FilterDataProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F338A5A1EF5516600C2D16C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F338A611EF5516600C2D16C /* PacketTunnelProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F338A6A1EF5518600C2D16C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F338A711EF5518700C2D16C /* DNSProxyProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4626,6 +4986,31 @@
 			isa = PBXTargetDependency;
 			target = 1F338A1E1EF550B600C2D16C /* MyMessageFilter */;
 			targetProxy = 1F338A241EF550B700C2D16C /* PBXContainerItemProxy */;
+		};
+		1F338A351EF5512200C2D16C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F338A2D1EF5512100C2D16C /* MyNetworkAppProxy */;
+			targetProxy = 1F338A341EF5512200C2D16C /* PBXContainerItemProxy */;
+		};
+		1F338A451EF5514200C2D16C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F338A3D1EF5514200C2D16C /* MyNetworkFilterControl */;
+			targetProxy = 1F338A441EF5514200C2D16C /* PBXContainerItemProxy */;
+		};
+		1F338A551EF5515400C2D16C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F338A4D1EF5515300C2D16C /* MyNetworkFilterData */;
+			targetProxy = 1F338A541EF5515400C2D16C /* PBXContainerItemProxy */;
+		};
+		1F338A651EF5516600C2D16C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F338A5D1EF5516600C2D16C /* MyNetworkPacketTunnel */;
+			targetProxy = 1F338A641EF5516600C2D16C /* PBXContainerItemProxy */;
+		};
+		1F338A751EF5518700C2D16C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F338A6D1EF5518600C2D16C /* MyNetworkDNSProxy */;
+			targetProxy = 1F338A741EF5518700C2D16C /* PBXContainerItemProxy */;
 		};
 		1FC074971E7B41AD00076178 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -5159,6 +5544,206 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyMessageFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F338A381EF5512200C2D16C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyNetworkAppProxy/MyNetworkAppProxy.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyNetworkAppProxy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyNetworkAppProxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F338A391EF5512200C2D16C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyNetworkAppProxy/MyNetworkAppProxy.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyNetworkAppProxy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyNetworkAppProxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F338A481EF5514200C2D16C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyNetworkFilterControl/MyNetworkFilterControl.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyNetworkFilterControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyNetworkFilterControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F338A491EF5514200C2D16C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyNetworkFilterControl/MyNetworkFilterControl.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyNetworkFilterControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyNetworkFilterControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F338A581EF5515400C2D16C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyNetworkFilterData/MyNetworkFilterData.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyNetworkFilterData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyNetworkFilterData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F338A591EF5515400C2D16C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyNetworkFilterData/MyNetworkFilterData.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyNetworkFilterData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyNetworkFilterData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F338A681EF5516700C2D16C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyNetworkPacketTunnel/MyNetworkPacketTunnel.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyNetworkPacketTunnel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyNetworkPacketTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F338A691EF5516700C2D16C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyNetworkPacketTunnel/MyNetworkPacketTunnel.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyNetworkPacketTunnel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyNetworkPacketTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F338A781EF5518700C2D16C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyNetworkDNSProxy/MyNetworkDNSProxy.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyNetworkDNSProxy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyNetworkDNSProxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F338A791EF5518700C2D16C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyNetworkDNSProxy/MyNetworkDNSProxy.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyNetworkDNSProxy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyNetworkDNSProxy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -7131,6 +7716,46 @@
 			buildConfigurations = (
 				1F338A281EF550B700C2D16C /* Debug */,
 				1F338A291EF550B700C2D16C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F338A371EF5512200C2D16C /* Build configuration list for PBXNativeTarget "MyNetworkAppProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F338A381EF5512200C2D16C /* Debug */,
+				1F338A391EF5512200C2D16C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F338A471EF5514200C2D16C /* Build configuration list for PBXNativeTarget "MyNetworkFilterControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F338A481EF5514200C2D16C /* Debug */,
+				1F338A491EF5514200C2D16C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F338A571EF5515400C2D16C /* Build configuration list for PBXNativeTarget "MyNetworkFilterData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F338A581EF5515400C2D16C /* Debug */,
+				1F338A591EF5515400C2D16C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F338A671EF5516700C2D16C /* Build configuration list for PBXNativeTarget "MyNetworkPacketTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F338A681EF5516700C2D16C /* Debug */,
+				1F338A691EF5516700C2D16C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F338A771EF5518700C2D16C /* Build configuration list for PBXNativeTarget "MyNetworkDNSProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F338A781EF5518700C2D16C /* Debug */,
+				1F338A791EF5518700C2D16C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
