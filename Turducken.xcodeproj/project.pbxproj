@@ -12,6 +12,8 @@
 		1F338A111EF5503F00C2D16C /* FileProviderEnumerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F338A101EF5503F00C2D16C /* FileProviderEnumerator.swift */; };
 		1F338A161EF5503F00C2D16C /* MyFileProvider.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F338A0A1EF5503F00C2D16C /* MyFileProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1F338A1A1EF5505D00C2D16C /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
+		1F338A221EF550B700C2D16C /* MessageFilterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F338A211EF550B700C2D16C /* MessageFilterExtension.swift */; };
+		1F338A261EF550B700C2D16C /* MyMessageFilter.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F338A1F1EF550B700C2D16C /* MyMessageFilter.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1F8264541E7B6FAB00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F8264551E7B6FEA00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F8264561E7B6FEF00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
@@ -225,6 +227,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1F338A091EF5503F00C2D16C;
 			remoteInfo = MyFileProvider;
+		};
+		1F338A241EF550B700C2D16C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F338A1E1EF550B600C2D16C;
+			remoteInfo = MyMessageFilter;
 		};
 		1FC074961E7B41AD00076178 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -598,6 +607,7 @@
 				1F338A161EF5503F00C2D16C /* MyFileProvider.appex in Embed App Extensions */,
 				1FC075341E7B471A00076178 /* MyContentBlocker.appex in Embed App Extensions */,
 				1FC074C01E7B424300076178 /* MyAction.appex in Embed App Extensions */,
+				1F338A261EF550B700C2D16C /* MyMessageFilter.appex in Embed App Extensions */,
 				1FC0762D1E7B4EE500076178 /* MyToday.appex in Embed App Extensions */,
 				1FC0750E1E7B466100076178 /* MyBroadcastUploadUI.appex in Embed App Extensions */,
 				1FC075DC1E7B4DA800076178 /* MyPhotoEditing.appex in Embed App Extensions */,
@@ -738,6 +748,9 @@
 		1F338A101EF5503F00C2D16C /* FileProviderEnumerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProviderEnumerator.swift; sourceTree = "<group>"; };
 		1F338A121EF5503F00C2D16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F338A131EF5503F00C2D16C /* MyFileProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyFileProvider.entitlements; sourceTree = "<group>"; };
+		1F338A1F1EF550B700C2D16C /* MyMessageFilter.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyMessageFilter.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F338A211EF550B700C2D16C /* MessageFilterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageFilterExtension.swift; sourceTree = "<group>"; };
+		1F338A231EF550B700C2D16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FC074811E7B41AD00076178 /* Turducken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turducken.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC074841E7B41AD00076178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FC074861E7B41AD00076178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -978,6 +991,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F338A1A1EF5505D00C2D16C /* MyFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F338A1C1EF550B600C2D16C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1421,6 +1441,15 @@
 			path = MyFileProvider;
 			sourceTree = "<group>";
 		};
+		1F338A201EF550B700C2D16C /* MyMessageFilter */ = {
+			isa = PBXGroup;
+			children = (
+				1F338A211EF550B700C2D16C /* MessageFilterExtension.swift */,
+				1F338A231EF550B700C2D16C /* Info.plist */,
+			);
+			path = MyMessageFilter;
+			sourceTree = "<group>";
+		};
 		1FC074781E7B41AD00076178 = {
 			isa = PBXGroup;
 			children = (
@@ -1493,6 +1522,7 @@
 				1FC078991E7B699800076178 /* MyFramework.framework */,
 				1FC078A11E7B699800076178 /* MyFramework-macOSTests.xctest */,
 				1F338A0A1EF5503F00C2D16C /* MyFileProvider.appex */,
+				1F338A1F1EF550B700C2D16C /* MyMessageFilter.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1921,6 +1951,7 @@
 				1FC075731E7B4CA400076178 /* MyiMessage */,
 				1FC075871E7B4CD300076178 /* MyIntents */,
 				1FC075921E7B4CD400076178 /* MyIntentsUI */,
+				1F338A201EF550B700C2D16C /* MyMessageFilter */,
 				1FC075AE1E7B4D3E00076178 /* MyNotificationContent */,
 				1FC075C01E7B4D7300076178 /* MyNotificationService */,
 				1FC075D31E7B4DA800076178 /* MyPhotoEditing */,
@@ -2268,6 +2299,23 @@
 			productReference = 1F338A0A1EF5503F00C2D16C /* MyFileProvider.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		1F338A1E1EF550B600C2D16C /* MyMessageFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F338A271EF550B700C2D16C /* Build configuration list for PBXNativeTarget "MyMessageFilter" */;
+			buildPhases = (
+				1F338A1B1EF550B600C2D16C /* Sources */,
+				1F338A1C1EF550B600C2D16C /* Frameworks */,
+				1F338A1D1EF550B600C2D16C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMessageFilter;
+			productName = MyMessageFilter;
+			productReference = 1F338A1F1EF550B700C2D16C /* MyMessageFilter.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		1FC074801E7B41AD00076178 /* Turducken */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FC074A91E7B41AD00076178 /* Build configuration list for PBXNativeTarget "Turducken" */;
@@ -2305,6 +2353,7 @@
 				1FC076521E7B4F2200076178 /* PBXTargetDependency */,
 				1FC078561E7B691200076178 /* PBXTargetDependency */,
 				1F338A151EF5503F00C2D16C /* PBXTargetDependency */,
+				1F338A251EF550B700C2D16C /* PBXTargetDependency */,
 			);
 			name = Turducken;
 			productName = Turducken;
@@ -3264,6 +3313,9 @@
 					1F338A091EF5503F00C2D16C = {
 						CreatedOnToolsVersion = 9.0;
 					};
+					1F338A1E1EF550B600C2D16C = {
+						CreatedOnToolsVersion = 9.0;
+					};
 					1FC074801E7B41AD00076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
@@ -3630,6 +3682,7 @@
 				1FC0756F1E7B4CA400076178 /* MyiMessage */,
 				1FC075851E7B4CD300076178 /* MyIntents */,
 				1FC0758E1E7B4CD400076178 /* MyIntentsUI */,
+				1F338A1E1EF550B600C2D16C /* MyMessageFilter */,
 				1FC075A81E7B4D3E00076178 /* MyNotificationContent */,
 				1FC075BE1E7B4D7300076178 /* MyNotificationService */,
 				1FC075CD1E7B4DA800076178 /* MyPhotoEditing */,
@@ -3674,6 +3727,13 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		1F338A081EF5503F00C2D16C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F338A1D1EF550B600C2D16C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4105,6 +4165,14 @@
 				1F338A0D1EF5503F00C2D16C /* FileProviderExtension.swift in Sources */,
 				1F338A0F1EF5503F00C2D16C /* FileProviderItem.swift in Sources */,
 				1F338A111EF5503F00C2D16C /* FileProviderEnumerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F338A1B1EF550B600C2D16C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F338A221EF550B700C2D16C /* MessageFilterExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4553,6 +4621,11 @@
 			isa = PBXTargetDependency;
 			target = 1F338A091EF5503F00C2D16C /* MyFileProvider */;
 			targetProxy = 1F338A141EF5503F00C2D16C /* PBXContainerItemProxy */;
+		};
+		1F338A251EF550B700C2D16C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F338A1E1EF550B600C2D16C /* MyMessageFilter */;
+			targetProxy = 1F338A241EF550B700C2D16C /* PBXContainerItemProxy */;
 		};
 		1FC074971E7B41AD00076178 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -5048,6 +5121,44 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyFileProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F338A281EF550B700C2D16C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyMessageFilter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyMessageFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F338A291EF550B700C2D16C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyMessageFilter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyMessageFilter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -7012,6 +7123,14 @@
 			buildConfigurations = (
 				1F338A181EF5503F00C2D16C /* Debug */,
 				1F338A191EF5503F00C2D16C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F338A271EF550B700C2D16C /* Build configuration list for PBXNativeTarget "MyMessageFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F338A281EF550B700C2D16C /* Debug */,
+				1F338A291EF550B700C2D16C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
