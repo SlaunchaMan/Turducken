@@ -11,8 +11,8 @@ import NotificationCenter
 
 class TodayViewController: NSViewController, NCWidgetProviding {
 
-    override var nibName: String? {
-        return "TodayViewController"
+    override var nibName: NSNib.Name? {
+        return NSNib.Name(rawValue: "TodayViewController")
     }
 
     func widgetPerformUpdate(completionHandler: (@escaping (NCUpdateResult) -> Void)) {

@@ -12,8 +12,8 @@ class ActionViewController: NSViewController {
 
     @IBOutlet var myTextView: NSTextView!
     
-    override var nibName: String? {
-        return "ActionViewController"
+    override var nibName: NSNib.Name? {
+        return NSNib.Name(rawValue: "ActionViewController")
     }
 
     override func loadView() {

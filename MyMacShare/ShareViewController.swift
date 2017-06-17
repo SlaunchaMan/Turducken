@@ -10,8 +10,8 @@ import Cocoa
 
 class ShareViewController: NSViewController {
 
-    override var nibName: String? {
-        return "ShareViewController"
+    override var nibName: NSNib.Name? {
+        return NSNib.Name(rawValue: "ShareViewController")
     }
 
     override func loadView() {

@@ -39,7 +39,7 @@ class FileProvider: NSFileProviderExtension {
         let fileSize = 0
         let metadata = [AnyHashable(URLResourceKey.fileSizeKey): fileSize]
         do {
-            try NSFileProviderExtension.writePlaceholder(at: placeholderURL, withMetadata: metadata)
+            try NSFileProviderExtension.writePlaceholder(at: placeholderURL, withMetadata: metadata as! [URLResourceKey : Any])
         } catch {
             // Handle error
         }

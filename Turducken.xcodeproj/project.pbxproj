@@ -3199,69 +3199,81 @@
 			attributes = {
 				CLASSPREFIX = JK;
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Jeff Kelley";
 				TargetAttributes = {
 					1FC074801E7B41AD00076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC074941E7B41AD00076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1FC074801E7B41AD00076178;
 					};
 					1FC0749F1E7B41AD00076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1FC074801E7B41AD00076178;
 					};
 					1FC074B51E7B424300076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC074C81E7B44A700076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC074DE1E7B456C00076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC074F51E7B466000076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC075011E7B466100076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC0751B1E7B46FA00076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC0752A1E7B471A00076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC0753B1E7B47F900076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC0754A1E7B4BD200076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -3272,56 +3284,67 @@
 					1FC075581E7B4BD300076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC0756F1E7B4CA400076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC075851E7B4CD300076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC0758E1E7B4CD400076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC075A81E7B4D3E00076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC075BE1E7B4D7300076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC075CD1E7B4DA800076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC075E31E7B4E0300076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC075F51E7B4E3600076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC076041E7B4E8000076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC076201E7B4EE500076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC076321E7B4F2200076178 = {
@@ -3332,159 +3355,185 @@
 					1FC0763E1E7B4F2200076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC0765F1E7B4FB500076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC0766F1E7B507800076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC0767F1E7B507800076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1FC0766F1E7B507800076178;
 					};
 					1FC0768A1E7B507900076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1FC0766F1E7B507800076178;
 					};
 					1FC0769E1E7B50B600076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC076B31E7B50C100076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC076BF1E7B50C100076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC076D91E7B518000076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC076EA1E7B540F00076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC076FA1E7B541000076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1FC076EA1E7B540F00076178;
 					};
 					1FC077051E7B541000076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1FC076EA1E7B540F00076178;
 					};
 					1FC0771E1E7B5D8E00076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC077351E7B5E2F00076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC0774D1E7B5EAA00076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC077621E7B5F1400076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC0777D1E7B668100076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC077931E7B66C200076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC077AE1E7B671000076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC077C41E7B677F00076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC077D61E7B67CC00076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC077EC1E7B681500076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC078041E7B684600076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC078411E7B691100076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC078491E7B691200076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC078641E7B695600076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC078761E7B698800076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC0787E1E7B698900076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC078981E7B699800076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1FC078A01E7B699800076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -4891,7 +4940,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -4899,7 +4950,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -4929,6 +4984,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 			};
 			name = Debug;
 		};
@@ -4942,7 +4998,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -4950,7 +5008,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -4972,6 +5034,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -4986,7 +5049,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -5000,7 +5063,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -5014,7 +5077,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turducken.app/Turducken";
 			};
 			name = Debug;
@@ -5029,7 +5092,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turducken.app/Turducken";
 			};
 			name = Release;
@@ -5044,7 +5107,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = Turducken;
 			};
 			name = Debug;
@@ -5059,7 +5122,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = Turducken;
 			};
 			name = Release;
@@ -5074,7 +5137,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyAction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -5088,7 +5151,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyAction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -5103,7 +5166,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "MyAudioUnit/MyAudioUnit-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -5118,7 +5181,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "MyAudioUnit/MyAudioUnit-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -5132,7 +5195,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyBroadcastUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -5146,7 +5209,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyBroadcastUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -5160,7 +5223,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyBroadcastUploadUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -5174,7 +5237,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyBroadcastUploadUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -5188,7 +5251,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyBroadcastUpload;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -5202,14 +5265,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyBroadcastUpload;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		1FC075251E7B46FA00076178 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = MyCallDirectory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -5217,14 +5279,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyCallDirectory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		1FC075261E7B46FA00076178 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = MyCallDirectory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -5232,14 +5293,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyCallDirectory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		1FC075361E7B471A00076178 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = MyContentBlocker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -5247,14 +5307,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		1FC075371E7B471A00076178 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = MyContentBlocker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -5262,7 +5321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -5276,7 +5335,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyCustomKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -5290,7 +5349,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyCustomKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -5305,7 +5364,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyDocumentProviderFileProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -5320,7 +5379,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyDocumentProviderFileProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -5335,7 +5394,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyDocumentProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -5350,7 +5409,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyDocumentProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -5365,7 +5424,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyiMessage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -5380,7 +5439,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyiMessage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -5394,7 +5453,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyIntentsUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -5408,7 +5467,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyIntentsUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -5422,7 +5481,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyIntents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -5436,7 +5495,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyIntents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -5450,7 +5509,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyNotificationContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -5464,7 +5523,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyNotificationContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -5478,7 +5537,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyNotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -5492,7 +5551,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyNotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -5506,7 +5565,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyPhotoEditing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -5520,7 +5579,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyPhotoEditing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -5534,7 +5593,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -5548,7 +5607,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -5562,7 +5621,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MySharedLinks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -5576,7 +5635,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MySharedLinks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -5590,7 +5649,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MySpotlightIndex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -5604,7 +5663,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MySpotlightIndex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -5618,7 +5677,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyToday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -5632,7 +5691,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyToday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -5647,7 +5706,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -5664,7 +5723,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -5716,7 +5775,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
@@ -5732,7 +5791,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
@@ -5753,7 +5812,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -5774,7 +5833,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -5791,7 +5850,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenTVTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurduckenTV.app/TurduckenTV";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -5808,7 +5867,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenTVTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurduckenTV.app/TurduckenTV";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -5824,7 +5883,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenTVUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = TurduckenTV;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -5840,7 +5899,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenTVUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = TurduckenTV;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -5856,7 +5915,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Debug;
@@ -5871,7 +5930,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
@@ -5886,7 +5945,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Debug;
@@ -5901,7 +5960,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
@@ -5916,7 +5975,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Debug;
@@ -5931,7 +5990,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
@@ -5946,7 +6005,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
@@ -5961,7 +6020,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
@@ -5980,7 +6039,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -5998,7 +6057,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -6017,7 +6076,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurduckenMac.app/Contents/MacOS/TurduckenMac";
 			};
 			name = Debug;
@@ -6037,7 +6096,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurduckenMac.app/Contents/MacOS/TurduckenMac";
 			};
 			name = Release;
@@ -6056,7 +6115,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = TurduckenMac;
 			};
 			name = Debug;
@@ -6075,7 +6134,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = TurduckenMac;
 			};
 			name = Release;
@@ -6095,7 +6154,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -6114,7 +6173,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -6133,7 +6192,7 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "MyMacAudioUnit/MyMacAudioUnit-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -6152,7 +6211,7 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "MyMacAudioUnit/MyMacAudioUnit-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -6170,7 +6229,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -6188,7 +6247,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -6207,7 +6266,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -6226,7 +6285,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -6244,7 +6303,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -6262,7 +6321,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -6280,7 +6339,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -6298,7 +6357,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -6317,7 +6376,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -6336,7 +6395,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -6355,7 +6414,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -6374,7 +6433,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -6393,7 +6452,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -6412,7 +6471,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -6431,7 +6490,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -6450,7 +6509,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -6469,7 +6528,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -6488,7 +6547,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -6513,7 +6572,7 @@
 				PRODUCT_NAME = MyFramework;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -6540,7 +6599,7 @@
 				PRODUCT_MODULE_NAME = MyFramework;
 				PRODUCT_NAME = MyFramework;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -6557,7 +6616,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.MyFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -6571,7 +6630,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.MyFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -6596,7 +6655,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -6624,7 +6683,7 @@
 				PRODUCT_NAME = MyFramework;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -6638,7 +6697,7 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = UCFNS9576M;
@@ -6655,7 +6714,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -6669,7 +6728,7 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = UCFNS9576M;
@@ -6685,7 +6744,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -6703,7 +6762,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.slaunchaman.MyFramework-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
@@ -6718,7 +6777,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.slaunchaman.MyFramework-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
@@ -6747,7 +6806,7 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -6776,7 +6835,7 @@
 				PRODUCT_NAME = MyFramework;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -6796,7 +6855,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -6814,7 +6873,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
