@@ -29,6 +29,10 @@
 		1F338A7C1EF551BB00C2D16C /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F338A7D1EF551C000C2D16C /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F338A7E1EF551C400C2D16C /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
+		1F338A851EF5523900C2D16C /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F338A841EF5523900C2D16C /* QuickLook.framework */; };
+		1F338A881EF5523900C2D16C /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F338A871EF5523900C2D16C /* PreviewViewController.swift */; };
+		1F338A8B1EF5523900C2D16C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F338A891EF5523900C2D16C /* MainInterface.storyboard */; };
+		1F338A8F1EF5523900C2D16C /* MyQuickLookPreview.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F338A831EF5523800C2D16C /* MyQuickLookPreview.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1F8264541E7B6FAB00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F8264551E7B6FEA00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F8264561E7B6FEF00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
@@ -50,6 +54,9 @@
 		1F8264671E7B704400A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F8264681E7B704800A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F8264691E7B704E00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078651E7B695600076178 /* MyFramework.framework */; };
+		1FA188E31EF5FF1400BA7993 /* ThumbnailProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA188E21EF5FF1400BA7993 /* ThumbnailProvider.swift */; };
+		1FA188E71EF5FF1400BA7993 /* MyThumbnail.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FA188E01EF5FF1400BA7993 /* MyThumbnail.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FA188F01EF5FF6200BA7993 /* MyMetalLibrary.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1FA188EF1EF5FF6200BA7993 /* MyMetalLibrary.metal */; };
 		1FC074851E7B41AD00076178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC074841E7B41AD00076178 /* AppDelegate.swift */; };
 		1FC074871E7B41AD00076178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC074861E7B41AD00076178 /* ViewController.swift */; };
 		1FC0748A1E7B41AD00076178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC074881E7B41AD00076178 /* Main.storyboard */; };
@@ -284,6 +291,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1F338A6D1EF5518600C2D16C;
 			remoteInfo = MyNetworkDNSProxy;
+		};
+		1F338A8D1EF5523900C2D16C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F338A821EF5523800C2D16C;
+			remoteInfo = MyQuickLookPreview;
+		};
+		1FA188E51EF5FF1400BA7993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FA188DF1EF5FF1400BA7993;
+			remoteInfo = MyThumbnail;
 		};
 		1FC074961E7B41AD00076178 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -661,12 +682,14 @@
 				1F338A261EF550B700C2D16C /* MyMessageFilter.appex in Embed App Extensions */,
 				1FC0762D1E7B4EE500076178 /* MyToday.appex in Embed App Extensions */,
 				1FC0750E1E7B466100076178 /* MyBroadcastUploadUI.appex in Embed App Extensions */,
+				1F338A8F1EF5523900C2D16C /* MyQuickLookPreview.appex in Embed App Extensions */,
 				1F338A361EF5512200C2D16C /* MyNetworkAppProxy.appex in Embed App Extensions */,
 				1FC075DC1E7B4DA800076178 /* MyPhotoEditing.appex in Embed App Extensions */,
 				1F338A561EF5515400C2D16C /* MyNetworkFilterData.appex in Embed App Extensions */,
 				1F338A761EF5518700C2D16C /* MyNetworkDNSProxy.appex in Embed App Extensions */,
 				1FC075651E7B4BD300076178 /* MyDocumentProvider.appex in Embed App Extensions */,
 				1FC075231E7B46FA00076178 /* MyCallDirectory.appex in Embed App Extensions */,
+				1FA188E71EF5FF1400BA7993 /* MyThumbnail.appex in Embed App Extensions */,
 				1FC075431E7B47F900076178 /* MyCustomKeyboard.appex in Embed App Extensions */,
 				1FC075B71E7B4D3E00076178 /* MyNotificationContent.appex in Embed App Extensions */,
 				1FC074EE1E7B456C00076178 /* MyBroadcastUI.appex in Embed App Extensions */,
@@ -826,6 +849,16 @@
 		1F338A701EF5518700C2D16C /* DNSProxyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSProxyProvider.swift; sourceTree = "<group>"; };
 		1F338A721EF5518700C2D16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F338A731EF5518700C2D16C /* MyNetworkDNSProxy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyNetworkDNSProxy.entitlements; sourceTree = "<group>"; };
+		1F338A831EF5523800C2D16C /* MyQuickLookPreview.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyQuickLookPreview.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F338A841EF5523900C2D16C /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		1F338A871EF5523900C2D16C /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		1F338A8A1EF5523900C2D16C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		1F338A8C1EF5523900C2D16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA188E01EF5FF1400BA7993 /* MyThumbnail.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyThumbnail.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA188E21EF5FF1400BA7993 /* ThumbnailProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailProvider.swift; sourceTree = "<group>"; };
+		1FA188E41EF5FF1400BA7993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA188ED1EF5FF6200BA7993 /* MyMetalLibrary.metallib */ = {isa = PBXFileReference; explicitFileType = "archive.metal-library"; includeInIndex = 0; path = MyMetalLibrary.metallib; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA188EF1EF5FF6200BA7993 /* MyMetalLibrary.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MyMetalLibrary.metal; sourceTree = "<group>"; };
 		1FC074811E7B41AD00076178 /* Turducken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turducken.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC074841E7B41AD00076178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FC074861E7B41AD00076178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -1113,6 +1146,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F338A7E1EF551C400C2D16C /* MyFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F338A801EF5523800C2D16C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F338A851EF5523900C2D16C /* QuickLook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA188DD1EF5FF1400BA7993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1615,6 +1663,33 @@
 			path = MyNetworkDNSProxy;
 			sourceTree = "<group>";
 		};
+		1F338A861EF5523900C2D16C /* MyQuickLookPreview */ = {
+			isa = PBXGroup;
+			children = (
+				1F338A871EF5523900C2D16C /* PreviewViewController.swift */,
+				1F338A891EF5523900C2D16C /* MainInterface.storyboard */,
+				1F338A8C1EF5523900C2D16C /* Info.plist */,
+			);
+			path = MyQuickLookPreview;
+			sourceTree = "<group>";
+		};
+		1FA188E11EF5FF1400BA7993 /* MyThumbnail */ = {
+			isa = PBXGroup;
+			children = (
+				1FA188E21EF5FF1400BA7993 /* ThumbnailProvider.swift */,
+				1FA188E41EF5FF1400BA7993 /* Info.plist */,
+			);
+			path = MyThumbnail;
+			sourceTree = "<group>";
+		};
+		1FA188EE1EF5FF6200BA7993 /* MyMetalLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				1FA188EF1EF5FF6200BA7993 /* MyMetalLibrary.metal */,
+			);
+			path = MyMetalLibrary;
+			sourceTree = "<group>";
+		};
 		1FC074781E7B41AD00076178 = {
 			isa = PBXGroup;
 			children = (
@@ -1624,6 +1699,7 @@
 				1FC0771A1E7B5C6B00076178 /* macOS */,
 				1FC078431E7B691100076178 /* MyFramework */,
 				1FC078501E7B691200076178 /* MyFrameworkTests */,
+				1FA188EE1EF5FF6200BA7993 /* MyMetalLibrary */,
 				1FC074E01E7B456C00076178 /* Frameworks */,
 				1FC074821E7B41AD00076178 /* Products */,
 			);
@@ -1693,6 +1769,9 @@
 				1F338A4E1EF5515300C2D16C /* MyNetworkFilterData.appex */,
 				1F338A5E1EF5516600C2D16C /* MyNetworkPacketTunnel.appex */,
 				1F338A6E1EF5518600C2D16C /* MyNetworkDNSProxy.appex */,
+				1F338A831EF5523800C2D16C /* MyQuickLookPreview.appex */,
+				1FA188E01EF5FF1400BA7993 /* MyThumbnail.appex */,
+				1FA188ED1EF5FF6200BA7993 /* MyMetalLibrary.metallib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1765,6 +1844,7 @@
 				1FC076221E7B4EE500076178 /* NotificationCenter.framework */,
 				1FC076DB1E7B518000076178 /* TVServices.framework */,
 				1FC0774F1E7B5EAA00076178 /* Cocoa.framework */,
+				1F338A841EF5523900C2D16C /* QuickLook.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2130,9 +2210,11 @@
 				1FC075AE1E7B4D3E00076178 /* MyNotificationContent */,
 				1FC075C01E7B4D7300076178 /* MyNotificationService */,
 				1FC075D31E7B4DA800076178 /* MyPhotoEditing */,
+				1F338A861EF5523900C2D16C /* MyQuickLookPreview */,
 				1FC075E51E7B4E0300076178 /* MyShare */,
 				1FC075F71E7B4E3600076178 /* MySharedLinks */,
 				1FC076061E7B4E8000076178 /* MySpotlightIndex */,
+				1FA188E11EF5FF1400BA7993 /* MyThumbnail */,
 				1FC076241E7B4EE500076178 /* MyToday */,
 			);
 			name = iOS;
@@ -2576,6 +2658,55 @@
 			productReference = 1F338A6E1EF5518600C2D16C /* MyNetworkDNSProxy.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		1F338A821EF5523800C2D16C /* MyQuickLookPreview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F338A901EF5523900C2D16C /* Build configuration list for PBXNativeTarget "MyQuickLookPreview" */;
+			buildPhases = (
+				1F338A7F1EF5523800C2D16C /* Sources */,
+				1F338A801EF5523800C2D16C /* Frameworks */,
+				1F338A811EF5523800C2D16C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyQuickLookPreview;
+			productName = MyQuickLookPreview;
+			productReference = 1F338A831EF5523800C2D16C /* MyQuickLookPreview.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1FA188DF1EF5FF1400BA7993 /* MyThumbnail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA188E81EF5FF1400BA7993 /* Build configuration list for PBXNativeTarget "MyThumbnail" */;
+			buildPhases = (
+				1FA188DC1EF5FF1400BA7993 /* Sources */,
+				1FA188DD1EF5FF1400BA7993 /* Frameworks */,
+				1FA188DE1EF5FF1400BA7993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyThumbnail;
+			productName = MyThumbnail;
+			productReference = 1FA188E01EF5FF1400BA7993 /* MyThumbnail.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1FA188EC1EF5FF6200BA7993 /* MyMetalLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA188F11EF5FF6200BA7993 /* Build configuration list for PBXNativeTarget "MyMetalLibrary" */;
+			buildPhases = (
+				1FA188EB1EF5FF6200BA7993 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMetalLibrary;
+			productName = MyMetalLibrary;
+			productReference = 1FA188ED1EF5FF6200BA7993 /* MyMetalLibrary.metallib */;
+			productType = "com.apple.product-type.metal-library";
+		};
 		1FC074801E7B41AD00076178 /* Turducken */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FC074A91E7B41AD00076178 /* Build configuration list for PBXNativeTarget "Turducken" */;
@@ -2619,6 +2750,8 @@
 				1F338A551EF5515400C2D16C /* PBXTargetDependency */,
 				1F338A651EF5516600C2D16C /* PBXTargetDependency */,
 				1F338A751EF5518700C2D16C /* PBXTargetDependency */,
+				1F338A8E1EF5523900C2D16C /* PBXTargetDependency */,
+				1FA188E61EF5FF1400BA7993 /* PBXTargetDependency */,
 			);
 			name = Turducken;
 			productName = Turducken;
@@ -3596,6 +3729,15 @@
 					1F338A6D1EF5518600C2D16C = {
 						CreatedOnToolsVersion = 9.0;
 					};
+					1F338A821EF5523800C2D16C = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					1FA188DF1EF5FF1400BA7993 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					1FA188EC1EF5FF6200BA7993 = {
+						CreatedOnToolsVersion = 9.0;
+					};
 					1FC074801E7B41AD00076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
@@ -3971,9 +4113,11 @@
 				1FC075A81E7B4D3E00076178 /* MyNotificationContent */,
 				1FC075BE1E7B4D7300076178 /* MyNotificationService */,
 				1FC075CD1E7B4DA800076178 /* MyPhotoEditing */,
+				1F338A821EF5523800C2D16C /* MyQuickLookPreview */,
 				1FC075E31E7B4E0300076178 /* MyShare */,
 				1FC075F51E7B4E3600076178 /* MySharedLinks */,
 				1FC076041E7B4E8000076178 /* MySpotlightIndex */,
+				1FA188DF1EF5FF1400BA7993 /* MyThumbnail */,
 				1FC076201E7B4EE500076178 /* MyToday */,
 				1FC076321E7B4F2200076178 /* TurduckenWatch */,
 				1FC0763E1E7B4F2200076178 /* TurduckenWatch Extension */,
@@ -4006,6 +4150,7 @@
 				1FC0787E1E7B698900076178 /* MyFramework-tvOSTests */,
 				1FC078981E7B699800076178 /* MyFramework-macOS */,
 				1FC078A01E7B699800076178 /* MyFramework-macOSTests */,
+				1FA188EC1EF5FF6200BA7993 /* MyMetalLibrary */,
 			);
 		};
 /* End PBXProject section */
@@ -4054,6 +4199,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1F338A6C1EF5518600C2D16C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F338A811EF5523800C2D16C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F338A8B1EF5523900C2D16C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA188DE1EF5FF1400BA7993 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4536,6 +4696,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1F338A7F1EF5523800C2D16C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F338A881EF5523900C2D16C /* PreviewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA188DC1EF5FF1400BA7993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA188E31EF5FF1400BA7993 /* ThumbnailProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA188EB1EF5FF6200BA7993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA188F01EF5FF6200BA7993 /* MyMetalLibrary.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1FC0747D1E7B41AD00076178 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -5012,6 +5196,16 @@
 			target = 1F338A6D1EF5518600C2D16C /* MyNetworkDNSProxy */;
 			targetProxy = 1F338A741EF5518700C2D16C /* PBXContainerItemProxy */;
 		};
+		1F338A8E1EF5523900C2D16C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F338A821EF5523800C2D16C /* MyQuickLookPreview */;
+			targetProxy = 1F338A8D1EF5523900C2D16C /* PBXContainerItemProxy */;
+		};
+		1FA188E61EF5FF1400BA7993 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FA188DF1EF5FF1400BA7993 /* MyThumbnail */;
+			targetProxy = 1FA188E51EF5FF1400BA7993 /* PBXContainerItemProxy */;
+		};
 		1FC074971E7B41AD00076178 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1FC074801E7B41AD00076178 /* Turducken */;
@@ -5270,6 +5464,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		1F338A891EF5523900C2D16C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F338A8A1EF5523900C2D16C /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		1FC074881E7B41AD00076178 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -5748,6 +5950,100 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F338A911EF5523900C2D16C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyQuickLookPreview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyQuickLookPreview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F338A921EF5523900C2D16C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyQuickLookPreview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyQuickLookPreview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FA188E91EF5FF1400BA7993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyThumbnail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyThumbnail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FA188EA1EF5FF1400BA7993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyThumbnail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyThumbnail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FA188F21EF5FF6200BA7993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FA188F31EF5FF6200BA7993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -7710,6 +8006,7 @@
 				1F338A191EF5503F00C2D16C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F338A271EF550B700C2D16C /* Build configuration list for PBXNativeTarget "MyMessageFilter" */ = {
 			isa = XCConfigurationList;
@@ -7718,6 +8015,7 @@
 				1F338A291EF550B700C2D16C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F338A371EF5512200C2D16C /* Build configuration list for PBXNativeTarget "MyNetworkAppProxy" */ = {
 			isa = XCConfigurationList;
@@ -7726,6 +8024,7 @@
 				1F338A391EF5512200C2D16C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F338A471EF5514200C2D16C /* Build configuration list for PBXNativeTarget "MyNetworkFilterControl" */ = {
 			isa = XCConfigurationList;
@@ -7734,6 +8033,7 @@
 				1F338A491EF5514200C2D16C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F338A571EF5515400C2D16C /* Build configuration list for PBXNativeTarget "MyNetworkFilterData" */ = {
 			isa = XCConfigurationList;
@@ -7742,6 +8042,7 @@
 				1F338A591EF5515400C2D16C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F338A671EF5516700C2D16C /* Build configuration list for PBXNativeTarget "MyNetworkPacketTunnel" */ = {
 			isa = XCConfigurationList;
@@ -7750,12 +8051,39 @@
 				1F338A691EF5516700C2D16C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F338A771EF5518700C2D16C /* Build configuration list for PBXNativeTarget "MyNetworkDNSProxy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F338A781EF5518700C2D16C /* Debug */,
 				1F338A791EF5518700C2D16C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F338A901EF5523900C2D16C /* Build configuration list for PBXNativeTarget "MyQuickLookPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F338A911EF5523900C2D16C /* Debug */,
+				1F338A921EF5523900C2D16C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA188E81EF5FF1400BA7993 /* Build configuration list for PBXNativeTarget "MyThumbnail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA188E91EF5FF1400BA7993 /* Debug */,
+				1FA188EA1EF5FF1400BA7993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FA188F11EF5FF6200BA7993 /* Build configuration list for PBXNativeTarget "MyMetalLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA188F21EF5FF6200BA7993 /* Debug */,
+				1FA188F31EF5FF6200BA7993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
