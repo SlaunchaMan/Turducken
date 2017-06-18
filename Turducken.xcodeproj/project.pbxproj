@@ -57,6 +57,8 @@
 		1FA188E31EF5FF1400BA7993 /* ThumbnailProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA188E21EF5FF1400BA7993 /* ThumbnailProvider.swift */; };
 		1FA188E71EF5FF1400BA7993 /* MyThumbnail.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FA188E01EF5FF1400BA7993 /* MyThumbnail.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1FA188F01EF5FF6200BA7993 /* MyMetalLibrary.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1FA188EF1EF5FF6200BA7993 /* MyMetalLibrary.metal */; };
+		1FA188FD1EF5FFEA00BA7993 /* MyMetalLibrary.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1FA188EF1EF5FF6200BA7993 /* MyMetalLibrary.metal */; };
+		1FA1890B1EF6009900BA7993 /* MyMetalLibrary.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1FA188EF1EF5FF6200BA7993 /* MyMetalLibrary.metal */; };
 		1FC074851E7B41AD00076178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC074841E7B41AD00076178 /* AppDelegate.swift */; };
 		1FC074871E7B41AD00076178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC074861E7B41AD00076178 /* ViewController.swift */; };
 		1FC0748A1E7B41AD00076178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC074881E7B41AD00076178 /* Main.storyboard */; };
@@ -859,6 +861,8 @@
 		1FA188E41EF5FF1400BA7993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FA188ED1EF5FF6200BA7993 /* MyMetalLibrary.metallib */ = {isa = PBXFileReference; explicitFileType = "archive.metal-library"; includeInIndex = 0; path = MyMetalLibrary.metallib; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA188EF1EF5FF6200BA7993 /* MyMetalLibrary.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MyMetalLibrary.metal; sourceTree = "<group>"; };
+		1FA188F61EF5FFDD00BA7993 /* MyMetalLibrary-tvOS.metallib */ = {isa = PBXFileReference; explicitFileType = "archive.metal-library"; includeInIndex = 0; path = "MyMetalLibrary-tvOS.metallib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA189041EF6008D00BA7993 /* MyMetalLibrary-macOS.metallib */ = {isa = PBXFileReference; explicitFileType = "archive.metal-library"; includeInIndex = 0; path = "MyMetalLibrary-macOS.metallib"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC074811E7B41AD00076178 /* Turducken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turducken.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC074841E7B41AD00076178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FC074861E7B41AD00076178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -1772,6 +1776,8 @@
 				1F338A831EF5523800C2D16C /* MyQuickLookPreview.appex */,
 				1FA188E01EF5FF1400BA7993 /* MyThumbnail.appex */,
 				1FA188ED1EF5FF6200BA7993 /* MyMetalLibrary.metallib */,
+				1FA188F61EF5FFDD00BA7993 /* MyMetalLibrary-tvOS.metallib */,
+				1FA189041EF6008D00BA7993 /* MyMetalLibrary-macOS.metallib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2705,6 +2711,36 @@
 			name = MyMetalLibrary;
 			productName = MyMetalLibrary;
 			productReference = 1FA188ED1EF5FF6200BA7993 /* MyMetalLibrary.metallib */;
+			productType = "com.apple.product-type.metal-library";
+		};
+		1FA188F51EF5FFDD00BA7993 /* MyMetalLibrary-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA188FA1EF5FFDD00BA7993 /* Build configuration list for PBXNativeTarget "MyMetalLibrary-tvOS" */;
+			buildPhases = (
+				1FA188F41EF5FFDD00BA7993 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyMetalLibrary-tvOS";
+			productName = "MyMetalLibrary-tvOS";
+			productReference = 1FA188F61EF5FFDD00BA7993 /* MyMetalLibrary-tvOS.metallib */;
+			productType = "com.apple.product-type.metal-library";
+		};
+		1FA189031EF6008D00BA7993 /* MyMetalLibrary-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA189081EF6008D00BA7993 /* Build configuration list for PBXNativeTarget "MyMetalLibrary-macOS" */;
+			buildPhases = (
+				1FA189021EF6008D00BA7993 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyMetalLibrary-macOS";
+			productName = "MyMetalLibrary-macOS";
+			productReference = 1FA189041EF6008D00BA7993 /* MyMetalLibrary-macOS.metallib */;
 			productType = "com.apple.product-type.metal-library";
 		};
 		1FC074801E7B41AD00076178 /* Turducken */ = {
@@ -3738,6 +3774,12 @@
 					1FA188EC1EF5FF6200BA7993 = {
 						CreatedOnToolsVersion = 9.0;
 					};
+					1FA188F51EF5FFDD00BA7993 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					1FA189031EF6008D00BA7993 = {
+						CreatedOnToolsVersion = 9.0;
+					};
 					1FC074801E7B41AD00076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
@@ -4151,6 +4193,8 @@
 				1FC078981E7B699800076178 /* MyFramework-macOS */,
 				1FC078A01E7B699800076178 /* MyFramework-macOSTests */,
 				1FA188EC1EF5FF6200BA7993 /* MyMetalLibrary */,
+				1FA188F51EF5FFDD00BA7993 /* MyMetalLibrary-tvOS */,
+				1FA189031EF6008D00BA7993 /* MyMetalLibrary-macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -4717,6 +4761,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FA188F01EF5FF6200BA7993 /* MyMetalLibrary.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA188F41EF5FFDD00BA7993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA188FD1EF5FFEA00BA7993 /* MyMetalLibrary.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA189021EF6008D00BA7993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA1890B1EF6009900BA7993 /* MyMetalLibrary.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6044,6 +6104,48 @@
 				DEVELOPMENT_TEAM = UCFNS9576M;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1FA188FB1EF5FFDD00BA7993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		1FA188FC1EF5FFDD00BA7993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		1FA189091EF6008D00BA7993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1FA1890A1EF6008D00BA7993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -8084,6 +8186,22 @@
 			buildConfigurations = (
 				1FA188F21EF5FF6200BA7993 /* Debug */,
 				1FA188F31EF5FF6200BA7993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FA188FA1EF5FFDD00BA7993 /* Build configuration list for PBXNativeTarget "MyMetalLibrary-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA188FB1EF5FFDD00BA7993 /* Debug */,
+				1FA188FC1EF5FFDD00BA7993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FA189081EF6008D00BA7993 /* Build configuration list for PBXNativeTarget "MyMetalLibrary-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA189091EF6008D00BA7993 /* Debug */,
+				1FA1890A1EF6008D00BA7993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
