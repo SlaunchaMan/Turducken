@@ -238,6 +238,17 @@
 		1FC078BF1E7B6A0300076178 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC078BB1E7B6A0300076178 /* File.swift */; };
 		1FC4348A1F1496E2001DE2A5 /* DNSProxyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC434891F1496E2001DE2A5 /* DNSProxyProvider.swift */; };
 		1FC434931F149723001DE2A5 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
+		1FC434F51F149991001DE2A5 /* MyStaticLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC434F41F149991001DE2A5 /* MyStaticLibrary.m */; };
+		1FC434F61F149991001DE2A5 /* MyStaticLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FC434F31F149991001DE2A5 /* MyStaticLibrary.h */; };
+		1FC434FA1F1499C8001DE2A5 /* libMyStaticLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC434F11F149990001DE2A5 /* libMyStaticLibrary.a */; };
+		1FC435091F149A22001DE2A5 /* MyStaticLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC434F41F149991001DE2A5 /* MyStaticLibrary.m */; };
+		1FC4350A1F149A36001DE2A5 /* libMyStaticLibrary-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC435001F149A15001DE2A5 /* libMyStaticLibrary-tvOS.a */; };
+		1FC4350B1F149A4D001DE2A5 /* MyStaticLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FC434F31F149991001DE2A5 /* MyStaticLibrary.h */; };
+		1FC435191F149A63001DE2A5 /* MyStaticLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FC434F31F149991001DE2A5 /* MyStaticLibrary.h */; };
+		1FC4351A1F149A67001DE2A5 /* MyStaticLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC434F41F149991001DE2A5 /* MyStaticLibrary.m */; };
+		1FC4351B1F149A92001DE2A5 /* libMyStaticLibrary-watchOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC435101F149A5D001DE2A5 /* libMyStaticLibrary-watchOS.a */; };
+		1FC435381F149AE8001DE2A5 /* MyStaticLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC434F41F149991001DE2A5 /* MyStaticLibrary.m */; };
+		1FC435391F149AEA001DE2A5 /* MyStaticLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC434F31F149991001DE2A5 /* MyStaticLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -799,6 +810,36 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC434EF1F149990001DE2A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1FC434F61F149991001DE2A5 /* MyStaticLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC434FE1F149A15001DE2A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1FC4350B1F149A4D001DE2A5 /* MyStaticLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC4350E1F149A5D001DE2A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1FC435191F149A63001DE2A5 /* MyStaticLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -1071,6 +1112,12 @@
 		1FC434891F1496E2001DE2A5 /* DNSProxyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSProxyProvider.swift; sourceTree = "<group>"; };
 		1FC4348B1F1496E2001DE2A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FC4348C1F1496E2001DE2A5 /* MyNetworkDNSProxy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyNetworkDNSProxy.entitlements; sourceTree = "<group>"; };
+		1FC434F11F149990001DE2A5 /* libMyStaticLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMyStaticLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC434F31F149991001DE2A5 /* MyStaticLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyStaticLibrary.h; sourceTree = "<group>"; };
+		1FC434F41F149991001DE2A5 /* MyStaticLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyStaticLibrary.m; sourceTree = "<group>"; };
+		1FC435001F149A15001DE2A5 /* libMyStaticLibrary-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libMyStaticLibrary-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC435101F149A5D001DE2A5 /* libMyStaticLibrary-watchOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libMyStaticLibrary-watchOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC4352F1F149ADC001DE2A5 /* libMyStaticLibrary-macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libMyStaticLibrary-macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1140,6 +1187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FC434FA1F1499C8001DE2A5 /* libMyStaticLibrary.a in Frameworks */,
 				1FC078571E7B691200076178 /* MyFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1326,6 +1374,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FC4351B1F149A92001DE2A5 /* libMyStaticLibrary-watchOS.a in Frameworks */,
 				1FC0786C1E7B695600076178 /* MyFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1342,6 +1391,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FC4350A1F149A36001DE2A5 /* libMyStaticLibrary-tvOS.a in Frameworks */,
 				1FC0788C1E7B698900076178 /* MyFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1561,6 +1611,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC434EE1F149990001DE2A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC434FD1F149A15001DE2A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC4350D1F149A5D001DE2A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC4352C1F149ADC001DE2A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1662,6 +1740,7 @@
 				1FC078431E7B691100076178 /* MyFramework */,
 				1FC078501E7B691200076178 /* MyFrameworkTests */,
 				1FA188EE1EF5FF6200BA7993 /* MyMetalLibrary */,
+				1FC434F21F149991001DE2A5 /* MyStaticLibrary */,
 				1FC074E01E7B456C00076178 /* Frameworks */,
 				1FC074821E7B41AD00076178 /* Products */,
 			);
@@ -1735,6 +1814,10 @@
 				1FA188F61EF5FFDD00BA7993 /* MyMetalLibrary-tvOS.metallib */,
 				1FA189041EF6008D00BA7993 /* MyMetalLibrary-macOS.metallib */,
 				1FC434871F1496E1001DE2A5 /* MyNetworkDNSProxy.appex */,
+				1FC434F11F149990001DE2A5 /* libMyStaticLibrary.a */,
+				1FC435001F149A15001DE2A5 /* libMyStaticLibrary-tvOS.a */,
+				1FC435101F149A5D001DE2A5 /* libMyStaticLibrary-watchOS.a */,
+				1FC4352F1F149ADC001DE2A5 /* libMyStaticLibrary-macOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2455,6 +2538,15 @@
 			path = MyNetworkDNSProxy;
 			sourceTree = "<group>";
 		};
+		1FC434F21F149991001DE2A5 /* MyStaticLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				1FC434F31F149991001DE2A5 /* MyStaticLibrary.h */,
+				1FC434F41F149991001DE2A5 /* MyStaticLibrary.m */,
+			);
+			path = MyStaticLibrary;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -2487,6 +2579,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC078B81E7B69BE00076178 /* MyFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC4352D1F149ADC001DE2A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC435391F149AEA001DE2A5 /* MyStaticLibrary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3662,6 +3762,74 @@
 			productReference = 1FC434871F1496E1001DE2A5 /* MyNetworkDNSProxy.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		1FC434F01F149990001DE2A5 /* MyStaticLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC434F71F149991001DE2A5 /* Build configuration list for PBXNativeTarget "MyStaticLibrary" */;
+			buildPhases = (
+				1FC434ED1F149990001DE2A5 /* Sources */,
+				1FC434EE1F149990001DE2A5 /* Frameworks */,
+				1FC434EF1F149990001DE2A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyStaticLibrary;
+			productName = MyStaticLibrary;
+			productReference = 1FC434F11F149990001DE2A5 /* libMyStaticLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1FC434FF1F149A15001DE2A5 /* MyStaticLibrary-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC435081F149A15001DE2A5 /* Build configuration list for PBXNativeTarget "MyStaticLibrary-tvOS" */;
+			buildPhases = (
+				1FC434FC1F149A15001DE2A5 /* Sources */,
+				1FC434FD1F149A15001DE2A5 /* Frameworks */,
+				1FC434FE1F149A15001DE2A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyStaticLibrary-tvOS";
+			productName = "MyStaticLibrary-tvOS";
+			productReference = 1FC435001F149A15001DE2A5 /* libMyStaticLibrary-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1FC4350F1F149A5D001DE2A5 /* MyStaticLibrary-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC435161F149A5D001DE2A5 /* Build configuration list for PBXNativeTarget "MyStaticLibrary-watchOS" */;
+			buildPhases = (
+				1FC4350C1F149A5D001DE2A5 /* Sources */,
+				1FC4350D1F149A5D001DE2A5 /* Frameworks */,
+				1FC4350E1F149A5D001DE2A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyStaticLibrary-watchOS";
+			productName = "MyStaticLibrary-watchOS";
+			productReference = 1FC435101F149A5D001DE2A5 /* libMyStaticLibrary-watchOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1FC4352E1F149ADC001DE2A5 /* MyStaticLibrary-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC435351F149ADD001DE2A5 /* Build configuration list for PBXNativeTarget "MyStaticLibrary-macOS" */;
+			buildPhases = (
+				1FC4352B1F149ADC001DE2A5 /* Sources */,
+				1FC4352C1F149ADC001DE2A5 /* Frameworks */,
+				1FC4352D1F149ADC001DE2A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyStaticLibrary-macOS";
+			productName = "MyStaticLibrary-macOS";
+			productReference = 1FC4352F1F149ADC001DE2A5 /* libMyStaticLibrary-macOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -4037,6 +4205,18 @@
 					1FC434861F1496E1001DE2A5 = {
 						CreatedOnToolsVersion = 9.0;
 					};
+					1FC434F01F149990001DE2A5 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					1FC434FF1F149A15001DE2A5 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					1FC4350F1F149A5D001DE2A5 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					1FC4352E1F149ADC001DE2A5 = {
+						CreatedOnToolsVersion = 9.0;
+					};
 				};
 			};
 			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Turducken" */;
@@ -4117,6 +4297,10 @@
 				1FA188EC1EF5FF6200BA7993 /* MyMetalLibrary */,
 				1FA188F51EF5FFDD00BA7993 /* MyMetalLibrary-tvOS */,
 				1FA189031EF6008D00BA7993 /* MyMetalLibrary-macOS */,
+				1FC434F01F149990001DE2A5 /* MyStaticLibrary */,
+				1FC4350F1F149A5D001DE2A5 /* MyStaticLibrary-watchOS */,
+				1FC434FF1F149A15001DE2A5 /* MyStaticLibrary-tvOS */,
+				1FC4352E1F149ADC001DE2A5 /* MyStaticLibrary-macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -5125,6 +5309,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC434ED1F149990001DE2A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC434F51F149991001DE2A5 /* MyStaticLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC434FC1F149A15001DE2A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC435091F149A22001DE2A5 /* MyStaticLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC4350C1F149A5D001DE2A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC4351A1F149A67001DE2A5 /* MyStaticLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC4352B1F149ADC001DE2A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC435381F149AE8001DE2A5 /* MyStaticLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -6061,6 +6277,8 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -6111,7 +6329,9 @@
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -7965,6 +8185,122 @@
 			};
 			name = Release;
 		};
+		1FC434F81F149991001DE2A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1FC434F91F149991001DE2A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1FC435061F149A15001DE2A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		1FC435071F149A15001DE2A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		1FC435171F149A5D001DE2A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		1FC435181F149A5D001DE2A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		1FC435361F149ADD001DE2A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1FC435371F149ADD001DE2A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -8558,6 +8894,40 @@
 			buildConfigurations = (
 				1FC434911F1496E2001DE2A5 /* Debug */,
 				1FC434921F1496E2001DE2A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FC434F71F149991001DE2A5 /* Build configuration list for PBXNativeTarget "MyStaticLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC434F81F149991001DE2A5 /* Debug */,
+				1FC434F91F149991001DE2A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FC435081F149A15001DE2A5 /* Build configuration list for PBXNativeTarget "MyStaticLibrary-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC435061F149A15001DE2A5 /* Debug */,
+				1FC435071F149A15001DE2A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC435161F149A5D001DE2A5 /* Build configuration list for PBXNativeTarget "MyStaticLibrary-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC435171F149A5D001DE2A5 /* Debug */,
+				1FC435181F149A5D001DE2A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FC435351F149ADD001DE2A5 /* Build configuration list for PBXNativeTarget "MyStaticLibrary-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC435361F149ADD001DE2A5 /* Debug */,
+				1FC435371F149ADD001DE2A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
