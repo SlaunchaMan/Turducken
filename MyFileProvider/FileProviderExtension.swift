@@ -30,7 +30,7 @@ class FileProviderExtension: NSFileProviderExtension {
         }
         
         // in this implementation, all paths are structured as <base storage directory>/<item identifier>/<item file name>
-        let manager = NSFileProviderManager.default()
+        let manager = NSFileProviderManager.default
         let perItemDirectory = manager.documentStorageURL.appendingPathComponent(identifier.rawValue, isDirectory: true)
         
         return perItemDirectory.appendingPathComponent(item.filename, isDirectory:false)
@@ -124,14 +124,12 @@ class FileProviderExtension: NSFileProviderExtension {
     
     // MARK: - Enumeration
     
-    override func enumerator(forContainerItemIdentifier containerItemIdentifier: NSFileProviderItemIdentifier) throws -> NSFileProviderEnumerator {
+    override func enumerator(for containerItemIdentifier: NSFileProviderItemIdentifier) throws -> NSFileProviderEnumerator {
         let maybeEnumerator: NSFileProviderEnumerator? = nil
         if (containerItemIdentifier == NSFileProviderItemIdentifier.rootContainer) {
             // TODO: instantiate an enumerator for the container root
         } else if (containerItemIdentifier == NSFileProviderItemIdentifier.workingSet) {
             // TODO: instantiate an enumerator for the working set
-        } else if (containerItemIdentifier == NSFileProviderItemIdentifier.allDirectories) {
-            // TODO: instantiate an enumerator that recursively enumerates all directories
         } else {
             // TODO: determine if the item is a directory or a file
             // - for a directory, instantiate an enumerator of its subitems

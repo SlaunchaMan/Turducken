@@ -10,6 +10,11 @@ import FileProvider
 
 class FileProviderEnumerator: NSObject, NSFileProviderEnumerator {
     
+    func enumerateItems(for observer: NSFileProviderEnumerationObserver, startingAt page: NSFileProviderPage) {
+        
+    }
+    
+    
     var enumeratedItemIdentifier: NSFileProviderItemIdentifier
     
     init(enumeratedItemIdentifier: NSFileProviderItemIdentifier) {

@@ -2,7 +2,7 @@
 //  DNSProxyProvider.swift
 //  MyNetworkDNSProxy
 //
-//  Created by Jeff Kelley on 6/17/17.
+//  Created by Jeff Kelley on 7/11/17.
 //  Copyright © 2017 Jeff Kelley. All rights reserved.
 //
 

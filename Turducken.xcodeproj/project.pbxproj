@@ -22,13 +22,10 @@
 		1F338A561EF5515400C2D16C /* MyNetworkFilterData.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F338A4E1EF5515300C2D16C /* MyNetworkFilterData.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1F338A611EF5516600C2D16C /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F338A601EF5516600C2D16C /* PacketTunnelProvider.swift */; };
 		1F338A661EF5516600C2D16C /* MyNetworkPacketTunnel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F338A5E1EF5516600C2D16C /* MyNetworkPacketTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		1F338A711EF5518700C2D16C /* DNSProxyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F338A701EF5518700C2D16C /* DNSProxyProvider.swift */; };
-		1F338A761EF5518700C2D16C /* MyNetworkDNSProxy.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F338A6E1EF5518600C2D16C /* MyNetworkDNSProxy.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1F338A7A1EF5519800C2D16C /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F338A7B1EF551B200C2D16C /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F338A7C1EF551BB00C2D16C /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F338A7D1EF551C000C2D16C /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
-		1F338A7E1EF551C400C2D16C /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F338A851EF5523900C2D16C /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F338A841EF5523900C2D16C /* QuickLook.framework */; };
 		1F338A881EF5523900C2D16C /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F338A871EF5523900C2D16C /* PreviewViewController.swift */; };
 		1F338A8B1EF5523900C2D16C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F338A891EF5523900C2D16C /* MainInterface.storyboard */; };
@@ -42,7 +39,6 @@
 		1F82645A1E7B700100A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F82645B1E7B700400A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F82645C1E7B700F00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
-		1F82645D1E7B701300A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F82645E1E7B701800A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F82645F1E7B701C00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F8264601E7B701F00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
@@ -96,8 +92,6 @@
 		1FC075431E7B47F900076178 /* MyCustomKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC0753C1E7B47F900076178 /* MyCustomKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1FC075501E7B4BD200076178 /* DocumentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0754F1E7B4BD200076178 /* DocumentPickerViewController.swift */; };
 		1FC075531E7B4BD200076178 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC075511E7B4BD200076178 /* MainInterface.storyboard */; };
-		1FC0755E1E7B4BD300076178 /* FileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0755D1E7B4BD300076178 /* FileProvider.swift */; };
-		1FC075621E7B4BD300076178 /* MyDocumentProviderFileProvider.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC075591E7B4BD300076178 /* MyDocumentProviderFileProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1FC075651E7B4BD300076178 /* MyDocumentProvider.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC0754B1E7B4BD200076178 /* MyDocumentProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1FC075721E7B4CA400076178 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC075711E7B4CA400076178 /* Messages.framework */; };
 		1FC075751E7B4CA400076178 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC075741E7B4CA400076178 /* MessagesViewController.swift */; };
@@ -242,6 +236,8 @@
 		1FC078BD1E7B6A0300076178 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC078BB1E7B6A0300076178 /* File.swift */; };
 		1FC078BE1E7B6A0300076178 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC078BB1E7B6A0300076178 /* File.swift */; };
 		1FC078BF1E7B6A0300076178 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC078BB1E7B6A0300076178 /* File.swift */; };
+		1FC4348A1F1496E2001DE2A5 /* DNSProxyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC434891F1496E2001DE2A5 /* DNSProxyProvider.swift */; };
+		1FC434931F149723001DE2A5 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -286,13 +282,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1F338A5D1EF5516600C2D16C;
 			remoteInfo = MyNetworkPacketTunnel;
-		};
-		1F338A741EF5518700C2D16C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1F338A6D1EF5518600C2D16C;
-			remoteInfo = MyNetworkDNSProxy;
 		};
 		1F338A8D1EF5523900C2D16C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -377,13 +366,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1FC0753B1E7B47F900076178;
 			remoteInfo = MyCustomKeyboard;
-		};
-		1FC075601E7B4BD300076178 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FC075581E7B4BD300076178;
-			remoteInfo = MyDocumentProviderFileProvider;
 		};
 		1FC075631E7B4BD300076178 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -676,7 +658,6 @@
 			files = (
 				1FC0760C1E7B4E8000076178 /* MySpotlightIndex.appex in Embed App Extensions */,
 				1F338A661EF5516600C2D16C /* MyNetworkPacketTunnel.appex in Embed App Extensions */,
-				1FC075621E7B4BD300076178 /* MyDocumentProviderFileProvider.appex in Embed App Extensions */,
 				1FC075EE1E7B4E0300076178 /* MyShare.appex in Embed App Extensions */,
 				1F338A161EF5503F00C2D16C /* MyFileProvider.appex in Embed App Extensions */,
 				1FC075341E7B471A00076178 /* MyContentBlocker.appex in Embed App Extensions */,
@@ -688,7 +669,6 @@
 				1F338A361EF5512200C2D16C /* MyNetworkAppProxy.appex in Embed App Extensions */,
 				1FC075DC1E7B4DA800076178 /* MyPhotoEditing.appex in Embed App Extensions */,
 				1F338A561EF5515400C2D16C /* MyNetworkFilterData.appex in Embed App Extensions */,
-				1F338A761EF5518700C2D16C /* MyNetworkDNSProxy.appex in Embed App Extensions */,
 				1FC075651E7B4BD300076178 /* MyDocumentProvider.appex in Embed App Extensions */,
 				1FC075231E7B46FA00076178 /* MyCallDirectory.appex in Embed App Extensions */,
 				1FA188E71EF5FF1400BA7993 /* MyThumbnail.appex in Embed App Extensions */,
@@ -847,10 +827,6 @@
 		1F338A601EF5516600C2D16C /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
 		1F338A621EF5516600C2D16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F338A631EF5516600C2D16C /* MyNetworkPacketTunnel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyNetworkPacketTunnel.entitlements; sourceTree = "<group>"; };
-		1F338A6E1EF5518600C2D16C /* MyNetworkDNSProxy.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyNetworkDNSProxy.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F338A701EF5518700C2D16C /* DNSProxyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSProxyProvider.swift; sourceTree = "<group>"; };
-		1F338A721EF5518700C2D16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F338A731EF5518700C2D16C /* MyNetworkDNSProxy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyNetworkDNSProxy.entitlements; sourceTree = "<group>"; };
 		1F338A831EF5523800C2D16C /* MyQuickLookPreview.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyQuickLookPreview.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F338A841EF5523900C2D16C /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		1F338A871EF5523900C2D16C /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
@@ -916,10 +892,6 @@
 		1FC0754F1E7B4BD200076178 /* DocumentPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPickerViewController.swift; sourceTree = "<group>"; };
 		1FC075521E7B4BD200076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		1FC075541E7B4BD200076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FC075591E7B4BD300076178 /* MyDocumentProviderFileProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyDocumentProviderFileProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FC0755C1E7B4BD300076178 /* MyDocumentProviderFileProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyDocumentProviderFileProvider.entitlements; sourceTree = "<group>"; };
-		1FC0755D1E7B4BD300076178 /* FileProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProvider.swift; sourceTree = "<group>"; };
-		1FC0755F1E7B4BD300076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FC075701E7B4CA400076178 /* MyiMessage.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyiMessage.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC075711E7B4CA400076178 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
 		1FC075741E7B4CA400076178 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
@@ -1095,6 +1067,10 @@
 		1FC078991E7B699800076178 /* MyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC078A11E7B699800076178 /* MyFramework-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyFramework-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC078BB1E7B6A0300076178 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		1FC434871F1496E1001DE2A5 /* MyNetworkDNSProxy.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyNetworkDNSProxy.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC434891F1496E2001DE2A5 /* DNSProxyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSProxyProvider.swift; sourceTree = "<group>"; };
+		1FC4348B1F1496E2001DE2A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC4348C1F1496E2001DE2A5 /* MyNetworkDNSProxy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyNetworkDNSProxy.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1142,14 +1118,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F338A7D1EF551C000C2D16C /* MyFramework.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F338A6B1EF5518600C2D16C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F338A7E1EF551C400C2D16C /* MyFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1264,14 +1232,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F82645C1E7B700F00A218C6 /* MyFramework.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1FC075561E7B4BD300076178 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F82645D1E7B701300A218C6 /* MyFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1593,6 +1553,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC434841F1496E1001DE2A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC434931F149723001DE2A5 /* MyFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1657,16 +1625,6 @@
 			path = MyNetworkPacketTunnel;
 			sourceTree = "<group>";
 		};
-		1F338A6F1EF5518700C2D16C /* MyNetworkDNSProxy */ = {
-			isa = PBXGroup;
-			children = (
-				1F338A701EF5518700C2D16C /* DNSProxyProvider.swift */,
-				1F338A721EF5518700C2D16C /* Info.plist */,
-				1F338A731EF5518700C2D16C /* MyNetworkDNSProxy.entitlements */,
-			);
-			path = MyNetworkDNSProxy;
-			sourceTree = "<group>";
-		};
 		1F338A861EF5523900C2D16C /* MyQuickLookPreview */ = {
 			isa = PBXGroup;
 			children = (
@@ -1724,7 +1682,6 @@
 				1FC0752B1E7B471A00076178 /* MyContentBlocker.appex */,
 				1FC0753C1E7B47F900076178 /* MyCustomKeyboard.appex */,
 				1FC0754B1E7B4BD200076178 /* MyDocumentProvider.appex */,
-				1FC075591E7B4BD300076178 /* MyDocumentProviderFileProvider.appex */,
 				1FC075701E7B4CA400076178 /* MyiMessage.appex */,
 				1FC075861E7B4CD300076178 /* MyIntents.appex */,
 				1FC0758F1E7B4CD400076178 /* MyIntentsUI.appex */,
@@ -1772,12 +1729,12 @@
 				1F338A3E1EF5514200C2D16C /* MyNetworkFilterControl.appex */,
 				1F338A4E1EF5515300C2D16C /* MyNetworkFilterData.appex */,
 				1F338A5E1EF5516600C2D16C /* MyNetworkPacketTunnel.appex */,
-				1F338A6E1EF5518600C2D16C /* MyNetworkDNSProxy.appex */,
 				1F338A831EF5523800C2D16C /* MyQuickLookPreview.appex */,
 				1FA188E01EF5FF1400BA7993 /* MyThumbnail.appex */,
 				1FA188ED1EF5FF6200BA7993 /* MyMetalLibrary.metallib */,
 				1FA188F61EF5FFDD00BA7993 /* MyMetalLibrary-tvOS.metallib */,
 				1FA189041EF6008D00BA7993 /* MyMetalLibrary-macOS.metallib */,
+				1FC434871F1496E1001DE2A5 /* MyNetworkDNSProxy.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1928,24 +1885,6 @@
 			isa = PBXGroup;
 			children = (
 				1FC0754E1E7B4BD200076178 /* MyDocumentProvider.entitlements */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1FC0755A1E7B4BD300076178 /* MyDocumentProviderFileProvider */ = {
-			isa = PBXGroup;
-			children = (
-				1FC0755D1E7B4BD300076178 /* FileProvider.swift */,
-				1FC0755F1E7B4BD300076178 /* Info.plist */,
-				1FC0755B1E7B4BD300076178 /* Supporting Files */,
-			);
-			path = MyDocumentProviderFileProvider;
-			sourceTree = "<group>";
-		};
-		1FC0755B1E7B4BD300076178 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1FC0755C1E7B4BD300076178 /* MyDocumentProviderFileProvider.entitlements */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -2202,17 +2141,16 @@
 				1FC0752C1E7B471A00076178 /* MyContentBlocker */,
 				1FC0753D1E7B47F900076178 /* MyCustomKeyboard */,
 				1FC0754C1E7B4BD200076178 /* MyDocumentProvider */,
-				1FC0755A1E7B4BD300076178 /* MyDocumentProviderFileProvider */,
 				1F338A0B1EF5503F00C2D16C /* MyFileProvider */,
 				1FC075731E7B4CA400076178 /* MyiMessage */,
 				1FC075871E7B4CD300076178 /* MyIntents */,
 				1FC075921E7B4CD400076178 /* MyIntentsUI */,
 				1F338A201EF550B700C2D16C /* MyMessageFilter */,
 				1F338A2F1EF5512200C2D16C /* MyNetworkAppProxy */,
+				1FC434881F1496E2001DE2A5 /* MyNetworkDNSProxy */,
 				1F338A3F1EF5514200C2D16C /* MyNetworkFilterControl */,
 				1F338A4F1EF5515400C2D16C /* MyNetworkFilterData */,
 				1F338A5F1EF5516600C2D16C /* MyNetworkPacketTunnel */,
-				1F338A6F1EF5518700C2D16C /* MyNetworkDNSProxy */,
 				1FC075AE1E7B4D3E00076178 /* MyNotificationContent */,
 				1FC075C01E7B4D7300076178 /* MyNotificationService */,
 				1FC075D31E7B4DA800076178 /* MyPhotoEditing */,
@@ -2507,6 +2445,16 @@
 			path = MyFrameworkTests;
 			sourceTree = "<group>";
 		};
+		1FC434881F1496E2001DE2A5 /* MyNetworkDNSProxy */ = {
+			isa = PBXGroup;
+			children = (
+				1FC434891F1496E2001DE2A5 /* DNSProxyProvider.swift */,
+				1FC4348B1F1496E2001DE2A5 /* Info.plist */,
+				1FC4348C1F1496E2001DE2A5 /* MyNetworkDNSProxy.entitlements */,
+			);
+			path = MyNetworkDNSProxy;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -2647,23 +2595,6 @@
 			productReference = 1F338A5E1EF5516600C2D16C /* MyNetworkPacketTunnel.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		1F338A6D1EF5518600C2D16C /* MyNetworkDNSProxy */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1F338A771EF5518700C2D16C /* Build configuration list for PBXNativeTarget "MyNetworkDNSProxy" */;
-			buildPhases = (
-				1F338A6A1EF5518600C2D16C /* Sources */,
-				1F338A6B1EF5518600C2D16C /* Frameworks */,
-				1F338A6C1EF5518600C2D16C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MyNetworkDNSProxy;
-			productName = MyNetworkDNSProxy;
-			productReference = 1F338A6E1EF5518600C2D16C /* MyNetworkDNSProxy.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		1F338A821EF5523800C2D16C /* MyQuickLookPreview */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F338A901EF5523900C2D16C /* Build configuration list for PBXNativeTarget "MyQuickLookPreview" */;
@@ -2765,7 +2696,6 @@
 				1FC075221E7B46FA00076178 /* PBXTargetDependency */,
 				1FC075331E7B471A00076178 /* PBXTargetDependency */,
 				1FC075421E7B47F900076178 /* PBXTargetDependency */,
-				1FC075611E7B4BD300076178 /* PBXTargetDependency */,
 				1FC075641E7B4BD300076178 /* PBXTargetDependency */,
 				1FC0757D1E7B4CA400076178 /* PBXTargetDependency */,
 				1FC0759A1E7B4CD400076178 /* PBXTargetDependency */,
@@ -2785,7 +2715,6 @@
 				1F338A451EF5514200C2D16C /* PBXTargetDependency */,
 				1F338A551EF5515400C2D16C /* PBXTargetDependency */,
 				1F338A651EF5516600C2D16C /* PBXTargetDependency */,
-				1F338A751EF5518700C2D16C /* PBXTargetDependency */,
 				1F338A8E1EF5523900C2D16C /* PBXTargetDependency */,
 				1FA188E61EF5FF1400BA7993 /* PBXTargetDependency */,
 			);
@@ -2981,23 +2910,6 @@
 			name = MyDocumentProvider;
 			productName = MyDocumentProvider;
 			productReference = 1FC0754B1E7B4BD200076178 /* MyDocumentProvider.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
-		1FC075581E7B4BD300076178 /* MyDocumentProviderFileProvider */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1FC075661E7B4BD300076178 /* Build configuration list for PBXNativeTarget "MyDocumentProviderFileProvider" */;
-			buildPhases = (
-				1FC075551E7B4BD300076178 /* Sources */,
-				1FC075561E7B4BD300076178 /* Frameworks */,
-				1FC075571E7B4BD300076178 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MyDocumentProviderFileProvider;
-			productName = MyDocumentProviderFileProvider;
-			productReference = 1FC075591E7B4BD300076178 /* MyDocumentProviderFileProvider.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		1FC0756F1E7B4CA400076178 /* MyiMessage */ = {
@@ -3733,6 +3645,23 @@
 			productReference = 1FC078A11E7B699800076178 /* MyFramework-macOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		1FC434861F1496E1001DE2A5 /* MyNetworkDNSProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC434901F1496E2001DE2A5 /* Build configuration list for PBXNativeTarget "MyNetworkDNSProxy" */;
+			buildPhases = (
+				1FC434831F1496E1001DE2A5 /* Sources */,
+				1FC434841F1496E1001DE2A5 /* Frameworks */,
+				1FC434851F1496E1001DE2A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyNetworkDNSProxy;
+			productName = MyNetworkDNSProxy;
+			productReference = 1FC434871F1496E1001DE2A5 /* MyNetworkDNSProxy.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -3760,9 +3689,6 @@
 						CreatedOnToolsVersion = 9.0;
 					};
 					1F338A5D1EF5516600C2D16C = {
-						CreatedOnToolsVersion = 9.0;
-					};
-					1F338A6D1EF5518600C2D16C = {
 						CreatedOnToolsVersion = 9.0;
 					};
 					1F338A821EF5523800C2D16C = {
@@ -3858,12 +3784,6 @@
 								enabled = 0;
 							};
 						};
-					};
-					1FC075581E7B4BD300076178 = {
-						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = UCFNS9576M;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
 					};
 					1FC0756F1E7B4CA400076178 = {
 						CreatedOnToolsVersion = 8.3;
@@ -4114,6 +4034,9 @@
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
+					1FC434861F1496E1001DE2A5 = {
+						CreatedOnToolsVersion = 9.0;
+					};
 				};
 			};
 			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Turducken" */;
@@ -4141,17 +4064,16 @@
 				1FC0752A1E7B471A00076178 /* MyContentBlocker */,
 				1FC0753B1E7B47F900076178 /* MyCustomKeyboard */,
 				1FC0754A1E7B4BD200076178 /* MyDocumentProvider */,
-				1FC075581E7B4BD300076178 /* MyDocumentProviderFileProvider */,
 				1F338A091EF5503F00C2D16C /* MyFileProvider */,
 				1FC0756F1E7B4CA400076178 /* MyiMessage */,
 				1FC075851E7B4CD300076178 /* MyIntents */,
 				1FC0758E1E7B4CD400076178 /* MyIntentsUI */,
 				1F338A1E1EF550B600C2D16C /* MyMessageFilter */,
 				1F338A2D1EF5512100C2D16C /* MyNetworkAppProxy */,
+				1FC434861F1496E1001DE2A5 /* MyNetworkDNSProxy */,
 				1F338A3D1EF5514200C2D16C /* MyNetworkFilterControl */,
 				1F338A4D1EF5515300C2D16C /* MyNetworkFilterData */,
 				1F338A5D1EF5516600C2D16C /* MyNetworkPacketTunnel */,
-				1F338A6D1EF5518600C2D16C /* MyNetworkDNSProxy */,
 				1FC075A81E7B4D3E00076178 /* MyNotificationContent */,
 				1FC075BE1E7B4D7300076178 /* MyNotificationService */,
 				1FC075CD1E7B4DA800076178 /* MyPhotoEditing */,
@@ -4236,13 +4158,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1F338A5C1EF5516600C2D16C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F338A6C1EF5518600C2D16C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4354,13 +4269,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC075531E7B4BD200076178 /* MainInterface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1FC075571E7B4BD300076178 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4679,6 +4587,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC434851F1496E1001DE2A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -4729,14 +4644,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F338A611EF5516600C2D16C /* PacketTunnelProvider.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F338A6A1EF5518600C2D16C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F338A711EF5518700C2D16C /* DNSProxyProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4876,14 +4783,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC075501E7B4BD200076178 /* DocumentPickerViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1FC075551E7B4BD300076178 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1FC0755E1E7B4BD300076178 /* FileProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5218,6 +5117,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FC434831F1496E1001DE2A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC4348A1F1496E2001DE2A5 /* DNSProxyProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -5250,11 +5157,6 @@
 			isa = PBXTargetDependency;
 			target = 1F338A5D1EF5516600C2D16C /* MyNetworkPacketTunnel */;
 			targetProxy = 1F338A641EF5516600C2D16C /* PBXContainerItemProxy */;
-		};
-		1F338A751EF5518700C2D16C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1F338A6D1EF5518600C2D16C /* MyNetworkDNSProxy */;
-			targetProxy = 1F338A741EF5518700C2D16C /* PBXContainerItemProxy */;
 		};
 		1F338A8E1EF5523900C2D16C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -5315,11 +5217,6 @@
 			isa = PBXTargetDependency;
 			target = 1FC0753B1E7B47F900076178 /* MyCustomKeyboard */;
 			targetProxy = 1FC075411E7B47F900076178 /* PBXContainerItemProxy */;
-		};
-		1FC075611E7B4BD300076178 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FC075581E7B4BD300076178 /* MyDocumentProviderFileProvider */;
-			targetProxy = 1FC075601E7B4BD300076178 /* PBXContainerItemProxy */;
 		};
 		1FC075641E7B4BD300076178 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -5973,46 +5870,6 @@
 			};
 			name = Release;
 		};
-		1F338A781EF5518700C2D16C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = MyNetworkDNSProxy/MyNetworkDNSProxy.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = UCFNS9576M;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = MyNetworkDNSProxy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyNetworkDNSProxy;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		1F338A791EF5518700C2D16C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = MyNetworkDNSProxy/MyNetworkDNSProxy.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = UCFNS9576M;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = MyNetworkDNSProxy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyNetworkDNSProxy;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		1F338A911EF5523900C2D16C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -6568,36 +6425,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyCustomKeyboard;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		1FC075671E7B4BD300076178 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = MyDocumentProviderFileProvider/MyDocumentProviderFileProvider.entitlements;
-				DEVELOPMENT_TEAM = UCFNS9576M;
-				INFOPLIST_FILE = MyDocumentProviderFileProvider/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyDocumentProviderFileProvider;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		1FC075681E7B4BD300076178 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = MyDocumentProviderFileProvider/MyDocumentProviderFileProvider.entitlements;
-				DEVELOPMENT_TEAM = UCFNS9576M;
-				INFOPLIST_FILE = MyDocumentProviderFileProvider/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyDocumentProviderFileProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -8098,6 +7925,46 @@
 			};
 			name = Release;
 		};
+		1FC434911F1496E2001DE2A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyNetworkDNSProxy/MyNetworkDNSProxy.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyNetworkDNSProxy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyNetworkDNSProxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FC434921F1496E2001DE2A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyNetworkDNSProxy/MyNetworkDNSProxy.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyNetworkDNSProxy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyNetworkDNSProxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -8155,15 +8022,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F338A771EF5518700C2D16C /* Build configuration list for PBXNativeTarget "MyNetworkDNSProxy" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F338A781EF5518700C2D16C /* Debug */,
-				1F338A791EF5518700C2D16C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		1F338A901EF5523900C2D16C /* Build configuration list for PBXNativeTarget "MyQuickLookPreview" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -8180,6 +8038,7 @@
 				1FA188EA1EF5FF1400BA7993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FA188F11EF5FF6200BA7993 /* Build configuration list for PBXNativeTarget "MyMetalLibrary" */ = {
 			isa = XCConfigurationList;
@@ -8188,6 +8047,7 @@
 				1FA188F31EF5FF6200BA7993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FA188FA1EF5FFDD00BA7993 /* Build configuration list for PBXNativeTarget "MyMetalLibrary-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -8196,6 +8056,7 @@
 				1FA188FC1EF5FFDD00BA7993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FA189081EF6008D00BA7993 /* Build configuration list for PBXNativeTarget "MyMetalLibrary-macOS" */ = {
 			isa = XCConfigurationList;
@@ -8204,6 +8065,7 @@
 				1FA1890A1EF6008D00BA7993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Turducken" */ = {
 			isa = XCConfigurationList;
@@ -8309,15 +8171,6 @@
 			buildConfigurations = (
 				1FC075451E7B47F900076178 /* Debug */,
 				1FC075461E7B47F900076178 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1FC075661E7B4BD300076178 /* Build configuration list for PBXNativeTarget "MyDocumentProviderFileProvider" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1FC075671E7B4BD300076178 /* Debug */,
-				1FC075681E7B4BD300076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -8699,6 +8552,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		1FC434901F1496E2001DE2A5 /* Build configuration list for PBXNativeTarget "MyNetworkDNSProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC434911F1496E2001DE2A5 /* Debug */,
+				1FC434921F1496E2001DE2A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
