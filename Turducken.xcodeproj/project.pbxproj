@@ -30,6 +30,29 @@
 		1F338A881EF5523900C2D16C /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F338A871EF5523900C2D16C /* PreviewViewController.swift */; };
 		1F338A8B1EF5523900C2D16C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F338A891EF5523900C2D16C /* MainInterface.storyboard */; };
 		1F338A8F1EF5523900C2D16C /* MyQuickLookPreview.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F338A831EF5523800C2D16C /* MyQuickLookPreview.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F7961501FE4328100BD9C26 /* DocumentActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F79614F1FE4328100BD9C26 /* DocumentActionViewController.swift */; };
+		1F7961531FE4328100BD9C26 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7961511FE4328100BD9C26 /* MainInterface.storyboard */; };
+		1F7961571FE4328100BD9C26 /* MyFileProviderUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F79614D1FE4328100BD9C26 /* MyFileProviderUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F79615B1FE432D200BD9C26 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
+		1F7961631FE4337600BD9C26 /* AppProxyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7961621FE4337600BD9C26 /* AppProxyProvider.swift */; };
+		1F7961681FE4337600BD9C26 /* MyMacNetworkAppProxy.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F7961601FE4337600BD9C26 /* MyMacNetworkAppProxy.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F7961731FE4338700BD9C26 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7961721FE4338700BD9C26 /* PacketTunnelProvider.swift */; };
+		1F7961781FE4338700BD9C26 /* MyMacNetworkPacketTunnel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F7961701FE4338700BD9C26 /* MyMacNetworkPacketTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F79617C1FE433E500BD9C26 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078991E7B699800076178 /* MyFramework.framework */; };
+		1F79617D1FE433E900BD9C26 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078991E7B699800076178 /* MyFramework.framework */; };
+		1F7961831FE433F900BD9C26 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC075D11E7B4DA800076178 /* Photos.framework */; };
+		1F7961841FE433F900BD9C26 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC075CF1E7B4DA800076178 /* PhotosUI.framework */; };
+		1F7961871FE433F900BD9C26 /* PhotoProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7961861FE433F900BD9C26 /* PhotoProjectViewController.swift */; };
+		1F79618A1FE433F900BD9C26 /* PhotoProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F7961881FE433F900BD9C26 /* PhotoProjectViewController.xib */; };
+		1F79618F1FE433F900BD9C26 /* MyMacPhotoProject.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F7961821FE433F900BD9C26 /* MyMacPhotoProject.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F7961931FE4341300BD9C26 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078991E7B699800076178 /* MyFramework.framework */; };
+		1F79619A1FE4343200BD9C26 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7961991FE4343200BD9C26 /* Quartz.framework */; };
+		1F79619D1FE4343200BD9C26 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F79619C1FE4343200BD9C26 /* PreviewViewController.swift */; };
+		1F7961A01FE4343200BD9C26 /* PreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F79619E1FE4343200BD9C26 /* PreviewViewController.xib */; };
+		1F7961A51FE4343200BD9C26 /* MyMacQuickLookPreview.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F7961981FE4343200BD9C26 /* MyMacQuickLookPreview.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F7961A91FE434C600BD9C26 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078991E7B699800076178 /* MyFramework.framework */; };
+		1F7961B11FE434D600BD9C26 /* IndexRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7961B01FE434D600BD9C26 /* IndexRequestHandler.swift */; };
+		1F7961B61FE434D600BD9C26 /* MyMacSpotlightIndex.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F7961AE1FE434D600BD9C26 /* MyMacSpotlightIndex.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1F8264541E7B6FAB00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F8264551E7B6FEA00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F8264561E7B6FEF00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
@@ -300,6 +323,48 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1F338A821EF5523800C2D16C;
 			remoteInfo = MyQuickLookPreview;
+		};
+		1F7961551FE4328100BD9C26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F79614C1FE4328100BD9C26;
+			remoteInfo = MyFileProviderUI;
+		};
+		1F7961661FE4337600BD9C26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F79615F1FE4337600BD9C26;
+			remoteInfo = MyMacNetworkAppProxy;
+		};
+		1F7961761FE4338700BD9C26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F79616F1FE4338700BD9C26;
+			remoteInfo = MyMacNetworkPacketTunnel;
+		};
+		1F79618D1FE433F900BD9C26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F7961811FE433F900BD9C26;
+			remoteInfo = MyMacPhotoProject;
+		};
+		1F7961A31FE4343200BD9C26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F7961971FE4343200BD9C26;
+			remoteInfo = MyMacQuickLookPreview;
+		};
+		1F7961B41FE434D600BD9C26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F7961AD1FE434D600BD9C26;
+			remoteInfo = MyMacSpotlightIndex;
 		};
 		1FA188E51EF5FF1400BA7993 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -672,6 +737,7 @@
 				1FC075EE1E7B4E0300076178 /* MyShare.appex in Embed App Extensions */,
 				1F338A161EF5503F00C2D16C /* MyFileProvider.appex in Embed App Extensions */,
 				1FC075341E7B471A00076178 /* MyContentBlocker.appex in Embed App Extensions */,
+				1F7961571FE4328100BD9C26 /* MyFileProviderUI.appex in Embed App Extensions */,
 				1FC074C01E7B424300076178 /* MyAction.appex in Embed App Extensions */,
 				1F338A261EF550B700C2D16C /* MyMessageFilter.appex in Embed App Extensions */,
 				1FC0762D1E7B4EE500076178 /* MyToday.appex in Embed App Extensions */,
@@ -752,11 +818,16 @@
 			dstSubfolderSpec = 13;
 			files = (
 				1FC077BD1E7B671100076178 /* MyMacShare.appex in Embed App Extensions */,
+				1F79618F1FE433F900BD9C26 /* MyMacPhotoProject.appex in Embed App Extensions */,
+				1F7961B61FE434D600BD9C26 /* MyMacSpotlightIndex.appex in Embed App Extensions */,
 				1FC077CF1E7B677F00076178 /* MyMacSharedLinks.appex in Embed App Extensions */,
 				1FC0775B1E7B5EAA00076178 /* MyMacContentBlocker.appex in Embed App Extensions */,
 				1FC078111E7B684600076178 /* MyXcodeSourceEditor.appex in Embed App Extensions */,
 				1FC0776C1E7B5F1400076178 /* MyFinderSync.appex in Embed App Extensions */,
 				1FC0778C1E7B668100076178 /* MyMacPhotoEditing.appex in Embed App Extensions */,
+				1F7961781FE4338700BD9C26 /* MyMacNetworkPacketTunnel.appex in Embed App Extensions */,
+				1F7961A51FE4343200BD9C26 /* MyMacQuickLookPreview.appex in Embed App Extensions */,
+				1F7961681FE4337600BD9C26 /* MyMacNetworkAppProxy.appex in Embed App Extensions */,
 				1FC0772D1E7B5D8E00076178 /* MyMaction.appex in Embed App Extensions */,
 				1FC077A71E7B66C200076178 /* MySafariExtension.appex in Embed App Extensions */,
 				1FC077E51E7B67CC00076178 /* MySmartCardToken.appex in Embed App Extensions */,
@@ -873,6 +944,33 @@
 		1F338A871EF5523900C2D16C /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 		1F338A8A1EF5523900C2D16C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		1F338A8C1EF5523900C2D16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F79614D1FE4328100BD9C26 /* MyFileProviderUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyFileProviderUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F79614F1FE4328100BD9C26 /* DocumentActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentActionViewController.swift; sourceTree = "<group>"; };
+		1F7961521FE4328100BD9C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		1F7961541FE4328100BD9C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7961601FE4337600BD9C26 /* MyMacNetworkAppProxy.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyMacNetworkAppProxy.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7961621FE4337600BD9C26 /* AppProxyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProxyProvider.swift; sourceTree = "<group>"; };
+		1F7961641FE4337600BD9C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7961651FE4337600BD9C26 /* MyMacNetworkAppProxy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyMacNetworkAppProxy.entitlements; sourceTree = "<group>"; };
+		1F7961701FE4338700BD9C26 /* MyMacNetworkPacketTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyMacNetworkPacketTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7961721FE4338700BD9C26 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
+		1F7961741FE4338700BD9C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7961751FE4338700BD9C26 /* MyMacNetworkPacketTunnel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyMacNetworkPacketTunnel.entitlements; sourceTree = "<group>"; };
+		1F7961821FE433F900BD9C26 /* MyMacPhotoProject.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyMacPhotoProject.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7961861FE433F900BD9C26 /* PhotoProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoProjectViewController.swift; sourceTree = "<group>"; };
+		1F7961891FE433F900BD9C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PhotoProjectViewController.xib; sourceTree = "<group>"; };
+		1F79618B1FE433F900BD9C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F79618C1FE433F900BD9C26 /* MyMacPhotoProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyMacPhotoProject.entitlements; sourceTree = "<group>"; };
+		1F7961981FE4343200BD9C26 /* MyMacQuickLookPreview.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyMacQuickLookPreview.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7961991FE4343200BD9C26 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = Library/Frameworks/Quartz.framework; sourceTree = DEVELOPER_DIR; };
+		1F79619C1FE4343200BD9C26 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		1F79619F1FE4343200BD9C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PreviewViewController.xib; sourceTree = "<group>"; };
+		1F7961A11FE4343200BD9C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7961A21FE4343200BD9C26 /* MyMacQuickLookPreview.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyMacQuickLookPreview.entitlements; sourceTree = "<group>"; };
+		1F7961AE1FE434D600BD9C26 /* MyMacSpotlightIndex.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyMacSpotlightIndex.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7961B01FE434D600BD9C26 /* IndexRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexRequestHandler.swift; sourceTree = "<group>"; };
+		1F7961B21FE434D600BD9C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7961B31FE434D600BD9C26 /* MyMacSpotlightIndex.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyMacSpotlightIndex.entitlements; sourceTree = "<group>"; };
 		1FA188E01EF5FF1400BA7993 /* MyThumbnail.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyThumbnail.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA188E21EF5FF1400BA7993 /* ThumbnailProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailProvider.swift; sourceTree = "<group>"; };
 		1FA188E41EF5FF1400BA7993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1173,6 +1271,56 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F338A851EF5523900C2D16C /* QuickLook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F79614A1FE4328100BD9C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F79615B1FE432D200BD9C26 /* MyFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F79615D1FE4337600BD9C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F79617C1FE433E500BD9C26 /* MyFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F79616D1FE4338700BD9C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F79617D1FE433E900BD9C26 /* MyFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F79617F1FE433F900BD9C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7961931FE4341300BD9C26 /* MyFramework.framework in Frameworks */,
+				1F7961831FE433F900BD9C26 /* Photos.framework in Frameworks */,
+				1F7961841FE433F900BD9C26 /* PhotosUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7961951FE4343200BD9C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7961A91FE434C600BD9C26 /* MyFramework.framework in Frameworks */,
+				1F79619A1FE4343200BD9C26 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7961AB1FE434D600BD9C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1713,6 +1861,68 @@
 			path = MyQuickLookPreview;
 			sourceTree = "<group>";
 		};
+		1F79614E1FE4328100BD9C26 /* MyFileProviderUI */ = {
+			isa = PBXGroup;
+			children = (
+				1F79614F1FE4328100BD9C26 /* DocumentActionViewController.swift */,
+				1F7961511FE4328100BD9C26 /* MainInterface.storyboard */,
+				1F7961541FE4328100BD9C26 /* Info.plist */,
+			);
+			path = MyFileProviderUI;
+			sourceTree = "<group>";
+		};
+		1F7961611FE4337600BD9C26 /* MyMacNetworkAppProxy */ = {
+			isa = PBXGroup;
+			children = (
+				1F7961621FE4337600BD9C26 /* AppProxyProvider.swift */,
+				1F7961641FE4337600BD9C26 /* Info.plist */,
+				1F7961651FE4337600BD9C26 /* MyMacNetworkAppProxy.entitlements */,
+			);
+			path = MyMacNetworkAppProxy;
+			sourceTree = "<group>";
+		};
+		1F7961711FE4338700BD9C26 /* MyMacNetworkPacketTunnel */ = {
+			isa = PBXGroup;
+			children = (
+				1F7961721FE4338700BD9C26 /* PacketTunnelProvider.swift */,
+				1F7961741FE4338700BD9C26 /* Info.plist */,
+				1F7961751FE4338700BD9C26 /* MyMacNetworkPacketTunnel.entitlements */,
+			);
+			path = MyMacNetworkPacketTunnel;
+			sourceTree = "<group>";
+		};
+		1F7961851FE433F900BD9C26 /* MyMacPhotoProject */ = {
+			isa = PBXGroup;
+			children = (
+				1F7961861FE433F900BD9C26 /* PhotoProjectViewController.swift */,
+				1F7961881FE433F900BD9C26 /* PhotoProjectViewController.xib */,
+				1F79618B1FE433F900BD9C26 /* Info.plist */,
+				1F79618C1FE433F900BD9C26 /* MyMacPhotoProject.entitlements */,
+			);
+			path = MyMacPhotoProject;
+			sourceTree = "<group>";
+		};
+		1F79619B1FE4343200BD9C26 /* MyMacQuickLookPreview */ = {
+			isa = PBXGroup;
+			children = (
+				1F79619C1FE4343200BD9C26 /* PreviewViewController.swift */,
+				1F79619E1FE4343200BD9C26 /* PreviewViewController.xib */,
+				1F7961A11FE4343200BD9C26 /* Info.plist */,
+				1F7961A21FE4343200BD9C26 /* MyMacQuickLookPreview.entitlements */,
+			);
+			path = MyMacQuickLookPreview;
+			sourceTree = "<group>";
+		};
+		1F7961AF1FE434D600BD9C26 /* MyMacSpotlightIndex */ = {
+			isa = PBXGroup;
+			children = (
+				1F7961B01FE434D600BD9C26 /* IndexRequestHandler.swift */,
+				1F7961B21FE434D600BD9C26 /* Info.plist */,
+				1F7961B31FE434D600BD9C26 /* MyMacSpotlightIndex.entitlements */,
+			);
+			path = MyMacSpotlightIndex;
+			sourceTree = "<group>";
+		};
 		1FA188E11EF5FF1400BA7993 /* MyThumbnail */ = {
 			isa = PBXGroup;
 			children = (
@@ -1818,6 +2028,12 @@
 				1FC435001F149A15001DE2A5 /* libMyStaticLibrary-tvOS.a */,
 				1FC435101F149A5D001DE2A5 /* libMyStaticLibrary-watchOS.a */,
 				1FC4352F1F149ADC001DE2A5 /* libMyStaticLibrary-macOS.a */,
+				1F79614D1FE4328100BD9C26 /* MyFileProviderUI.appex */,
+				1F7961601FE4337600BD9C26 /* MyMacNetworkAppProxy.appex */,
+				1F7961701FE4338700BD9C26 /* MyMacNetworkPacketTunnel.appex */,
+				1F7961821FE433F900BD9C26 /* MyMacPhotoProject.appex */,
+				1F7961981FE4343200BD9C26 /* MyMacQuickLookPreview.appex */,
+				1F7961AE1FE434D600BD9C26 /* MyMacSpotlightIndex.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1891,6 +2107,7 @@
 				1FC076DB1E7B518000076178 /* TVServices.framework */,
 				1FC0774F1E7B5EAA00076178 /* Cocoa.framework */,
 				1F338A841EF5523900C2D16C /* QuickLook.framework */,
+				1F7961991FE4343200BD9C26 /* Quartz.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2225,6 +2442,7 @@
 				1FC0753D1E7B47F900076178 /* MyCustomKeyboard */,
 				1FC0754C1E7B4BD200076178 /* MyDocumentProvider */,
 				1F338A0B1EF5503F00C2D16C /* MyFileProvider */,
+				1F79614E1FE4328100BD9C26 /* MyFileProviderUI */,
 				1FC075731E7B4CA400076178 /* MyiMessage */,
 				1FC075871E7B4CD300076178 /* MyIntents */,
 				1FC075921E7B4CD400076178 /* MyIntentsUI */,
@@ -2281,11 +2499,16 @@
 				1FC077371E7B5E2F00076178 /* MyMacAudioUnit */,
 				1FC077511E7B5EAA00076178 /* MyMacContentBlocker */,
 				1FC077641E7B5F1400076178 /* MyFinderSync */,
+				1F7961611FE4337600BD9C26 /* MyMacNetworkAppProxy */,
+				1F7961711FE4338700BD9C26 /* MyMacNetworkPacketTunnel */,
 				1FC077811E7B668100076178 /* MyMacPhotoEditing */,
+				1F7961851FE433F900BD9C26 /* MyMacPhotoProject */,
+				1F79619B1FE4343200BD9C26 /* MyMacQuickLookPreview */,
 				1FC077961E7B66C200076178 /* MySafariExtension */,
 				1FC077B01E7B671000076178 /* MyMacShare */,
 				1FC077C71E7B677F00076178 /* MyMacSharedLinks */,
 				1FC077D91E7B67CC00076178 /* MySmartCardToken */,
+				1F7961AF1FE434D600BD9C26 /* MyMacSpotlightIndex */,
 				1FC077EF1E7B681500076178 /* MyMacToday */,
 				1FC078071E7B684600076178 /* MyXcodeSourceEditor */,
 			);
@@ -2712,6 +2935,108 @@
 			productReference = 1F338A831EF5523800C2D16C /* MyQuickLookPreview.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		1F79614C1FE4328100BD9C26 /* MyFileProviderUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F79615A1FE4328100BD9C26 /* Build configuration list for PBXNativeTarget "MyFileProviderUI" */;
+			buildPhases = (
+				1F7961491FE4328100BD9C26 /* Sources */,
+				1F79614A1FE4328100BD9C26 /* Frameworks */,
+				1F79614B1FE4328100BD9C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFileProviderUI;
+			productName = MyFileProviderUI;
+			productReference = 1F79614D1FE4328100BD9C26 /* MyFileProviderUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1F79615F1FE4337600BD9C26 /* MyMacNetworkAppProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7961691FE4337600BD9C26 /* Build configuration list for PBXNativeTarget "MyMacNetworkAppProxy" */;
+			buildPhases = (
+				1F79615C1FE4337600BD9C26 /* Sources */,
+				1F79615D1FE4337600BD9C26 /* Frameworks */,
+				1F79615E1FE4337600BD9C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMacNetworkAppProxy;
+			productName = MyMacNetworkAppProxy;
+			productReference = 1F7961601FE4337600BD9C26 /* MyMacNetworkAppProxy.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1F79616F1FE4338700BD9C26 /* MyMacNetworkPacketTunnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7961791FE4338700BD9C26 /* Build configuration list for PBXNativeTarget "MyMacNetworkPacketTunnel" */;
+			buildPhases = (
+				1F79616C1FE4338700BD9C26 /* Sources */,
+				1F79616D1FE4338700BD9C26 /* Frameworks */,
+				1F79616E1FE4338700BD9C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMacNetworkPacketTunnel;
+			productName = MyMacNetworkPacketTunnel;
+			productReference = 1F7961701FE4338700BD9C26 /* MyMacNetworkPacketTunnel.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1F7961811FE433F900BD9C26 /* MyMacPhotoProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7961901FE433F900BD9C26 /* Build configuration list for PBXNativeTarget "MyMacPhotoProject" */;
+			buildPhases = (
+				1F79617E1FE433F900BD9C26 /* Sources */,
+				1F79617F1FE433F900BD9C26 /* Frameworks */,
+				1F7961801FE433F900BD9C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMacPhotoProject;
+			productName = MyMacPhotoProject;
+			productReference = 1F7961821FE433F900BD9C26 /* MyMacPhotoProject.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1F7961971FE4343200BD9C26 /* MyMacQuickLookPreview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7961A61FE4343200BD9C26 /* Build configuration list for PBXNativeTarget "MyMacQuickLookPreview" */;
+			buildPhases = (
+				1F7961941FE4343200BD9C26 /* Sources */,
+				1F7961951FE4343200BD9C26 /* Frameworks */,
+				1F7961961FE4343200BD9C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMacQuickLookPreview;
+			productName = MyMacQuickLookPreview;
+			productReference = 1F7961981FE4343200BD9C26 /* MyMacQuickLookPreview.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1F7961AD1FE434D600BD9C26 /* MyMacSpotlightIndex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7961B71FE434D600BD9C26 /* Build configuration list for PBXNativeTarget "MyMacSpotlightIndex" */;
+			buildPhases = (
+				1F7961AA1FE434D600BD9C26 /* Sources */,
+				1F7961AB1FE434D600BD9C26 /* Frameworks */,
+				1F7961AC1FE434D600BD9C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMacSpotlightIndex;
+			productName = MyMacSpotlightIndex;
+			productReference = 1F7961AE1FE434D600BD9C26 /* MyMacSpotlightIndex.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		1FA188DF1EF5FF1400BA7993 /* MyThumbnail */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FA188E81EF5FF1400BA7993 /* Build configuration list for PBXNativeTarget "MyThumbnail" */;
@@ -2817,6 +3142,7 @@
 				1F338A651EF5516600C2D16C /* PBXTargetDependency */,
 				1F338A8E1EF5523900C2D16C /* PBXTargetDependency */,
 				1FA188E61EF5FF1400BA7993 /* PBXTargetDependency */,
+				1F7961561FE4328100BD9C26 /* PBXTargetDependency */,
 			);
 			name = Turducken;
 			productName = Turducken;
@@ -3390,6 +3716,11 @@
 				1FC077FC1E7B681500076178 /* PBXTargetDependency */,
 				1FC078101E7B684600076178 /* PBXTargetDependency */,
 				1FC078AD1E7B699800076178 /* PBXTargetDependency */,
+				1F7961671FE4337600BD9C26 /* PBXTargetDependency */,
+				1F7961771FE4338700BD9C26 /* PBXTargetDependency */,
+				1F79618E1FE433F900BD9C26 /* PBXTargetDependency */,
+				1F7961A41FE4343200BD9C26 /* PBXTargetDependency */,
+				1F7961B51FE434D600BD9C26 /* PBXTargetDependency */,
 			);
 			name = TurduckenMac;
 			productName = TurduckenMac;
@@ -3837,7 +4168,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = JK;
-				LastSwiftUpdateCheck = 0900;
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Jeff Kelley";
 				TargetAttributes = {
@@ -3861,6 +4192,30 @@
 					};
 					1F338A821EF5523800C2D16C = {
 						CreatedOnToolsVersion = 9.0;
+					};
+					1F79614C1FE4328100BD9C26 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1F79615F1FE4337600BD9C26 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1F79616F1FE4338700BD9C26 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1F7961811FE433F900BD9C26 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1F7961971FE4343200BD9C26 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1F7961AD1FE434D600BD9C26 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
 					};
 					1FA188DF1EF5FF1400BA7993 = {
 						CreatedOnToolsVersion = 9.0;
@@ -4245,6 +4600,7 @@
 				1FC0753B1E7B47F900076178 /* MyCustomKeyboard */,
 				1FC0754A1E7B4BD200076178 /* MyDocumentProvider */,
 				1F338A091EF5503F00C2D16C /* MyFileProvider */,
+				1F79614C1FE4328100BD9C26 /* MyFileProviderUI */,
 				1FC0756F1E7B4CA400076178 /* MyiMessage */,
 				1FC075851E7B4CD300076178 /* MyIntents */,
 				1FC0758E1E7B4CD400076178 /* MyIntentsUI */,
@@ -4280,11 +4636,16 @@
 				1FC077351E7B5E2F00076178 /* MyMacAudioUnit */,
 				1FC0774D1E7B5EAA00076178 /* MyMacContentBlocker */,
 				1FC077621E7B5F1400076178 /* MyFinderSync */,
+				1F79615F1FE4337600BD9C26 /* MyMacNetworkAppProxy */,
+				1F79616F1FE4338700BD9C26 /* MyMacNetworkPacketTunnel */,
 				1FC0777D1E7B668100076178 /* MyMacPhotoEditing */,
+				1F7961811FE433F900BD9C26 /* MyMacPhotoProject */,
+				1F7961971FE4343200BD9C26 /* MyMacQuickLookPreview */,
 				1FC077931E7B66C200076178 /* MySafariExtension */,
 				1FC077AE1E7B671000076178 /* MyMacShare */,
 				1FC077C41E7B677F00076178 /* MyMacSharedLinks */,
 				1FC077D61E7B67CC00076178 /* MySmartCardToken */,
+				1F7961AD1FE434D600BD9C26 /* MyMacSpotlightIndex */,
 				1FC077EC1E7B681500076178 /* MyMacToday */,
 				1FC078041E7B684600076178 /* MyXcodeSourceEditor */,
 				1FC078411E7B691100076178 /* MyFramework */,
@@ -4353,6 +4714,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F338A8B1EF5523900C2D16C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F79614B1FE4328100BD9C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7961531FE4328100BD9C26 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F79615E1FE4337600BD9C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F79616E1FE4338700BD9C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7961801FE433F900BD9C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F79618A1FE433F900BD9C26 /* PhotoProjectViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7961961FE4343200BD9C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7961A01FE4343200BD9C26 /* PreviewViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7961AC1FE434D600BD9C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4836,6 +5242,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F338A881EF5523900C2D16C /* PreviewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7961491FE4328100BD9C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7961501FE4328100BD9C26 /* DocumentActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F79615C1FE4337600BD9C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7961631FE4337600BD9C26 /* AppProxyProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F79616C1FE4338700BD9C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7961731FE4338700BD9C26 /* PacketTunnelProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F79617E1FE433F900BD9C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7961871FE433F900BD9C26 /* PhotoProjectViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7961941FE4343200BD9C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F79619D1FE4343200BD9C26 /* PreviewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7961AA1FE434D600BD9C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7961B11FE434D600BD9C26 /* IndexRequestHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5379,6 +5833,36 @@
 			target = 1F338A821EF5523800C2D16C /* MyQuickLookPreview */;
 			targetProxy = 1F338A8D1EF5523900C2D16C /* PBXContainerItemProxy */;
 		};
+		1F7961561FE4328100BD9C26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F79614C1FE4328100BD9C26 /* MyFileProviderUI */;
+			targetProxy = 1F7961551FE4328100BD9C26 /* PBXContainerItemProxy */;
+		};
+		1F7961671FE4337600BD9C26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F79615F1FE4337600BD9C26 /* MyMacNetworkAppProxy */;
+			targetProxy = 1F7961661FE4337600BD9C26 /* PBXContainerItemProxy */;
+		};
+		1F7961771FE4338700BD9C26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F79616F1FE4338700BD9C26 /* MyMacNetworkPacketTunnel */;
+			targetProxy = 1F7961761FE4338700BD9C26 /* PBXContainerItemProxy */;
+		};
+		1F79618E1FE433F900BD9C26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F7961811FE433F900BD9C26 /* MyMacPhotoProject */;
+			targetProxy = 1F79618D1FE433F900BD9C26 /* PBXContainerItemProxy */;
+		};
+		1F7961A41FE4343200BD9C26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F7961971FE4343200BD9C26 /* MyMacQuickLookPreview */;
+			targetProxy = 1F7961A31FE4343200BD9C26 /* PBXContainerItemProxy */;
+		};
+		1F7961B51FE434D600BD9C26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F7961AD1FE434D600BD9C26 /* MyMacSpotlightIndex */;
+			targetProxy = 1F7961B41FE434D600BD9C26 /* PBXContainerItemProxy */;
+		};
 		1FA188E61EF5FF1400BA7993 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1FA188DF1EF5FF1400BA7993 /* MyThumbnail */;
@@ -5643,6 +6127,30 @@
 				1F338A8A1EF5523900C2D16C /* Base */,
 			);
 			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		1F7961511FE4328100BD9C26 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F7961521FE4328100BD9C26 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		1F7961881FE433F900BD9C26 /* PhotoProjectViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F7961891FE433F900BD9C26 /* Base */,
+			);
+			name = PhotoProjectViewController.xib;
+			sourceTree = "<group>";
+		};
+		1F79619E1FE4343200BD9C26 /* PreviewViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F79619F1FE4343200BD9C26 /* Base */,
+			);
+			name = PreviewViewController.xib;
 			sourceTree = "<group>";
 		};
 		1FC074881E7B41AD00076178 /* Main.storyboard */ = {
@@ -6121,6 +6629,256 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F7961581FE4328100BD9C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyFileProviderUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyFileProviderUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F7961591FE4328100BD9C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyFileProviderUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyFileProviderUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F79616A1FE4337600BD9C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyMacNetworkAppProxy/MyMacNetworkAppProxy.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyMacNetworkAppProxy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenMac.MyMacNetworkAppProxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1F79616B1FE4337600BD9C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyMacNetworkAppProxy/MyMacNetworkAppProxy.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyMacNetworkAppProxy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenMac.MyMacNetworkAppProxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		1F79617A1FE4338700BD9C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyMacNetworkPacketTunnel/MyMacNetworkPacketTunnel.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyMacNetworkPacketTunnel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenMac.MyMacNetworkPacketTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1F79617B1FE4338700BD9C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyMacNetworkPacketTunnel/MyMacNetworkPacketTunnel.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyMacNetworkPacketTunnel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenMac.MyMacNetworkPacketTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		1F7961911FE433F900BD9C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyMacPhotoProject/MyMacPhotoProject.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyMacPhotoProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenMac.MyMacPhotoProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1F7961921FE433F900BD9C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyMacPhotoProject/MyMacPhotoProject.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyMacPhotoProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenMac.MyMacPhotoProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		1F7961A71FE4343200BD9C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyMacQuickLookPreview/MyMacQuickLookPreview.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyMacQuickLookPreview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenMac.MyMacQuickLookPreview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1F7961A81FE4343200BD9C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyMacQuickLookPreview/MyMacQuickLookPreview.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyMacQuickLookPreview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenMac.MyMacQuickLookPreview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		1F7961B81FE434D600BD9C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyMacSpotlightIndex/MyMacSpotlightIndex.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyMacSpotlightIndex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenMac.MyMacSpotlightIndex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1F7961B91FE434D600BD9C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyMacSpotlightIndex/MyMacSpotlightIndex.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyMacSpotlightIndex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenMac.MyMacSpotlightIndex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -8361,6 +9119,60 @@
 			buildConfigurations = (
 				1F338A911EF5523900C2D16C /* Debug */,
 				1F338A921EF5523900C2D16C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F79615A1FE4328100BD9C26 /* Build configuration list for PBXNativeTarget "MyFileProviderUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7961581FE4328100BD9C26 /* Debug */,
+				1F7961591FE4328100BD9C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F7961691FE4337600BD9C26 /* Build configuration list for PBXNativeTarget "MyMacNetworkAppProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F79616A1FE4337600BD9C26 /* Debug */,
+				1F79616B1FE4337600BD9C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F7961791FE4338700BD9C26 /* Build configuration list for PBXNativeTarget "MyMacNetworkPacketTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F79617A1FE4338700BD9C26 /* Debug */,
+				1F79617B1FE4338700BD9C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F7961901FE433F900BD9C26 /* Build configuration list for PBXNativeTarget "MyMacPhotoProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7961911FE433F900BD9C26 /* Debug */,
+				1F7961921FE433F900BD9C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F7961A61FE4343200BD9C26 /* Build configuration list for PBXNativeTarget "MyMacQuickLookPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7961A71FE4343200BD9C26 /* Debug */,
+				1F7961A81FE4343200BD9C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F7961B71FE434D600BD9C26 /* Build configuration list for PBXNativeTarget "MyMacSpotlightIndex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7961B81FE434D600BD9C26 /* Debug */,
+				1F7961B91FE434D600BD9C26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
