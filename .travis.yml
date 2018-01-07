@@ -40,4 +40,5 @@ install:
   - bundle update
 
 script:
+  - xcrun simctl list
   - bundle exec fastlane scan
