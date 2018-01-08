@@ -7101,6 +7101,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = Turducken/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -7116,6 +7117,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = Turducken/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8061,6 +8063,7 @@
 				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = TurduckenMac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -8079,6 +8082,7 @@
 				DEVELOPMENT_TEAM = UCFNS9576M;
 				INFOPLIST_FILE = TurduckenMac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
