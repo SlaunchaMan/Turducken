@@ -11,8 +11,8 @@ env:
   matrix:
    - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone X,OS=11.2" SCAN_SCHEME="Turducken"
    - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone X,OS=11.1" SCAN_SCHEME="Turducken"
-   - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone X,OS=11.0" SCAN_SCHEME="Turducken"
-   - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone SE,OS=10.3" SCAN_SCHEME="Turducken"
+   - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone X,OS=11.0.1" SCAN_SCHEME="Turducken"
+   - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone SE,OS=10.3.1" SCAN_SCHEME="Turducken"
    - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone 7,OS=10.2" SCAN_SCHEME="Turducken"
    - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone 7,OS=10.1" SCAN_SCHEME="Turducken"
    - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone 7,OS=10.0" SCAN_SCHEME="Turducken"
