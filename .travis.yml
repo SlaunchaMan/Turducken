@@ -9,37 +9,36 @@ env:
   - FASTLANE_XCODE_LIST_TIMEOUT=60
   - FASTLANE_XCODEBUILD_SETTINGS_TIMEOUT=60
   matrix:
-   - SCAN_DEVICE="iPhone X (11.2)" SCAN_SCHEME="Turducken"
-   - SCAN_DEVICE="iPhone X (11.1)" SCAN_SCHEME="Turducken"
-   - SCAN_DEVICE="iPhone X (11.0)" SCAN_SCHEME="Turducken"
-   - SCAN_DEVICE="iPhone SE (10.3)" SCAN_SCHEME="Turducken"
-   - SCAN_DEVICE="iPhone 7 (10.2)" SCAN_SCHEME="Turducken"
-   - SCAN_DEVICE="iPhone 7 (10.1)" SCAN_SCHEME="Turducken"
-   - SCAN_DEVICE="iPhone 7 (10.0)" SCAN_SCHEME="Turducken"
-   - SCAN_DEVICE="iPhone 6s (9.3)" SCAN_SCHEME="Turducken"
-   - SCAN_DEVICE="iPhone 6s (9.2)" SCAN_SCHEME="Turducken"
-   - SCAN_DEVICE="iPhone 6s (9.1)" SCAN_SCHEME="Turducken"
-   - SCAN_DEVICE="iPhone 6s (9.0)" SCAN_SCHEME="Turducken"
-   - SCAN_DEVICE="iPhone 6 (8.4)" SCAN_SCHEME="Turducken-no-UI-tests"
-   - SCAN_DEVICE="iPhone 6 (8.3)" SCAN_SCHEME="Turducken-no-UI-tests"
-   - SCAN_DEVICE="iPhone 6 (8.2)" SCAN_SCHEME="Turducken-no-UI-tests"
-   - SCAN_DEVICE="iPhone 6 (8.1)" SCAN_SCHEME="Turducken-no-UI-tests"
+   - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone X,OS=11.2" SCAN_SCHEME="Turducken"
+   - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone X,OS=11.1" SCAN_SCHEME="Turducken"
+   - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone X,OS=11.0" SCAN_SCHEME="Turducken"
+   - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone SE,OS=10.3" SCAN_SCHEME="Turducken"
+   - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone 7,OS=10.2" SCAN_SCHEME="Turducken"
+   - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone 7,OS=10.1" SCAN_SCHEME="Turducken"
+   - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone 7,OS=10.0" SCAN_SCHEME="Turducken"
+   - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone 6s,OS=9.3" SCAN_SCHEME="Turducken"
+   - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone 6s,OS=9.2" SCAN_SCHEME="Turducken"
+   - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone 6s,OS=9.1" SCAN_SCHEME="Turducken"
+   - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone 6s,OS=9.0" SCAN_SCHEME="Turducken"
+   - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone 6,OS=8.4" SCAN_SCHEME="Turducken-no-UI-tests"
+   - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone 6,OS=8.3" SCAN_SCHEME="Turducken-no-UI-tests"
+   - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone 6,OS=8.2" SCAN_SCHEME="Turducken-no-UI-tests"
+   - TURDUCKEN_DESTINATION="platform=iOS Simulator,name=iPhone 6,OS=8.1" SCAN_SCHEME="Turducken-no-UI-tests"
 
-   - SCAN_DEVICE="Apple TV 4K (11.2)" SCAN_SCHEME="TurduckenTV"
-   - SCAN_DEVICE="Apple TV 4K (11.1)" SCAN_SCHEME="TurduckenTV"
-   - SCAN_DEVICE="Apple TV 4K (11.0)" SCAN_SCHEME="TurduckenTV"
-   - SCAN_DEVICE="Apple TV 1080p (10.2)" SCAN_SCHEME="TurduckenTV"
-   - SCAN_DEVICE="Apple TV 1080p (10.1)" SCAN_SCHEME="TurduckenTV"
-   - SCAN_DEVICE="Apple TV 1080p (10.0)" SCAN_SCHEME="TurduckenTV"
-   - SCAN_DEVICE="Apple TV 1080p (9.2)" SCAN_SCHEME="TurduckenTV"
-   - SCAN_DEVICE="Apple TV 1080p (9.1)" SCAN_SCHEME="TurduckenTV"
-   - SCAN_DEVICE="Apple TV 1080p (9.0)" SCAN_SCHEME="TurduckenTV"
+   - TURDUCKEN_DESTINATION="platform=tvOS Simulator,name=Apple TV 4K,OS=11.2" SCAN_SCHEME="TurduckenTV"
+   - TURDUCKEN_DESTINATION="platform=tvOS Simulator,name=Apple TV 4K,OS=11.1" SCAN_SCHEME="TurduckenTV"
+   - TURDUCKEN_DESTINATION="platform=tvOS Simulator,name=Apple TV 4K,OS=11.0" SCAN_SCHEME="TurduckenTV"
+   - TURDUCKEN_DESTINATION="platform=tvOS Simulator,name=Apple TV 1080p,OS=10.2" SCAN_SCHEME="TurduckenTV"
+   - TURDUCKEN_DESTINATION="platform=tvOS Simulator,name=Apple TV 1080p,OS=10.1" SCAN_SCHEME="TurduckenTV"
+   - TURDUCKEN_DESTINATION="platform=tvOS Simulator,name=Apple TV 1080p,OS=10.0" SCAN_SCHEME="TurduckenTV"
+   - TURDUCKEN_DESTINATION="platform=tvOS Simulator,name=Apple TV 1080p,OS=9.2" SCAN_SCHEME="TurduckenTV"
+   - TURDUCKEN_DESTINATION="platform=tvOS Simulator,name=Apple TV 1080p,OS=9.1" SCAN_SCHEME="TurduckenTV"
+   - TURDUCKEN_DESTINATION="platform=tvOS Simulator,name=Apple TV 1080p,OS=9.0" SCAN_SCHEME="TurduckenTV"
 
-   - SCAN_SCHEME="TurduckenMac"
+   - TURDUCKEN_DESTINATION="platform=macOS,arch=x86_64" SCAN_SCHEME="TurduckenMac"
 
 install:
   - bundle update
 
 script:
-  - xcrun simctl list
-  - bundle exec fastlane scan
+  - bundle exec fastlane scan -d"${TURDUCKEN_DESTINATION}"
