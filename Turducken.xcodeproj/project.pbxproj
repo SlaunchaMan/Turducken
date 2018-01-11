@@ -1217,7 +1217,6 @@
 		1FC435101F149A5D001DE2A5 /* libMyStaticLibrary-watchOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libMyStaticLibrary-watchOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC4352F1F149ADC001DE2A5 /* libMyStaticLibrary-macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libMyStaticLibrary-macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FDAE684200704EA00BBE6ED /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1FDAE6862007050100BBE6ED /* CI.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CI.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1946,7 +1945,6 @@
 			isa = PBXGroup;
 			children = (
 				1FDAE684200704EA00BBE6ED /* README.md */,
-				1FDAE6862007050100BBE6ED /* CI.xcconfig */,
 				1FC077161E7B5C4A00076178 /* iOS */,
 				1FC077181E7B5C5D00076178 /* watchOS */,
 				1FC077191E7B5C6500076178 /* tvOS */,

@@ -1,0 +1,2 @@
+configuration "Debug"
+xcargs "CODE_SIGN_IDENTITY=\"\" DEVELOPMENT_TEAM=\"\""
