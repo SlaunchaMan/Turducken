@@ -7,6 +7,7 @@ env:
   - LC_CTYPE=en_US.UTF-8
   - LANG=en_US.UTF-8
   - FASTLANE_XCODE_LIST_TIMEOUT=60
+  - FASTLANE_XCODEBUILD_SETTINGS_TIMEOUT=60
   matrix:
    - SCAN_DEVICE="iPhone X (11.2)" SCAN_SCHEME="Turducken"
    - SCAN_DEVICE="iPhone X (11.1)" SCAN_SCHEME="Turducken"
