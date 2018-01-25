@@ -69,7 +69,6 @@
 		1F8264631E7B702B00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F8264641E7B703400A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F8264651E7B703800A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
-		1F8264661E7B703C00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F8264671E7B704400A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F8264681E7B704800A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078421E7B691100076178 /* MyFramework.framework */; };
 		1F8264691E7B704E00A218C6 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC078651E7B695600076178 /* MyFramework.framework */; };
@@ -142,8 +141,6 @@
 		1FC075E71E7B4E0300076178 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC075E61E7B4E0300076178 /* ShareViewController.swift */; };
 		1FC075EA1E7B4E0300076178 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC075E81E7B4E0300076178 /* MainInterface.storyboard */; };
 		1FC075EE1E7B4E0300076178 /* MyShare.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC075E41E7B4E0300076178 /* MyShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		1FC075F91E7B4E3600076178 /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC075F81E7B4E3600076178 /* RequestHandler.swift */; };
-		1FC075FD1E7B4E3600076178 /* MySharedLinks.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC075F61E7B4E3600076178 /* MySharedLinks.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1FC076081E7B4E8000076178 /* IndexRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC076071E7B4E8000076178 /* IndexRequestHandler.swift */; };
 		1FC0760C1E7B4E8000076178 /* MySpotlightIndex.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FC076051E7B4E8000076178 /* MySpotlightIndex.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1FC076231E7B4EE500076178 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC076221E7B4EE500076178 /* NotificationCenter.framework */; };
@@ -499,13 +496,6 @@
 			remoteGlobalIDString = 1FC075E31E7B4E0300076178;
 			remoteInfo = MyShare;
 		};
-		1FC075FB1E7B4E3600076178 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FC075F51E7B4E3600076178;
-			remoteInfo = MySharedLinks;
-		};
 		1FC0760A1E7B4E8000076178 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
@@ -754,7 +744,6 @@
 				1FC074EE1E7B456C00076178 /* MyBroadcastUI.appex in Embed App Extensions */,
 				1FC074D71E7B44A700076178 /* MyAudioUnit.appex in Embed App Extensions */,
 				1FC075111E7B466100076178 /* MyBroadcastUpload.appex in Embed App Extensions */,
-				1FC075FD1E7B4E3600076178 /* MySharedLinks.appex in Embed App Extensions */,
 				1FC0759B1E7B4CD400076178 /* MyIntentsUI.appex in Embed App Extensions */,
 				1FC0757E1E7B4CA400076178 /* MyiMessage.appex in Embed App Extensions */,
 				1FC0759E1E7B4CD400076178 /* MyIntents.appex in Embed App Extensions */,
@@ -1064,9 +1053,6 @@
 		1FC075E61E7B4E0300076178 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		1FC075E91E7B4E0300076178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		1FC075EB1E7B4E0300076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FC075F61E7B4E3600076178 /* MySharedLinks.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MySharedLinks.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FC075F81E7B4E3600076178 /* RequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
-		1FC075FA1E7B4E3600076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FC076051E7B4E8000076178 /* MySpotlightIndex.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MySpotlightIndex.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC076071E7B4E8000076178 /* IndexRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexRequestHandler.swift; sourceTree = "<group>"; };
 		1FC076091E7B4E8000076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1491,14 +1477,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F8264651E7B703800A218C6 /* MyFramework.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1FC075F31E7B4E3600076178 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F8264661E7B703C00A218C6 /* MyFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1980,7 +1958,6 @@
 				1FC075BF1E7B4D7300076178 /* MyNotificationService.appex */,
 				1FC075CE1E7B4DA800076178 /* MyPhotoEditing.appex */,
 				1FC075E41E7B4E0300076178 /* MyShare.appex */,
-				1FC075F61E7B4E3600076178 /* MySharedLinks.appex */,
 				1FC076051E7B4E8000076178 /* MySpotlightIndex.appex */,
 				1FC076211E7B4EE500076178 /* MyToday.appex */,
 				1FC076331E7B4F2200076178 /* TurduckenWatch.app */,
@@ -2260,15 +2237,6 @@
 			path = MyShare;
 			sourceTree = "<group>";
 		};
-		1FC075F71E7B4E3600076178 /* MySharedLinks */ = {
-			isa = PBXGroup;
-			children = (
-				1FC075F81E7B4E3600076178 /* RequestHandler.swift */,
-				1FC075FA1E7B4E3600076178 /* Info.plist */,
-			);
-			path = MySharedLinks;
-			sourceTree = "<group>";
-		};
 		1FC076061E7B4E8000076178 /* MySpotlightIndex */ = {
 			isa = PBXGroup;
 			children = (
@@ -2459,7 +2427,6 @@
 				1FC075D31E7B4DA800076178 /* MyPhotoEditing */,
 				1F338A861EF5523900C2D16C /* MyQuickLookPreview */,
 				1FC075E51E7B4E0300076178 /* MyShare */,
-				1FC075F71E7B4E3600076178 /* MySharedLinks */,
 				1FC076061E7B4E8000076178 /* MySpotlightIndex */,
 				1FA188E11EF5FF1400BA7993 /* MyThumbnail */,
 				1FC076241E7B4EE500076178 /* MyToday */,
@@ -3131,7 +3098,6 @@
 				1FC075C51E7B4D7300076178 /* PBXTargetDependency */,
 				1FC075DB1E7B4DA800076178 /* PBXTargetDependency */,
 				1FC075ED1E7B4E0300076178 /* PBXTargetDependency */,
-				1FC075FC1E7B4E3600076178 /* PBXTargetDependency */,
 				1FC0760B1E7B4E8000076178 /* PBXTargetDependency */,
 				1FC0762C1E7B4EE500076178 /* PBXTargetDependency */,
 				1FC076521E7B4F2200076178 /* PBXTargetDependency */,
@@ -3457,23 +3423,6 @@
 			name = MyShare;
 			productName = MyShare;
 			productReference = 1FC075E41E7B4E0300076178 /* MyShare.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
-		1FC075F51E7B4E3600076178 /* MySharedLinks */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1FC075FE1E7B4E3600076178 /* Build configuration list for PBXNativeTarget "MySharedLinks" */;
-			buildPhases = (
-				1FC075F21E7B4E3600076178 /* Sources */,
-				1FC075F31E7B4E3600076178 /* Frameworks */,
-				1FC075F41E7B4E3600076178 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MySharedLinks;
-			productName = MySharedLinks;
-			productReference = 1FC075F61E7B4E3600076178 /* MySharedLinks.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		1FC076041E7B4E8000076178 /* MySpotlightIndex */ = {
@@ -4352,12 +4301,6 @@
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
-					1FC075F51E7B4E3600076178 = {
-						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = UCFNS9576M;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-					};
 					1FC076041E7B4E8000076178 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = UCFNS9576M;
@@ -4617,7 +4560,6 @@
 				1FC075CD1E7B4DA800076178 /* MyPhotoEditing */,
 				1F338A821EF5523800C2D16C /* MyQuickLookPreview */,
 				1FC075E31E7B4E0300076178 /* MyShare */,
-				1FC075F51E7B4E3600076178 /* MySharedLinks */,
 				1FC076041E7B4E8000076178 /* MySpotlightIndex */,
 				1FA188DF1EF5FF1400BA7993 /* MyThumbnail */,
 				1FC076201E7B4EE500076178 /* MyToday */,
@@ -4916,13 +4858,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC075EA1E7B4E0300076178 /* MainInterface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1FC075F41E7B4E3600076178 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5482,14 +5417,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FC075F21E7B4E3600076178 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1FC075F91E7B4E3600076178 /* RequestHandler.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1FC076011E7B4E8000076178 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -5959,11 +5886,6 @@
 			isa = PBXTargetDependency;
 			target = 1FC075E31E7B4E0300076178 /* MyShare */;
 			targetProxy = 1FC075EC1E7B4E0300076178 /* PBXContainerItemProxy */;
-		};
-		1FC075FC1E7B4E3600076178 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FC075F51E7B4E3600076178 /* MySharedLinks */;
-			targetProxy = 1FC075FB1E7B4E3600076178 /* PBXContainerItemProxy */;
 		};
 		1FC0760B1E7B4E8000076178 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -7975,44 +7897,6 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyShare;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		1FC075FF1E7B4E3600076178 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = UCFNS9576M;
-				INFOPLIST_FILE = MySharedLinks/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MySharedLinks;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		1FC076001E7B4E3600076178 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				DEVELOPMENT_TEAM = UCFNS9576M;
-				INFOPLIST_FILE = MySharedLinks/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MySharedLinks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -10087,15 +9971,6 @@
 			buildConfigurations = (
 				1FC075F01E7B4E0300076178 /* Debug */,
 				1FC075F11E7B4E0300076178 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1FC075FE1E7B4E3600076178 /* Build configuration list for PBXNativeTarget "MySharedLinks" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1FC075FF1E7B4E3600076178 /* Debug */,
-				1FC076001E7B4E3600076178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
