@@ -29,7 +29,7 @@ class KeyboardViewController: UIInputViewController {
         self.nextKeyboardButton.translatesAutoresizingMaskIntoConstraints = false
         
         if #available(iOSApplicationExtension 10.0, *) {
-            self.nextKeyboardButton.addTarget(self, action: #selector(handleInputModeList(from:with:)), for: .allTouchEvents)
+            self.nextKeyboardButton.addTarget(self, action: #selector(handleInputModeList(from:with:)), for: UIControl.Event.allTouchEvents)
         } else {
             // Fallback on earlier versions
         }

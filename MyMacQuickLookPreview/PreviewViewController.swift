@@ -20,7 +20,7 @@ class PreviewViewController: NSViewController, QLPreviewingController {
         // Do any additional setup after loading the view from its nib.
     }
 
-    func preparePreviewOfSearchableItem(withIdentifier identifier: String, queryString: String, completionHandler handler: @escaping QLPreviewItemLoadingBlock) {
+    public func preparePreviewOfSearchableItem(identifier: String, queryString: String?, completionHandler handler: @escaping (Error?) -> Void) {
         // Perform any setup necessary in order to prepare the view.
         
         // Call the completion handler so Quick Look knows that the preview is fully loaded.
