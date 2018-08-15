@@ -1183,7 +1183,7 @@
 		1FC078421E7B691100076178 /* MyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC078441E7B691200076178 /* MyFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFramework.h; sourceTree = "<group>"; };
 		1FC078451E7B691200076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FC0784A1E7B691200076178 /* MyFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC0784A1E7B691200076178 /* MyFramework-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyFramework-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC078511E7B691200076178 /* MyFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrameworkTests.swift; sourceTree = "<group>"; };
 		1FC078531E7B691200076178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FC078651E7B695600076178 /* MyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1985,7 +1985,7 @@
 				1FC077ED1E7B681500076178 /* MyMacToday.appex */,
 				1FC078051E7B684600076178 /* MyXcodeSourceEditor.appex */,
 				1FC078421E7B691100076178 /* MyFramework.framework */,
-				1FC0784A1E7B691200076178 /* MyFrameworkTests.xctest */,
+				1FC0784A1E7B691200076178 /* MyFramework-iOSTests.xctest */,
 				1FC078651E7B695600076178 /* MyFramework.framework */,
 				1FC078771E7B698800076178 /* MyFramework.framework */,
 				1FC0787F1E7B698900076178 /* MyFramework-tvOSTests.xctest */,
@@ -3901,9 +3901,9 @@
 			productReference = 1FC078051E7B684600076178 /* MyXcodeSourceEditor.appex */;
 			productType = "com.apple.product-type.xcode-extension";
 		};
-		1FC078411E7B691100076178 /* MyFramework */ = {
+		1FC078411E7B691100076178 /* MyFramework-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FC078591E7B691200076178 /* Build configuration list for PBXNativeTarget "MyFramework" */;
+			buildConfigurationList = 1FC078591E7B691200076178 /* Build configuration list for PBXNativeTarget "MyFramework-iOS" */;
 			buildPhases = (
 				1FC0783D1E7B691100076178 /* Sources */,
 				1FC0783E1E7B691100076178 /* Frameworks */,
@@ -3914,14 +3914,14 @@
 			);
 			dependencies = (
 			);
-			name = MyFramework;
+			name = "MyFramework-iOS";
 			productName = MyFramework;
 			productReference = 1FC078421E7B691100076178 /* MyFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1FC078491E7B691200076178 /* MyFrameworkTests */ = {
+		1FC078491E7B691200076178 /* MyFramework-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FC0785D1E7B691200076178 /* Build configuration list for PBXNativeTarget "MyFrameworkTests" */;
+			buildConfigurationList = 1FC0785D1E7B691200076178 /* Build configuration list for PBXNativeTarget "MyFramework-iOSTests" */;
 			buildPhases = (
 				1FC078461E7B691200076178 /* Sources */,
 				1FC078471E7B691200076178 /* Frameworks */,
@@ -3932,9 +3932,9 @@
 			dependencies = (
 				1FC0784D1E7B691200076178 /* PBXTargetDependency */,
 			);
-			name = MyFrameworkTests;
+			name = "MyFramework-iOSTests";
 			productName = MyFrameworkTests;
-			productReference = 1FC0784A1E7B691200076178 /* MyFrameworkTests.xctest */;
+			productReference = 1FC0784A1E7B691200076178 /* MyFramework-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		1FC078641E7B695600076178 /* MyFramework-watchOS */ = {
@@ -4592,8 +4592,8 @@
 				1F7961AD1FE434D600BD9C26 /* MyMacSpotlightIndex */,
 				1FC077EC1E7B681500076178 /* MyMacToday */,
 				1FC078041E7B684600076178 /* MyXcodeSourceEditor */,
-				1FC078411E7B691100076178 /* MyFramework */,
-				1FC078491E7B691200076178 /* MyFrameworkTests */,
+				1FC078411E7B691100076178 /* MyFramework-iOS */,
+				1FC078491E7B691200076178 /* MyFramework-iOSTests */,
 				1FC078641E7B695600076178 /* MyFramework-watchOS */,
 				1FC078761E7B698800076178 /* MyFramework-tvOS */,
 				1FC0787E1E7B698900076178 /* MyFramework-tvOSTests */,
@@ -6009,12 +6009,12 @@
 		};
 		1FC0784D1E7B691200076178 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1FC078411E7B691100076178 /* MyFramework */;
+			target = 1FC078411E7B691100076178 /* MyFramework-iOS */;
 			targetProxy = 1FC0784C1E7B691200076178 /* PBXContainerItemProxy */;
 		};
 		1FC078561E7B691200076178 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1FC078411E7B691100076178 /* MyFramework */;
+			target = 1FC078411E7B691100076178 /* MyFramework-iOS */;
 			targetProxy = 1FC078551E7B691200076178 /* PBXContainerItemProxy */;
 		};
 		1FC0786B1E7B695600076178 /* PBXTargetDependency */ = {
@@ -10209,7 +10209,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FC078591E7B691200076178 /* Build configuration list for PBXNativeTarget "MyFramework" */ = {
+		1FC078591E7B691200076178 /* Build configuration list for PBXNativeTarget "MyFramework-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FC0785A1E7B691200076178 /* Debug */,
@@ -10218,7 +10218,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FC0785D1E7B691200076178 /* Build configuration list for PBXNativeTarget "MyFrameworkTests" */ = {
+		1FC0785D1E7B691200076178 /* Build configuration list for PBXNativeTarget "MyFramework-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FC0785E1E7B691200076178 /* Debug */,
