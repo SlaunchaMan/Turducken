@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1FC074801E7B41AD00076178"
-               BuildableName = "Turducken.app"
-               BlueprintName = "Turducken"
+               BuildableName = "TurduckeniOS.app"
+               BlueprintName = "TurduckeniOS"
                ReferencedContainer = "container:Turducken.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,17 +29,33 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
-            skipped = "NO">
+            skipped = "NO"
+            parallelizable = "YES"
+            testExecutionOrdering = "random">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1FC074941E7B41AD00076178"
-               BuildableName = "TurduckenTests.xctest"
-               BlueprintName = "TurduckenTests"
+               BuildableName = "TurduckeniOSTests.xctest"
+               BlueprintName = "TurduckeniOSTests"
                ReferencedContainer = "container:Turducken.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
-            skipped = "NO">
+            skipped = "NO"
+            parallelizable = "YES"
+            testExecutionOrdering = "random">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1FC0749F1E7B41AD00076178"
+               BuildableName = "TurduckeniOSUITests.xctest"
+               BlueprintName = "TurduckeniOSUITests"
+               ReferencedContainer = "container:Turducken.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES"
+            testExecutionOrdering = "random">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1FC078491E7B691200076178"
@@ -53,8 +69,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FC074801E7B41AD00076178"
-            BuildableName = "Turducken.app"
-            BlueprintName = "Turducken"
+            BuildableName = "TurduckeniOS.app"
+            BlueprintName = "TurduckeniOS"
             ReferencedContainer = "container:Turducken.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -76,8 +92,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FC074801E7B41AD00076178"
-            BuildableName = "Turducken.app"
-            BlueprintName = "Turducken"
+            BuildableName = "TurduckeniOS.app"
+            BlueprintName = "TurduckeniOS"
             ReferencedContainer = "container:Turducken.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -95,8 +111,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FC074801E7B41AD00076178"
-            BuildableName = "Turducken.app"
-            BlueprintName = "Turducken"
+            BuildableName = "TurduckeniOS.app"
+            BlueprintName = "TurduckeniOS"
             ReferencedContainer = "container:Turducken.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

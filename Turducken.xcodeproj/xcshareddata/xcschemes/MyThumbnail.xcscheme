@@ -30,8 +30,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1FC074801E7B41AD00076178"
-               BuildableName = "Turducken.app"
-               BlueprintName = "Turducken"
+               BuildableName = "TurduckeniOS.app"
+               BlueprintName = "TurduckeniOS"
                ReferencedContainer = "container:Turducken.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -72,8 +72,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FC074801E7B41AD00076178"
-            BuildableName = "Turducken.app"
-            BlueprintName = "Turducken"
+            BuildableName = "TurduckeniOS.app"
+            BlueprintName = "TurduckeniOS"
             ReferencedContainer = "container:Turducken.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -92,8 +92,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FC074801E7B41AD00076178"
-            BuildableName = "Turducken.app"
-            BlueprintName = "Turducken"
+            BuildableName = "TurduckeniOS.app"
+            BlueprintName = "TurduckeniOS"
             ReferencedContainer = "container:Turducken.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

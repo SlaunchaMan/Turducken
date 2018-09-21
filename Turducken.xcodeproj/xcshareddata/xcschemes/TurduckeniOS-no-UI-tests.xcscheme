@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1FC074801E7B41AD00076178"
-               BuildableName = "Turducken.app"
-               BlueprintName = "Turducken"
+               BuildableName = "TurduckeniOS.app"
+               BlueprintName = "TurduckeniOS"
                ReferencedContainer = "container:Turducken.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,18 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1FC074941E7B41AD00076178"
-               BuildableName = "TurduckenTests.xctest"
-               BlueprintName = "TurduckenTests"
-               ReferencedContainer = "container:Turducken.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1FC0749F1E7B41AD00076178"
-               BuildableName = "TurduckenUITests.xctest"
-               BlueprintName = "TurduckenUITests"
+               BuildableName = "TurduckeniOSTests.xctest"
+               BlueprintName = "TurduckeniOSTests"
                ReferencedContainer = "container:Turducken.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -63,8 +53,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FC074801E7B41AD00076178"
-            BuildableName = "Turducken.app"
-            BlueprintName = "Turducken"
+            BuildableName = "TurduckeniOS.app"
+            BlueprintName = "TurduckeniOS"
             ReferencedContainer = "container:Turducken.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -86,8 +76,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FC074801E7B41AD00076178"
-            BuildableName = "Turducken.app"
-            BlueprintName = "Turducken"
+            BuildableName = "TurduckeniOS.app"
+            BlueprintName = "TurduckeniOS"
             ReferencedContainer = "container:Turducken.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -105,8 +95,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FC074801E7B41AD00076178"
-            BuildableName = "Turducken.app"
-            BlueprintName = "Turducken"
+            BuildableName = "TurduckeniOS.app"
+            BlueprintName = "TurduckeniOS"
             ReferencedContainer = "container:Turducken.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

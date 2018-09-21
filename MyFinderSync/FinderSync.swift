@@ -22,8 +22,8 @@ class FinderSync: FIFinderSync {
         FIFinderSyncController.default().directoryURLs = [self.myFolderURL]
         
         // Set up images for our badge identifiers. For demonstration purposes, this uses off-the-shelf images.
-        FIFinderSyncController.default().setBadgeImage(NSImage(named: NSImage.Name.colorPanel)!, label: "Status One" , forBadgeIdentifier: "One")
-        FIFinderSyncController.default().setBadgeImage(NSImage(named: NSImage.Name.caution)!, label: "Status Two", forBadgeIdentifier: "Two")
+        FIFinderSyncController.default().setBadgeImage(NSImage(named: NSImage.colorPanelName)!, label: "Status One" , forBadgeIdentifier: "One")
+        FIFinderSyncController.default().setBadgeImage(NSImage(named: NSImage.cautionName)!, label: "Status Two", forBadgeIdentifier: "Two")
     }
     
     // MARK: - Primary Finder Sync protocol methods
@@ -60,7 +60,7 @@ class FinderSync: FIFinderSync {
     }
     
     override var toolbarItemImage: NSImage {
-        return NSImage(named: NSImage.Name.caution)!
+        return NSImage(named: NSImage.cautionName)!
     }
     
     override func menu(for menuKind: FIMenuKind) -> NSMenu {

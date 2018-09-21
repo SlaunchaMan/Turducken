@@ -12,7 +12,7 @@ import Quartz
 class PreviewViewController: NSViewController, QLPreviewingController {
     
     override var nibName: NSNib.Name? {
-        return NSNib.Name("PreviewViewController")
+        return "PreviewViewController"
     }
 
     override func loadView() {
@@ -20,7 +20,7 @@ class PreviewViewController: NSViewController, QLPreviewingController {
         // Do any additional setup after loading the view from its nib.
     }
 
-    func preparePreviewOfSearchableItem(withIdentifier identifier: String, queryString: String, completionHandler handler: @escaping QLPreviewItemLoadingBlock) {
+    func preparePreviewOfSearchableItem(identifier: String, queryString: String?, completionHandler handler: @escaping QLPreviewItemLoadingBlock) {
         // Perform any setup necessary in order to prepare the view.
         
         // Call the completion handler so Quick Look knows that the preview is fully loaded.
