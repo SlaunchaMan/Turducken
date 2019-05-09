@@ -1,5 +1,5 @@
 language: objective-c
-osx_image: xcode9.4
+osx_image: xcode10.2
 notifications:
   email: false
 env:
@@ -9,6 +9,9 @@ env:
   - FASTLANE_XCODE_LIST_TIMEOUT=60
   - FASTLANE_XCODEBUILD_SETTINGS_TIMEOUT=60
   matrix:
+   - SCAN_DEVICE="iPhone 8 (12.2)" SCAN_SCHEME="Turducken"
+   - SCAN_DEVICE="iPhone 8 (12.1)" SCAN_SCHEME="Turducken"
+   - SCAN_DEVICE="iPhone 8 (12.0)" SCAN_SCHEME="Turducken"
    - SCAN_DEVICE="iPhone X (11.4)" SCAN_SCHEME="Turducken"
    - SCAN_DEVICE="iPhone X (11.3)" SCAN_SCHEME="Turducken"
    - SCAN_DEVICE="iPhone X (11.2)" SCAN_SCHEME="Turducken"
@@ -27,6 +30,9 @@ env:
    - SCAN_DEVICE="iPhone 6 (8.2)" SCAN_SCHEME="Turducken-no-UI-tests"
    - SCAN_DEVICE="iPhone 6 (8.1)" SCAN_SCHEME="Turducken-no-UI-tests"
 
+   - SCAN_DEVICE="Apple TV 4K (12.2)" SCAN_SCHEME="TurduckenTV"
+   - SCAN_DEVICE="Apple TV 4K (12.1)" SCAN_SCHEME="TurduckenTV"
+   - SCAN_DEVICE="Apple TV 4K (12.0)" SCAN_SCHEME="TurduckenTV"
    - SCAN_DEVICE="Apple TV 4K (11.4)" SCAN_SCHEME="TurduckenTV"
    - SCAN_DEVICE="Apple TV 4K (11.2)" SCAN_SCHEME="TurduckenTV"
    - SCAN_DEVICE="Apple TV 4K (11.1)" SCAN_SCHEME="TurduckenTV"
