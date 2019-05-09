@@ -279,6 +279,8 @@
 		1FF9E4B4228494CB00C7A5A1 /* UnwantedCommunicationReportingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF9E4B3228494CB00C7A5A1 /* UnwantedCommunicationReportingExtension.swift */; };
 		1FF9E4B7228494CB00C7A5A1 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF9E4B5228494CB00C7A5A1 /* MainInterface.storyboard */; };
 		1FF9E4BB228494CB00C7A5A1 /* MyUnwantedCommunication.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FF9E4B1228494CB00C7A5A1 /* MyUnwantedCommunication.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FF9E4C62284958E00C7A5A1 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF9E4C52284958E00C7A5A1 /* NotificationService.swift */; };
+		1FF9E4CA2284958E00C7A5A1 /* MyMacNotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FF9E4C32284958E00C7A5A1 /* MyMacNotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -744,6 +746,13 @@
 			remoteGlobalIDString = 1FF9E4B0228494CB00C7A5A1;
 			remoteInfo = MyUnwantedCommunication;
 		};
+		1FF9E4C82284958E00C7A5A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FF9E4C22284958E00C7A5A1;
+			remoteInfo = MyMacNotificationService;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -854,6 +863,7 @@
 				1FC0772D1E7B5D8E00076178 /* MyMaction.appex in Embed App Extensions */,
 				1FC077A71E7B66C200076178 /* MySafariExtension.appex in Embed App Extensions */,
 				1FC077E51E7B67CC00076178 /* MySmartCardToken.appex in Embed App Extensions */,
+				1FF9E4CA2284958E00C7A5A1 /* MyMacNotificationService.appex in Embed App Extensions */,
 				1FC077FD1E7B681500076178 /* MyMacToday.appex in Embed App Extensions */,
 				1FC077461E7B5E2F00076178 /* MyMacAudioUnit.appex in Embed App Extensions */,
 			);
@@ -1252,6 +1262,9 @@
 		1FF9E4B3228494CB00C7A5A1 /* UnwantedCommunicationReportingExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnwantedCommunicationReportingExtension.swift; sourceTree = "<group>"; };
 		1FF9E4B6228494CB00C7A5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		1FF9E4B8228494CB00C7A5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF9E4C32284958E00C7A5A1 /* MyMacNotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyMacNotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF9E4C52284958E00C7A5A1 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		1FF9E4C72284958E00C7A5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1838,6 +1851,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FF9E4C02284958E00C7A5A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -2088,6 +2108,7 @@
 				1FF9E48A2284937200C7A5A1 /* MyAutoFillCredentialProvider.appex */,
 				1FF9E49F2284943E00C7A5A1 /* MyClassKitContextProvider.appex */,
 				1FF9E4B1228494CB00C7A5A1 /* MyUnwantedCommunication.appex */,
+				1FF9E4C32284958E00C7A5A1 /* MyMacNotificationService.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2550,6 +2571,7 @@
 				1FC077641E7B5F1400076178 /* MyFinderSync */,
 				1F7961611FE4337600BD9C26 /* MyMacNetworkAppProxy */,
 				1F7961711FE4338700BD9C26 /* MyMacNetworkPacketTunnel */,
+				1FF9E4C42284958E00C7A5A1 /* MyMacNotificationService */,
 				1FC077811E7B668100076178 /* MyMacPhotoEditing */,
 				1F7961851FE433F900BD9C26 /* MyMacPhotoProject */,
 				1F79619B1FE4343200BD9C26 /* MyMacQuickLookPreview */,
@@ -2848,6 +2870,15 @@
 				1FF9E4B8228494CB00C7A5A1 /* Info.plist */,
 			);
 			path = MyUnwantedCommunication;
+			sourceTree = "<group>";
+		};
+		1FF9E4C42284958E00C7A5A1 /* MyMacNotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				1FF9E4C52284958E00C7A5A1 /* NotificationService.swift */,
+				1FF9E4C72284958E00C7A5A1 /* Info.plist */,
+			);
+			path = MyMacNotificationService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -3786,6 +3817,7 @@
 				1F79618E1FE433F900BD9C26 /* PBXTargetDependency */,
 				1F7961A41FE4343200BD9C26 /* PBXTargetDependency */,
 				1F7961B51FE434D600BD9C26 /* PBXTargetDependency */,
+				1FF9E4C92284958E00C7A5A1 /* PBXTargetDependency */,
 			);
 			name = TurduckenMac;
 			productName = TurduckenMac;
@@ -4277,6 +4309,23 @@
 			productReference = 1FF9E4B1228494CB00C7A5A1 /* MyUnwantedCommunication.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		1FF9E4C22284958E00C7A5A1 /* MyMacNotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF9E4CB2284958E00C7A5A1 /* Build configuration list for PBXNativeTarget "MyMacNotificationService" */;
+			buildPhases = (
+				1FF9E4BF2284958E00C7A5A1 /* Sources */,
+				1FF9E4C02284958E00C7A5A1 /* Frameworks */,
+				1FF9E4C12284958E00C7A5A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMacNotificationService;
+			productName = MyMacNotificationService;
+			productReference = 1FF9E4C32284958E00C7A5A1 /* MyMacNotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -4705,6 +4754,9 @@
 					1FF9E4B0228494CB00C7A5A1 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					1FF9E4C22284958E00C7A5A1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Turducken" */;
@@ -4773,6 +4825,7 @@
 				1FC077621E7B5F1400076178 /* MyFinderSync */,
 				1F79615F1FE4337600BD9C26 /* MyMacNetworkAppProxy */,
 				1F79616F1FE4338700BD9C26 /* MyMacNetworkPacketTunnel */,
+				1FF9E4C22284958E00C7A5A1 /* MyMacNotificationService */,
 				1FC0777D1E7B668100076178 /* MyMacPhotoEditing */,
 				1F7961811FE433F900BD9C26 /* MyMacPhotoProject */,
 				1F7961971FE4343200BD9C26 /* MyMacQuickLookPreview */,
@@ -5332,6 +5385,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FF9E4B7228494CB00C7A5A1 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF9E4C12284958E00C7A5A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5962,6 +6022,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FF9E4BF2284958E00C7A5A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF9E4C62284958E00C7A5A1 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -6294,6 +6362,11 @@
 			isa = PBXTargetDependency;
 			target = 1FF9E4B0228494CB00C7A5A1 /* MyUnwantedCommunication */;
 			targetProxy = 1FF9E4B9228494CB00C7A5A1 /* PBXContainerItemProxy */;
+		};
+		1FF9E4C92284958E00C7A5A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FF9E4C22284958E00C7A5A1 /* MyMacNotificationService */;
+			targetProxy = 1FF9E4C82284958E00C7A5A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -10078,6 +10151,60 @@
 			};
 			name = Release;
 		};
+		1FF9E4CC2284958E00C7A5A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyMacNotificationService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenMac.MyMacNotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1FF9E4CD2284958E00C7A5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyMacNotificationService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.TurduckenMac.MyMacNotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -10779,6 +10906,15 @@
 			buildConfigurations = (
 				1FF9E4BD228494CB00C7A5A1 /* Debug */,
 				1FF9E4BE228494CB00C7A5A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF9E4CB2284958E00C7A5A1 /* Build configuration list for PBXNativeTarget "MyMacNotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF9E4CC2284958E00C7A5A1 /* Debug */,
+				1FF9E4CD2284958E00C7A5A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
