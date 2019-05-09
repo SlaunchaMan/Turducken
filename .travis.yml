@@ -47,6 +47,7 @@ env:
    - SCAN_SCHEME="TurduckenMac"
 
 install:
+  - gem install bundler -v 2.0.1
   - bundle update
 
 script:
