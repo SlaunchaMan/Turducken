@@ -20,7 +20,7 @@ env:
    - SCAN_DEVICE="iPhone 7 (10.3.1)" SCAN_SCHEME="TurduckeniOS"
    - SCAN_DEVICE="iPhone 7 (10.2)" SCAN_SCHEME="TurduckeniOS"
    - SCAN_DEVICE="iPhone 7 (10.1)" SCAN_SCHEME="TurduckeniOS"
-   - SCAN_DEVICE="iPhone 7 (10.0)" SCAN_SCHEME="TurduckeniOS"
+   - SCAN_DEVICE="iPhone SE (10.0)" SCAN_SCHEME="TurduckeniOS"
    - SCAN_DEVICE="iPhone 6s (9.3)" SCAN_SCHEME="TurduckeniOS"
    - SCAN_DEVICE="iPhone 6s (9.2)" SCAN_SCHEME="TurduckeniOS"
    - SCAN_DEVICE="iPhone 6s (9.1)" SCAN_SCHEME="TurduckeniOS"
