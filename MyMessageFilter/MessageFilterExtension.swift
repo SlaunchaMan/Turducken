@@ -40,6 +40,9 @@ extension MessageFilterExtension: ILMessageFilterQueryHandling {
                 
                 completion(response)
             }
+            
+        @unknown default:
+            fatalError()
         }
     }
     
