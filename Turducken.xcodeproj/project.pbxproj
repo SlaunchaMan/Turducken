@@ -273,6 +273,9 @@
 		1FF9E48F2284937300C7A5A1 /* CredentialProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF9E48E2284937300C7A5A1 /* CredentialProviderViewController.swift */; };
 		1FF9E4922284937300C7A5A1 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF9E4902284937300C7A5A1 /* MainInterface.storyboard */; };
 		1FF9E4972284937300C7A5A1 /* MyAutoFillCredentialProvider.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FF9E48A2284937200C7A5A1 /* MyAutoFillCredentialProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FF9E4A12284943E00C7A5A1 /* ClassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF9E4A02284943E00C7A5A1 /* ClassKit.framework */; };
+		1FF9E4A42284943E00C7A5A1 /* ContextRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF9E4A32284943E00C7A5A1 /* ContextRequestHandler.swift */; };
+		1FF9E4A92284943E00C7A5A1 /* MyClassKitContextProvider.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FF9E49F2284943E00C7A5A1 /* MyClassKitContextProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -724,6 +727,13 @@
 			remoteGlobalIDString = 1FF9E4892284937200C7A5A1;
 			remoteInfo = MyAutoFillCredentialProvider;
 		};
+		1FF9E4A72284943E00C7A5A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC074791E7B41AD00076178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FF9E49E2284943E00C7A5A1;
+			remoteInfo = MyClassKitContextProvider;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -761,6 +771,7 @@
 				1FC0759E1E7B4CD400076178 /* MyIntents.appex in Embed App Extensions */,
 				1FC075C61E7B4D7300076178 /* MyNotificationService.appex in Embed App Extensions */,
 				1F338A461EF5514200C2D16C /* MyNetworkFilterControl.appex in Embed App Extensions */,
+				1FF9E4A92284943E00C7A5A1 /* MyClassKitContextProvider.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1221,6 +1232,11 @@
 		1FF9E4912284937300C7A5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		1FF9E4932284937300C7A5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FF9E4942284937300C7A5A1 /* MyAutoFillCredentialProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyAutoFillCredentialProvider.entitlements; sourceTree = "<group>"; };
+		1FF9E49F2284943E00C7A5A1 /* MyClassKitContextProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyClassKitContextProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF9E4A02284943E00C7A5A1 /* ClassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ClassKit.framework; path = System/Library/Frameworks/ClassKit.framework; sourceTree = SDKROOT; };
+		1FF9E4A32284943E00C7A5A1 /* ContextRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextRequestHandler.swift; sourceTree = "<group>"; };
+		1FF9E4A52284943E00C7A5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF9E4A62284943E00C7A5A1 /* MyClassKitContextProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyClassKitContextProvider.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1792,6 +1808,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FF9E49C2284943E00C7A5A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF9E4A12284943E00C7A5A1 /* ClassKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -2040,6 +2064,7 @@
 				1F7961981FE4343200BD9C26 /* MyMacQuickLookPreview.appex */,
 				1F7961AE1FE434D600BD9C26 /* MyMacSpotlightIndex.appex */,
 				1FF9E48A2284937200C7A5A1 /* MyAutoFillCredentialProvider.appex */,
+				1FF9E49F2284943E00C7A5A1 /* MyClassKitContextProvider.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2115,6 +2140,7 @@
 				1F338A841EF5523900C2D16C /* QuickLook.framework */,
 				1F7961991FE4343200BD9C26 /* Quartz.framework */,
 				1FF9E48B2284937300C7A5A1 /* AuthenticationServices.framework */,
+				1FF9E4A02284943E00C7A5A1 /* ClassKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2437,6 +2463,7 @@
 				1FC074F81E7B466100076178 /* MyBroadcastUpload */,
 				1FC075051E7B466100076178 /* MyBroadcastUploadUI */,
 				1FC0751D1E7B46FA00076178 /* MyCallDirectory */,
+				1FF9E4A22284943E00C7A5A1 /* MyClassKitContextProvider */,
 				1FC0752C1E7B471A00076178 /* MyContentBlocker */,
 				1FC0753D1E7B47F900076178 /* MyCustomKeyboard */,
 				1FC0754C1E7B4BD200076178 /* MyDocumentProvider */,
@@ -2777,6 +2804,16 @@
 				1FF9E4942284937300C7A5A1 /* MyAutoFillCredentialProvider.entitlements */,
 			);
 			path = MyAutoFillCredentialProvider;
+			sourceTree = "<group>";
+		};
+		1FF9E4A22284943E00C7A5A1 /* MyClassKitContextProvider */ = {
+			isa = PBXGroup;
+			children = (
+				1FF9E4A32284943E00C7A5A1 /* ContextRequestHandler.swift */,
+				1FF9E4A52284943E00C7A5A1 /* Info.plist */,
+				1FF9E4A62284943E00C7A5A1 /* MyClassKitContextProvider.entitlements */,
+			);
+			path = MyClassKitContextProvider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -3152,6 +3189,7 @@
 				1FA188E61EF5FF1400BA7993 /* PBXTargetDependency */,
 				1F7961561FE4328100BD9C26 /* PBXTargetDependency */,
 				1FF9E4962284937300C7A5A1 /* PBXTargetDependency */,
+				1FF9E4A82284943E00C7A5A1 /* PBXTargetDependency */,
 			);
 			name = TurduckeniOS;
 			productName = Turducken;
@@ -4170,6 +4208,23 @@
 			productReference = 1FF9E48A2284937200C7A5A1 /* MyAutoFillCredentialProvider.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		1FF9E49E2284943E00C7A5A1 /* MyClassKitContextProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF9E4AA2284943E00C7A5A1 /* Build configuration list for PBXNativeTarget "MyClassKitContextProvider" */;
+			buildPhases = (
+				1FF9E49B2284943E00C7A5A1 /* Sources */,
+				1FF9E49C2284943E00C7A5A1 /* Frameworks */,
+				1FF9E49D2284943E00C7A5A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyClassKitContextProvider;
+			productName = MyClassKitContextProvider;
+			productReference = 1FF9E49F2284943E00C7A5A1 /* MyClassKitContextProvider.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -4592,6 +4647,9 @@
 					1FF9E4892284937200C7A5A1 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					1FF9E49E2284943E00C7A5A1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 1FC0747C1E7B41AD00076178 /* Build configuration list for PBXProject "Turducken" */;
@@ -4617,6 +4675,7 @@
 				1FC074F51E7B466000076178 /* MyBroadcastUpload */,
 				1FC075011E7B466100076178 /* MyBroadcastUploadUI */,
 				1FC0751B1E7B46FA00076178 /* MyCallDirectory */,
+				1FF9E49E2284943E00C7A5A1 /* MyClassKitContextProvider */,
 				1FC0752A1E7B471A00076178 /* MyContentBlocker */,
 				1FC0753B1E7B47F900076178 /* MyCustomKeyboard */,
 				1FC0754A1E7B4BD200076178 /* MyDocumentProvider */,
@@ -5202,6 +5261,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FF9E4922284937300C7A5A1 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF9E49D2284943E00C7A5A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5816,6 +5882,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FF9E49B2284943E00C7A5A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF9E4A42284943E00C7A5A1 /* ContextRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -6138,6 +6212,11 @@
 			isa = PBXTargetDependency;
 			target = 1FF9E4892284937200C7A5A1 /* MyAutoFillCredentialProvider */;
 			targetProxy = 1FF9E4952284937300C7A5A1 /* PBXContainerItemProxy */;
+		};
+		1FF9E4A82284943E00C7A5A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FF9E49E2284943E00C7A5A1 /* MyClassKitContextProvider */;
+			targetProxy = 1FF9E4A72284943E00C7A5A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -9804,6 +9883,62 @@
 			};
 			name = Release;
 		};
+		1FF9E4AB2284943E00C7A5A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyClassKitContextProvider/MyClassKitContextProvider.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyClassKitContextProvider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyClassKitContextProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FF9E4AC2284943E00C7A5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MyClassKitContextProvider/MyClassKitContextProvider.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCFNS9576M;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MyClassKitContextProvider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slaunchaman.Turducken.MyClassKitContextProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -10487,6 +10622,15 @@
 			buildConfigurations = (
 				1FF9E4992284937300C7A5A1 /* Debug */,
 				1FF9E49A2284937300C7A5A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF9E4AA2284943E00C7A5A1 /* Build configuration list for PBXNativeTarget "MyClassKitContextProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF9E4AB2284943E00C7A5A1 /* Debug */,
+				1FF9E4AC2284943E00C7A5A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
